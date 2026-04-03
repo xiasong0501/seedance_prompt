@@ -1,0 +1,11 @@
+{
+  "genre_key": "跨时空伏笔",
+  "aliases": [
+    "跨时空伏笔"
+  ],
+  "_draft_meta": {
+    "source_episode": "ep01",
+    "reason": "已按用户确认题材锁定 genre_classification；模型提出的额外题材建议已转存到 genre_override_request，需用户确认后才应修改后续题材路由。",
+    "status": "draft_pending_human_review"
+  }
+}

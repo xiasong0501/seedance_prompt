@@ -1,0 +1,171 @@
+{
+  "review_mode": "all",
+  "accepted_playbook_suggestions": [
+    {
+      "edit_id": "P01",
+      "priority": "high",
+      "action": "remove",
+      "source_field": "continuity_guardrails",
+      "target_field": "continuity_guardrails",
+      "old_text": "后续必须承认本集已公开建立‘叶枫是江天雪男朋友’的对外说法，不能下一集无痕清零",
+      "new_text": "",
+      "reason": "具体人名与具体关系残留，明显属于单剧 continuity，不应保留在题材包。"
+    },
+    {
+      "edit_id": "P02",
+      "priority": "high",
+      "action": "rewrite",
+      "source_field": "continuity_guardrails",
+      "target_field": "continuity_guardrails",
+      "old_text": "后续必须承认男主已在本集结尾恢复视力，不能无痕回退到完全失明状态。",
+      "new_text": "已公开展示的能力变化、身体状态变化或身份变化，后续不得无痕回退；若回退必须给出明确规则原因。",
+      "reason": "将单剧残留抽象为奇幻题材可复用的连续性规则。"
+    },
+    {
+      "edit_id": "P03",
+      "priority": "high",
+      "action": "remove",
+      "source_field": "continuity_guardrails",
+      "target_field": "continuity_guardrails",
+      "old_text": "拜帖数量（八+一）为固定悬念锚点，后续不得修改为‘八封’或‘十封’",
+      "new_text": "",
+      "reason": "过于具体，明显是某部剧的悬念锚点，不具题材复用性。"
+    },
+    {
+      "edit_id": "P04",
+      "priority": "high",
+      "action": "rewrite",
+      "source_field": "scene_focus",
+      "target_field": "scene_focus",
+      "old_text": "跪地场景人物间距精确：求援者距主角1.2米，质疑者距主角1.8米，形成压迫梯度",
+      "new_text": "跪地/求援场景中，求援者应保持明显近距低位，质疑者保持更远的侧向高位，形成清晰压迫梯度。",
+      "reason": "去除伪精确数值，保留可迁移的调度原则。"
+    },
+    {
+      "edit_id": "P05",
+      "priority": "high",
+      "action": "remove",
+      "source_field": "scene_focus",
+      "target_field": "scene_focus",
+      "old_text": "病床居中、家属站侧、医生围床的站位能快速读清关系。",
+      "new_text": "",
+      "reason": "明显属于医院题材或医疗悬疑模板，不是奇幻题材共性。"
+    },
+    {
+      "edit_id": "P08",
+      "priority": "high",
+      "action": "add",
+      "source_field": "core_audience_promises",
+      "target_field": "core_audience_promises",
+      "old_text": "",
+      "new_text": "奇幻题材应让观众持续获得‘日常秩序被异常规则改写’的惊异感，同时保证异常后果可观察、可追踪、可兑现。",
+      "reason": "当前 audience promise 为空，且这是奇幻题材最核心的观众期待之一。"
+    },
+    {
+      "edit_id": "P06",
+      "priority": "medium",
+      "action": "move",
+      "source_field": "script_hooks",
+      "target_field": "storyboard_focus",
+      "old_text": "集尾优先停在‘决定已做出、方法未展示’的节点，比直接解释答案更能推动下一集点击",
+      "new_text": "集尾优先停在‘决定已做出、方法未展示’的节点，比直接解释答案更能推动下一集点击",
+      "reason": "这是卡点/分镜规则，不是题材钩子；应统一收束到 storyboard_focus。"
+    },
+    {
+      "edit_id": "P07",
+      "priority": "medium",
+      "action": "rewrite",
+      "source_field": "script_hooks",
+      "target_field": "script_hooks",
+      "old_text": "奇幻主线推进采用‘拜帖-邀约-赴约’三段式结构，每段聚焦不同情绪支付点",
+      "new_text": "当奇幻剧情以‘召唤/邀约/赴约’驱动时，可采用三段式推进；每段都应带出新的规则信息或代价信息。",
+      "reason": "保留可用模板，但加上适用条件，避免误当成奇幻通用主线。"
+    }
+  ],
+  "accepted_skill_suggestions": [
+    {
+      "edit_id": "S01",
+      "priority": "high",
+      "action": "remove",
+      "source_section": "生产红线",
+      "target_section": "生产红线",
+      "old_text": "‘让申家成为顶级权贵’是男主明确承诺，后续若展开身份线应与此能力宣言呼应。",
+      "new_text": "",
+      "reason": "具体剧残留，污染严重。"
+    },
+    {
+      "edit_id": "S02",
+      "priority": "high",
+      "action": "remove",
+      "source_section": "生产红线",
+      "target_section": "生产红线",
+      "old_text": "豪宅客厅、盲杖、墨镜、挂钟、雪糕等关键锚点若回闪或续接，应保持一致性。",
+      "new_text": "",
+      "reason": "具体道具残留，不是题材级知识。"
+    },
+    {
+      "edit_id": "S03",
+      "priority": "high",
+      "action": "rewrite",
+      "source_section": "人物塑造",
+      "target_section": "分镜表达",
+      "old_text": "集尾卡点优先卡在‘关系已发生、后果未揭晓’的瞬间，比单纯人…",
+      "new_text": "集尾卡点优先停在‘关系已发生、后果未揭晓’的瞬间，比单纯人物喊话更能制造追看动力。",
+      "reason": "修复截断文本，并移动到更合适的章节。"
+    },
+    {
+      "edit_id": "S07",
+      "priority": "high",
+      "action": "add",
+      "source_section": "结构与钩子",
+      "target_section": "结构与钩子",
+      "old_text": "",
+      "new_text": "奇幻规则的揭示宜遵循‘异常现象出现—常人误判—局部验证—新规则成立’的顺序，避免一上来用设定说明书替代戏剧推进。",
+      "reason": "补足真正缺失的奇幻方法论核心。"
+    },
+    {
+      "edit_id": "S08",
+      "priority": "high",
+      "action": "add",
+      "source_section": "生产红线",
+      "target_section": "生产红线",
+      "old_text": "",
+      "new_text": "超常能力一旦介入剧情，必须同时留下可观察后果或代价；若只有炫示没有后果，奇幻感会迅速失真。",
+      "reason": "补足奇幻题材最关键的可信度约束。"
+    },
+    {
+      "edit_id": "S04",
+      "priority": "medium",
+      "action": "remove",
+      "source_section": "场景与调度",
+      "target_section": "场景与调度",
+      "old_text": "病床居中、家属站侧、医生围床的站位能快速读清关系。",
+      "new_text": "",
+      "reason": "医院模板经验，不宜留在奇幻 skill。"
+    },
+    {
+      "edit_id": "S05",
+      "priority": "medium",
+      "action": "rewrite",
+      "source_section": "人物塑造",
+      "target_section": "人物塑造",
+      "old_text": "质疑型配角可复用‘现代混搭西装+油头’模板，适用于多集不同家族",
+      "new_text": "质疑型配角应具备高辨识度外形，并与主角阵营形成明确视觉对立，但不应固化为单一服装模板。",
+      "reason": "去除具体造型模板，提升泛化能力。"
+    },
+    {
+      "edit_id": "S06",
+      "priority": "medium",
+      "action": "remove",
+      "source_section": "服化道统一",
+      "target_section": "服化道统一",
+      "old_text": "医院题材中的关键年轻人物宜用低饱和、简洁制服，避免过度时装化削弱可信度",
+      "new_text": "",
+      "reason": "明显跨到医院题材，不属于奇幻 skill 核心。"
+    }
+  ],
+  "rejected_playbook_suggestions": [],
+  "rejected_skill_suggestions": [],
+  "deferred_playbook_suggestions": [],
+  "deferred_skill_suggestions": []
+}

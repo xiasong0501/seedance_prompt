@@ -1,0 +1,1076 @@
+{
+  "genre_key": "玄幻",
+  "source_series": "41095-高手下山之美女总裁的贴身保安（70集）龚小钧＆蒋昕妍",
+  "mode": "ranked_update_candidates",
+  "playbook_update_candidates": [
+    {
+      "genre_key": "玄幻",
+      "target_field": "negative_patterns",
+      "target_field_label": "负面模式",
+      "text": "禁止在玄幻宗门场景中使用现代材质（如不锈钢、塑料）；所有器物需有历史磨损痕迹",
+      "full_text": "禁止在玄幻宗门场景中使用现代材质（如不锈钢、塑料）；所有器物需有历史磨损痕迹",
+      "preview_text": "禁止在玄幻宗门场景中使用现代材质（如不锈钢、塑料）",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "所有器物需有历史磨损痕迹",
+        "塑料）",
+        "玄幻",
+        "宗门"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“所有器物需有历史磨损痕迹、塑料）、玄幻、宗门”高度相关。 命中了当前题材叙事核心词“玄幻、宗门”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.66,
+      "genre_confidence_gap": 0.33,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "scene_focus",
+      "target_field_label": "场景设计重点",
+      "text": "凡俗空间若承接玄幻冲突，必须明确其如何被超常力量改写（如草叶带微光、车胎压痕异常深）",
+      "full_text": "凡俗空间若承接玄幻冲突，必须明确其如何被超常力量改写（如草叶带微光、车胎压痕异常深）",
+      "preview_text": "凡俗空间若承接玄幻冲突，必须明确其如何被超常力量改写（如草…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "必须明确其如何被超常力量改写",
+        "凡俗空间若承接玄幻冲突",
+        "玄幻"
+      ],
+      "reason": "来自场景设计规则，且与当前题材关键词“必须明确其如何被超常力量改写、凡俗空间若承接玄幻冲突、玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.68,
+      "genre_confidence_gap": 0.32,
+      "source_type": "scene_design_rules",
+      "source_label": "场景设计规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "script_hooks",
+      "target_field_label": "剧情抓点",
+      "text": "宗门羞辱线结构：日常压迫（无钱）→异常事件（女主遇险）→污名指控（要饭鸭）→理性干预（师父走）→微光兑现（吸毒）→伪善胁迫（自己解决）",
+      "full_text": "宗门羞辱线结构：日常压迫（无钱）→异常事件（女主遇险）→污名指控（要饭鸭）→理性干预（师父走）→微光兑现（吸毒）→伪善胁迫（自己解决）",
+      "preview_text": "宗门羞辱线结构：日常压迫（无钱）→异常事件（女主遇险）→污…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "宗门羞辱线结构",
+        "日常压迫",
+        "异常事件",
+        "污名指控"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“宗门羞辱线结构、日常压迫、异常事件、污名指控”高度相关。 命中了当前题材叙事核心词“宗门羞辱线结构、日常压迫、异常事件”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.32,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "negative_patterns",
+      "target_field_label": "负面模式",
+      "text": "禁止在玄幻场景中使用现代材质（如不锈钢、塑料）；所有器物需有历史磨损痕迹",
+      "full_text": "禁止在玄幻场景中使用现代材质（如不锈钢、塑料）；所有器物需有历史磨损痕迹",
+      "preview_text": "禁止在玄幻场景中使用现代材质（如不锈钢、塑料）",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "所有器物需有历史磨损痕迹",
+        "塑料）",
+        "玄幻"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“所有器物需有历史磨损痕迹、塑料）、玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.66,
+      "genre_confidence_gap": 0.32,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "scene_focus",
+      "target_field_label": "场景设计重点",
+      "text": "宗门底层空间必须包含‘劳动工具三角区’（水桶-井-晾架）或（柴-炉-灰桶），便于调度重复动作戏与磨损细节展示",
+      "full_text": "宗门底层空间必须包含‘劳动工具三角区’（水桶-井-晾架）或（柴-炉-灰桶），便于调度重复动作戏与磨损细节展示",
+      "preview_text": "宗门底层空间必须包含‘劳动工具三角区’（水桶-井-晾架）或…",
+      "confidence": 0.98,
+      "matched_keywords": [
+        "便于调度重复动作戏与磨损细节展示",
+        "便于调度重复动作戏",
+        "宗门"
+      ],
+      "reason": "来自场景设计规则，且与当前题材关键词“便于调度重复动作戏与磨损细节展示、便于调度重复动作戏、宗门”高度相关。 命中了当前题材叙事核心词“宗门”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.68,
+      "genre_confidence_gap": 0.27,
+      "source_type": "scene_design_rules",
+      "source_label": "场景设计规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "scene_focus",
+      "target_field_label": "场景设计重点",
+      "text": "宗门底层空间必须包含‘劳动工具三角区’（柴-炉-灰桶）或（水桶-井-晾架），便于调度重复动作戏与磨损细节展示",
+      "full_text": "宗门底层空间必须包含‘劳动工具三角区’（柴-炉-灰桶）或（水桶-井-晾架），便于调度重复动作戏与磨损细节展示",
+      "preview_text": "宗门底层空间必须包含‘劳动工具三角区’（柴-炉-灰桶）或（…",
+      "confidence": 0.98,
+      "matched_keywords": [
+        "便于调度重复动作戏与磨损细节展示",
+        "便于调度重复动作戏",
+        "宗门"
+      ],
+      "reason": "来自场景设计规则，且与当前题材关键词“便于调度重复动作戏与磨损细节展示、便于调度重复动作戏、宗门”高度相关。 命中了当前题材叙事核心词“宗门”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.68,
+      "genre_confidence_gap": 0.27,
+      "source_type": "scene_design_rules",
+      "source_label": "场景设计规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "director_focus",
+      "target_field_label": "导演重点",
+      "text": "玄幻能力触发标准分镜：指尖悬停0.3s + 微尘粒子飘散（本集未显能力，但玉佩特写已铺垫）",
+      "full_text": "玄幻能力触发标准分镜：指尖悬停0.3s + 微尘粒子飘散（本集未显能力，但玉佩特写已铺垫）",
+      "preview_text": "玄幻能力触发标准分镜：指尖悬停0.3s+微尘粒子飘散（本集…",
+      "confidence": 0.98,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自镜头语言规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.69,
+      "genre_confidence_gap": 0.22,
+      "source_type": "camera_language_rules",
+      "source_label": "镜头语言规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "director_focus",
+      "target_field_label": "导演重点",
+      "text": "关键动作前必有0.3–0.5s镜头静止（如飞跃、吸毒、转身）；违反此规则将削弱玄幻仪式感",
+      "full_text": "关键动作前必有0.3–0.5s镜头静止（如飞跃、吸毒、转身）；违反此规则将削弱玄幻仪式感",
+      "preview_text": "关键动作前必有0.3–0.5s镜头静止（如飞跃、吸毒、转身）",
+      "confidence": 0.98,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自镜头语言规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.69,
+      "genre_confidence_gap": 0.22,
+      "source_type": "camera_language_rules",
+      "source_label": "镜头语言规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "negative_patterns",
+      "target_field_label": "负面模式",
+      "text": "不要把玄幻写成普通短剧冲突外加一层光效；每次出手都应带来可见代价或更高层追责",
+      "full_text": "不要把玄幻写成普通短剧冲突外加一层光效；每次出手都应带来可见代价或更高层追责",
+      "preview_text": "不要把玄幻写成普通短剧冲突外加一层光效",
+      "confidence": 0.97,
+      "matched_keywords": [
+        "玄幻",
+        "每次出手都应带来可见代价"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“玄幻、每次出手都应带来可见代价”高度相关。 命中了当前题材叙事核心词“每次出手都应带来可见代价、玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.66,
+      "genre_confidence_gap": 0.24,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "costume_focus",
+      "target_field_label": "服化道重点",
+      "text": "玄幻人物服装材质优先棉麻/粗布，禁用化纤反光；所有衣物需有磨损痕迹（袖口毛边、领口泛黄、线头外露）",
+      "full_text": "玄幻人物服装材质优先棉麻/粗布，禁用化纤反光；所有衣物需有磨损痕迹（袖口毛边、领口泛黄、线头外露）",
+      "preview_text": "玄幻人物服装材质优先棉麻/粗布，禁用化纤反光",
+      "confidence": 0.97,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自服化道统一规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.68,
+      "genre_confidence_gap": 0.22,
+      "source_type": "costume_makeup_rules",
+      "source_label": "服化道统一规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "scene_focus",
+      "target_field_label": "场景设计重点",
+      "text": "凡俗空间承接玄幻冲突时，需有超常力量改写痕迹（草叶带微光、车胎压痕异常深、地面落叶悬浮0.1s）",
+      "full_text": "凡俗空间承接玄幻冲突时，需有超常力量改写痕迹（草叶带微光、车胎压痕异常深、地面落叶悬浮0.1s）",
+      "preview_text": "凡俗空间承接玄幻冲突时，需有超常力量改写痕迹（草叶带微光…",
+      "confidence": 0.97,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自场景设计规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.68,
+      "genre_confidence_gap": 0.22,
+      "source_type": "scene_design_rules",
+      "source_label": "场景设计规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "costume_focus",
+      "target_field_label": "服化道重点",
+      "text": "玄幻人物服装材质优先棉麻/粗布，禁用化纤反光；所有衣物需有磨损痕迹（袖口毛边、领口泛黄）",
+      "full_text": "玄幻人物服装材质优先棉麻/粗布，禁用化纤反光；所有衣物需有磨损痕迹（袖口毛边、领口泛黄）",
+      "preview_text": "玄幻人物服装材质优先棉麻/粗布，禁用化纤反光",
+      "confidence": 0.97,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自服化道统一规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.68,
+      "genre_confidence_gap": 0.22,
+      "source_type": "costume_makeup_rules",
+      "source_label": "服化道统一规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "costume_focus",
+      "target_field_label": "服化道重点",
+      "text": "玄幻人物服装材质优先棉麻/粗布，所有衣物需有磨损痕迹（袖口毛边、领口泛黄）",
+      "full_text": "玄幻人物服装材质优先棉麻/粗布，所有衣物需有磨损痕迹（袖口毛边、领口泛黄）",
+      "preview_text": "玄幻人物服装材质优先棉麻/粗布，所有衣物需有磨损痕迹（袖口…",
+      "confidence": 0.97,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自服化道统一规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.68,
+      "genre_confidence_gap": 0.22,
+      "source_type": "costume_makeup_rules",
+      "source_label": "服化道统一规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "director_focus",
+      "target_field_label": "导演重点",
+      "text": "玄幻题材：先交代力量层级与法则约束，再拍出手结果；避免纯感官混战",
+      "full_text": "玄幻题材：先交代力量层级与法则约束，再拍出手结果；避免纯感官混战",
+      "preview_text": "玄幻题材：先交代力量层级与法则约束，再拍出手结果",
+      "confidence": 0.96,
+      "matched_keywords": [
+        "先交代力量层级与法则约束",
+        "避免纯感官混战",
+        "再拍出手结果",
+        "玄幻"
+      ],
+      "reason": "来自camera_language_patterns，且与当前题材关键词“先交代力量层级与法则约束、避免纯感官混战、再拍出手结果、玄幻”高度相关。 命中了当前题材叙事核心词“先交代力量层级与法则约束、避免纯感官混战、再拍出手结果”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.56,
+      "genre_confidence_gap": 0.33,
+      "source_type": "camera_language_patterns",
+      "source_label": "camera_language_patterns"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "集尾卡点禁用解释性镜头，必须停在‘后果将至、解释未给’的视觉留白瞬间（如闭眼+阴影覆盖）",
+      "full_text": "集尾卡点禁用解释性镜头，必须停在‘后果将至、解释未给’的视觉留白瞬间（如闭眼+阴影覆盖）",
+      "preview_text": "集尾卡点禁用解释性镜头，必须停在‘后果将至、解释未给’的视…",
+      "confidence": 0.96,
+      "matched_keywords": [
+        "解释未给’的视觉留白瞬间",
+        "必须停在‘后果将至"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“解释未给’的视觉留白瞬间、必须停在‘后果将至”高度相关。 命中了当前题材叙事核心词“必须停在‘后果将至”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.22,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "集尾卡点：必须停在‘后果将至、解释未给’的视觉留白瞬间；禁用解释性镜头与字幕总结",
+      "full_text": "集尾卡点：必须停在‘后果将至、解释未给’的视觉留白瞬间；禁用解释性镜头与字幕总结",
+      "preview_text": "集尾卡点：必须停在‘后果将至、解释未给’的视觉留白瞬间",
+      "confidence": 0.96,
+      "matched_keywords": [
+        "解释未给’的视觉留白瞬间",
+        "必须停在‘后果将至"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“解释未给’的视觉留白瞬间、必须停在‘后果将至”高度相关。 命中了当前题材叙事核心词“必须停在‘后果将至”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.22,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "script_hooks",
+      "target_field_label": "剧情抓点",
+      "text": "‘灵根羞辱→隐性馈赠→认知颠覆’三段式适用于玄幻底层逆袭题材；本集为‘身世羞辱（没人要）→玉佩馈赠→下山寻亲’变体",
+      "full_text": "‘灵根羞辱→隐性馈赠→认知颠覆’三段式适用于玄幻底层逆袭题材；本集为‘身世羞辱（没人要）→玉佩馈赠→下山寻亲’变体",
+      "preview_text": "‘灵根羞辱→隐性馈赠→认知颠覆’三段式适用于玄幻底层逆袭题材",
+      "confidence": 0.96,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.22,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "script_hooks",
+      "target_field_label": "剧情抓点",
+      "text": "‘私密奇遇+公共定罪’双段式结构适用于玄幻底层崛起线；本集‘吸毒奇遇’将在后续被误读为‘轻薄’",
+      "full_text": "‘私密奇遇+公共定罪’双段式结构适用于玄幻底层崛起线；本集‘吸毒奇遇’将在后续被误读为‘轻薄’",
+      "preview_text": "‘私密奇遇+公共定罪’双段式结构适用于玄幻底层崛起线",
+      "confidence": 0.96,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.22,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "script_hooks",
+      "target_field_label": "剧情抓点",
+      "text": "‘灵根羞辱→隐性馈赠→认知颠覆’三段式适用于玄幻底层逆袭题材",
+      "full_text": "‘灵根羞辱→隐性馈赠→认知颠覆’三段式适用于玄幻底层逆袭题材",
+      "preview_text": "‘灵根羞辱→隐性馈赠→认知颠覆’三段式适用于玄幻底层逆袭题材",
+      "confidence": 0.96,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.22,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "script_hooks",
+      "target_field_label": "剧情抓点",
+      "text": "‘私密奇遇+公共定罪’双段式结构适用于玄幻底层崛起线",
+      "full_text": "‘私密奇遇+公共定罪’双段式结构适用于玄幻底层崛起线",
+      "preview_text": "‘私密奇遇+公共定罪’双段式结构适用于玄幻底层崛起线",
+      "confidence": 0.96,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.22,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "scene_focus",
+      "target_field_label": "场景设计重点",
+      "text": "宗门底层空间必须包含‘劳动工具三角区’（柴-炉-灰桶）或（水桶-井-晾架），便于调度重复动作戏",
+      "full_text": "宗门底层空间必须包含‘劳动工具三角区’（柴-炉-灰桶）或（水桶-井-晾架），便于调度重复动作戏",
+      "preview_text": "宗门底层空间必须包含‘劳动工具三角区’（柴-炉-灰桶）或（…",
+      "confidence": 0.93,
+      "matched_keywords": [
+        "便于调度重复动作戏",
+        "宗门"
+      ],
+      "reason": "来自场景设计规则，且与当前题材关键词“便于调度重复动作戏、宗门”高度相关。 命中了当前题材叙事核心词“宗门”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.68,
+      "genre_confidence_gap": 0.22,
+      "source_type": "scene_design_rules",
+      "source_label": "场景设计规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "script_hooks",
+      "target_field_label": "剧情抓点",
+      "text": "‘指尖悬停0.3s+微尘粒子’为轻玄幻能力触发标准分镜",
+      "full_text": "‘指尖悬停0.3s+微尘粒子’为轻玄幻能力触发标准分镜",
+      "preview_text": "‘指尖悬停0.3s+微尘粒子’为轻玄幻能力触发标准分镜",
+      "confidence": 0.91,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自整剧方法规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.62,
+      "genre_confidence_gap": 0.22,
+      "source_type": "reusable_skill_rules",
+      "source_label": "整剧方法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "script_hooks",
+      "target_field_label": "剧情抓点",
+      "text": "skill：现代与玄幻空间碰撞",
+      "full_text": "skill：现代与玄幻空间碰撞",
+      "preview_text": "skill：现代与玄幻空间碰撞",
+      "confidence": 0.91,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自整剧方法规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.62,
+      "genre_confidence_gap": 0.22,
+      "source_type": "reusable_skill_rules",
+      "source_label": "整剧方法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "scene_focus",
+      "target_field_label": "场景设计重点",
+      "text": "宗门底层空间规则暂不适用（本剧无宗门场景），但‘劳动工具三角区’可转化为‘都市生存三角’（便利店-公交站-出租屋）",
+      "full_text": "宗门底层空间规则暂不适用（本剧无宗门场景），但‘劳动工具三角区’可转化为‘都市生存三角’（便利店-公交站-出租屋）",
+      "preview_text": "宗门底层空间规则暂不适用（本剧无宗门场景），但‘劳动工具三…",
+      "confidence": 0.88,
+      "matched_keywords": [
+        "宗门"
+      ],
+      "reason": "来自场景设计规则，且与当前题材关键词“宗门”高度相关。 命中了当前题材叙事核心词“宗门”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.68,
+      "genre_confidence_gap": 0.17,
+      "source_type": "scene_design_rules",
+      "source_label": "场景设计规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "结尾按钮禁用解释性镜头，必须停在‘后果将至、解释未给’的瞬间",
+      "full_text": "结尾按钮禁用解释性镜头，必须停在‘后果将至、解释未给’的瞬间",
+      "preview_text": "结尾按钮禁用解释性镜头，必须停在‘后果将至、解释未给’的瞬间",
+      "confidence": 0.86,
+      "matched_keywords": [
+        "结尾按钮禁用解释性镜头",
+        "必须停在‘后果将至",
+        "解释未给’的瞬间"
+      ],
+      "reason": "来自storyboard_execution_patterns，且与当前题材关键词“结尾按钮禁用解释性镜头、必须停在‘后果将至、解释未给’的瞬间”高度相关。 命中了当前题材叙事核心词“结尾按钮禁用解释性镜头、必须停在‘后果将至、解释未给’的瞬间”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.56,
+      "genre_confidence_gap": 0.27,
+      "source_type": "storyboard_execution_patterns",
+      "source_label": "storyboard_execution_patterns"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "director_focus",
+      "target_field_label": "导演重点",
+      "text": "缓慢横移 + 定点悬停 = 玄幻氛围保障",
+      "full_text": "缓慢横移 + 定点悬停 = 玄幻氛围保障",
+      "preview_text": "缓慢横移+定点悬停=玄幻氛围保障",
+      "confidence": 0.85,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自camera_language_patterns，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.56,
+      "genre_confidence_gap": 0.22,
+      "source_type": "camera_language_patterns",
+      "source_label": "camera_language_patterns"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "情绪兑现点：留半拍给接收方反应（如叶枫自白后老者嘴角微扬），形成爽点闭环",
+      "full_text": "情绪兑现点：留半拍给接收方反应（如叶枫自白后老者嘴角微扬），形成爽点闭环",
+      "preview_text": "情绪兑现点：留半拍给接收方反应（如叶枫自白后老者嘴角微扬）…",
+      "confidence": 0.77,
+      "matched_keywords": [
+        "形成爽点闭环"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“形成爽点闭环”高度相关。 命中了当前题材叙事核心词“形成爽点闭环”。 它与“爱情”的区分度很弱（差值 0.03）。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.85,
+      "genre_confidence_gap": 0.03,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "情绪兑现点：留半拍给接收方反应（如叶枫转身时江千雪闭眼），形成爽点闭环",
+      "full_text": "情绪兑现点：留半拍给接收方反应（如叶枫转身时江千雪闭眼），形成爽点闭环",
+      "preview_text": "情绪兑现点：留半拍给接收方反应（如叶枫转身时江千雪闭眼）…",
+      "confidence": 0.77,
+      "matched_keywords": [
+        "形成爽点闭环"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“形成爽点闭环”高度相关。 命中了当前题材叙事核心词“形成爽点闭环”。 它与“爱情”的区分度很弱（差值 0.03）。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.85,
+      "genre_confidence_gap": 0.03,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    }
+  ],
+  "skill_update_candidates": [
+    {
+      "genre_key": "玄幻",
+      "section": "生产红线",
+      "section_label": "生产红线",
+      "text": "禁止在玄幻宗门场景中使用现代材质（如不锈钢、塑料）；所有器物需有历史磨损痕迹",
+      "full_text": "禁止在玄幻宗门场景中使用现代材质（如不锈钢、塑料）；所有器物需有历史磨损痕迹",
+      "preview_text": "禁止在玄幻宗门场景中使用现代材质（如不锈钢、塑料）",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "塑料）",
+        "玄幻",
+        "宗门",
+        "所有器物需有历史磨损痕迹"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“塑料）、玄幻、宗门、所有器物需有历史磨损痕迹”高度相关。 命中了当前题材叙事核心词“玄幻、宗门”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.3,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "生产红线",
+      "section_label": "生产红线",
+      "text": "禁止在玄幻场景中使用现代材质（如不锈钢、塑料）；所有器物需有历史磨损痕迹",
+      "full_text": "禁止在玄幻场景中使用现代材质（如不锈钢、塑料）；所有器物需有历史磨损痕迹",
+      "preview_text": "禁止在玄幻场景中使用现代材质（如不锈钢、塑料）",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "塑料）",
+        "玄幻",
+        "所有器物需有历史磨损痕迹"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“塑料）、玄幻、所有器物需有历史磨损痕迹”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.3,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "场景与调度",
+      "section_label": "场景与调度",
+      "text": "凡俗空间若承接玄幻冲突，必须明确其如何被超常力量改写（如草叶带微光、车胎压痕异常深）",
+      "full_text": "凡俗空间若承接玄幻冲突，必须明确其如何被超常力量改写（如草叶带微光、车胎压痕异常深）",
+      "preview_text": "凡俗空间若承接玄幻冲突，必须明确其如何被超常力量改写（如草…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "必须明确其如何被超常力量改写",
+        "凡俗空间若承接玄幻冲突",
+        "玄幻"
+      ],
+      "reason": "来自场景设计规则，且与当前题材关键词“必须明确其如何被超常力量改写、凡俗空间若承接玄幻冲突、玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.29,
+      "source_type": "scene_design_rules",
+      "source_label": "场景设计规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "场景与调度",
+      "section_label": "场景与调度",
+      "text": "宗门底层空间必须包含‘劳动工具三角区’（水桶-井-晾架）或（柴-炉-灰桶），便于调度重复动作戏与磨损细节展示",
+      "full_text": "宗门底层空间必须包含‘劳动工具三角区’（水桶-井-晾架）或（柴-炉-灰桶），便于调度重复动作戏与磨损细节展示",
+      "preview_text": "宗门底层空间必须包含‘劳动工具三角区’（水桶-井-晾架）或…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "便于调度重复动作戏与磨损细节展示",
+        "便于调度重复动作戏",
+        "宗门"
+      ],
+      "reason": "来自场景设计规则，且与当前题材关键词“便于调度重复动作戏与磨损细节展示、便于调度重复动作戏、宗门”高度相关。 命中了当前题材叙事核心词“宗门”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.27,
+      "source_type": "scene_design_rules",
+      "source_label": "场景设计规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "场景与调度",
+      "section_label": "场景与调度",
+      "text": "宗门底层空间必须包含‘劳动工具三角区’（柴-炉-灰桶）或（水桶-井-晾架），便于调度重复动作戏与磨损细节展示",
+      "full_text": "宗门底层空间必须包含‘劳动工具三角区’（柴-炉-灰桶）或（水桶-井-晾架），便于调度重复动作戏与磨损细节展示",
+      "preview_text": "宗门底层空间必须包含‘劳动工具三角区’（柴-炉-灰桶）或（…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "便于调度重复动作戏与磨损细节展示",
+        "便于调度重复动作戏",
+        "宗门"
+      ],
+      "reason": "来自场景设计规则，且与当前题材关键词“便于调度重复动作戏与磨损细节展示、便于调度重复动作戏、宗门”高度相关。 命中了当前题材叙事核心词“宗门”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.27,
+      "source_type": "scene_design_rules",
+      "source_label": "场景设计规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "生产红线",
+      "section_label": "生产红线",
+      "text": "不要把玄幻写成普通短剧冲突外加一层光效；每次出手都应带来可见代价或更高层追责",
+      "full_text": "不要把玄幻写成普通短剧冲突外加一层光效；每次出手都应带来可见代价或更高层追责",
+      "preview_text": "不要把玄幻写成普通短剧冲突外加一层光效",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "玄幻",
+        "每次出手都应带来可见代价"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“玄幻、每次出手都应带来可见代价”高度相关。 命中了当前题材叙事核心词“每次出手都应带来可见代价、玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.24,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "服化道统一",
+      "section_label": "服化道统一",
+      "text": "玄幻人物服装材质优先棉麻/粗布，禁用化纤反光；所有衣物需有磨损痕迹（袖口毛边、领口泛黄、线头外露）",
+      "full_text": "玄幻人物服装材质优先棉麻/粗布，禁用化纤反光；所有衣物需有磨损痕迹（袖口毛边、领口泛黄、线头外露）",
+      "preview_text": "玄幻人物服装材质优先棉麻/粗布，禁用化纤反光",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自服化道统一规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.22,
+      "source_type": "costume_makeup_rules",
+      "source_label": "服化道统一规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "场景与调度",
+      "section_label": "场景与调度",
+      "text": "凡俗空间承接玄幻冲突时，需有超常力量改写痕迹（草叶带微光、车胎压痕异常深、地面落叶悬浮0.1s）",
+      "full_text": "凡俗空间承接玄幻冲突时，需有超常力量改写痕迹（草叶带微光、车胎压痕异常深、地面落叶悬浮0.1s）",
+      "preview_text": "凡俗空间承接玄幻冲突时，需有超常力量改写痕迹（草叶带微光…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自场景设计规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.22,
+      "source_type": "scene_design_rules",
+      "source_label": "场景设计规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "服化道统一",
+      "section_label": "服化道统一",
+      "text": "玄幻人物服装材质优先棉麻/粗布，禁用化纤反光；所有衣物需有磨损痕迹（袖口毛边、领口泛黄）",
+      "full_text": "玄幻人物服装材质优先棉麻/粗布，禁用化纤反光；所有衣物需有磨损痕迹（袖口毛边、领口泛黄）",
+      "preview_text": "玄幻人物服装材质优先棉麻/粗布，禁用化纤反光",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自服化道统一规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.22,
+      "source_type": "costume_makeup_rules",
+      "source_label": "服化道统一规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "服化道统一",
+      "section_label": "服化道统一",
+      "text": "玄幻人物服装材质优先棉麻/粗布，所有衣物需有磨损痕迹（袖口毛边、领口泛黄）",
+      "full_text": "玄幻人物服装材质优先棉麻/粗布，所有衣物需有磨损痕迹（袖口毛边、领口泛黄）",
+      "preview_text": "玄幻人物服装材质优先棉麻/粗布，所有衣物需有磨损痕迹（袖口…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自服化道统一规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.22,
+      "source_type": "costume_makeup_rules",
+      "source_label": "服化道统一规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "人物塑造",
+      "section_label": "人物塑造",
+      "text": "宗门羞辱线结构：日常压迫（无钱）→异常事件（女主遇险）→污名指控（要饭鸭）→理性干预（师父走）→微光兑现（吸毒）→伪善胁迫（自己解决）",
+      "full_text": "宗门羞辱线结构：日常压迫（无钱）→异常事件（女主遇险）→污名指控（要饭鸭）→理性干预（师父走）→微光兑现（吸毒）→伪善胁迫（自己解决）",
+      "preview_text": "宗门羞辱线结构：日常压迫（无钱）→异常事件（女主遇险）→污…",
+      "confidence": 0.99,
+      "matched_keywords": [
+        "宗门羞辱线结构",
+        "日常压迫",
+        "异常事件",
+        "污名指控"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“宗门羞辱线结构、日常压迫、异常事件、污名指控”高度相关。 命中了当前题材叙事核心词“宗门羞辱线结构、日常压迫、异常事件”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.64,
+      "genre_confidence_gap": 0.32,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "玄幻能力触发标准分镜：指尖悬停0.3s + 微尘粒子飘散（本集未显能力，但玉佩特写已铺垫）",
+      "full_text": "玄幻能力触发标准分镜：指尖悬停0.3s + 微尘粒子飘散（本集未显能力，但玉佩特写已铺垫）",
+      "preview_text": "玄幻能力触发标准分镜：指尖悬停0.3s+微尘粒子飘散（本集…",
+      "confidence": 0.98,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自镜头语言规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.69,
+      "genre_confidence_gap": 0.22,
+      "source_type": "camera_language_rules",
+      "source_label": "镜头语言规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "关键动作前必有0.3–0.5s镜头静止（如飞跃、吸毒、转身）；违反此规则将削弱玄幻仪式感",
+      "full_text": "关键动作前必有0.3–0.5s镜头静止（如飞跃、吸毒、转身）；违反此规则将削弱玄幻仪式感",
+      "preview_text": "关键动作前必有0.3–0.5s镜头静止（如飞跃、吸毒、转身）",
+      "confidence": 0.98,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自镜头语言规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.69,
+      "genre_confidence_gap": 0.22,
+      "source_type": "camera_language_rules",
+      "source_label": "镜头语言规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "集尾卡点禁用解释性镜头，必须停在‘后果将至、解释未给’的视觉留白瞬间（如闭眼+阴影覆盖）",
+      "full_text": "集尾卡点禁用解释性镜头，必须停在‘后果将至、解释未给’的视觉留白瞬间（如闭眼+阴影覆盖）",
+      "preview_text": "集尾卡点禁用解释性镜头，必须停在‘后果将至、解释未给’的视…",
+      "confidence": 0.96,
+      "matched_keywords": [
+        "解释未给’的视觉留白瞬间",
+        "必须停在‘后果将至"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“解释未给’的视觉留白瞬间、必须停在‘后果将至”高度相关。 命中了当前题材叙事核心词“必须停在‘后果将至”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.22,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "集尾卡点：必须停在‘后果将至、解释未给’的视觉留白瞬间；禁用解释性镜头与字幕总结",
+      "full_text": "集尾卡点：必须停在‘后果将至、解释未给’的视觉留白瞬间；禁用解释性镜头与字幕总结",
+      "preview_text": "集尾卡点：必须停在‘后果将至、解释未给’的视觉留白瞬间",
+      "confidence": 0.96,
+      "matched_keywords": [
+        "解释未给’的视觉留白瞬间",
+        "必须停在‘后果将至"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“解释未给’的视觉留白瞬间、必须停在‘后果将至”高度相关。 命中了当前题材叙事核心词“必须停在‘后果将至”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.22,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "场景与调度",
+      "section_label": "场景与调度",
+      "text": "宗门底层空间必须包含‘劳动工具三角区’（柴-炉-灰桶）或（水桶-井-晾架），便于调度重复动作戏",
+      "full_text": "宗门底层空间必须包含‘劳动工具三角区’（柴-炉-灰桶）或（水桶-井-晾架），便于调度重复动作戏",
+      "preview_text": "宗门底层空间必须包含‘劳动工具三角区’（柴-炉-灰桶）或（…",
+      "confidence": 0.96,
+      "matched_keywords": [
+        "便于调度重复动作戏",
+        "宗门"
+      ],
+      "reason": "来自场景设计规则，且与当前题材关键词“便于调度重复动作戏、宗门”高度相关。 命中了当前题材叙事核心词“宗门”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.22,
+      "source_type": "scene_design_rules",
+      "source_label": "场景设计规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "结构与钩子",
+      "section_label": "结构与钩子",
+      "text": "‘灵根羞辱→隐性馈赠→认知颠覆’三段式适用于玄幻底层逆袭题材；本集为‘身世羞辱（没人要）→玉佩馈赠→下山寻亲’变体",
+      "full_text": "‘灵根羞辱→隐性馈赠→认知颠覆’三段式适用于玄幻底层逆袭题材；本集为‘身世羞辱（没人要）→玉佩馈赠→下山寻亲’变体",
+      "preview_text": "‘灵根羞辱→隐性馈赠→认知颠覆’三段式适用于玄幻底层逆袭题材",
+      "confidence": 0.93,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.64,
+      "genre_confidence_gap": 0.22,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "结构与钩子",
+      "section_label": "结构与钩子",
+      "text": "‘私密奇遇+公共定罪’双段式结构适用于玄幻底层崛起线；本集‘吸毒奇遇’将在后续被误读为‘轻薄’",
+      "full_text": "‘私密奇遇+公共定罪’双段式结构适用于玄幻底层崛起线；本集‘吸毒奇遇’将在后续被误读为‘轻薄’",
+      "preview_text": "‘私密奇遇+公共定罪’双段式结构适用于玄幻底层崛起线",
+      "confidence": 0.93,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.64,
+      "genre_confidence_gap": 0.22,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "结构与钩子",
+      "section_label": "结构与钩子",
+      "text": "‘灵根羞辱→隐性馈赠→认知颠覆’三段式适用于玄幻底层逆袭题材",
+      "full_text": "‘灵根羞辱→隐性馈赠→认知颠覆’三段式适用于玄幻底层逆袭题材",
+      "preview_text": "‘灵根羞辱→隐性馈赠→认知颠覆’三段式适用于玄幻底层逆袭题材",
+      "confidence": 0.93,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.64,
+      "genre_confidence_gap": 0.22,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "结构与钩子",
+      "section_label": "结构与钩子",
+      "text": "‘私密奇遇+公共定罪’双段式结构适用于玄幻底层崛起线",
+      "full_text": "‘私密奇遇+公共定罪’双段式结构适用于玄幻底层崛起线",
+      "preview_text": "‘私密奇遇+公共定罪’双段式结构适用于玄幻底层崛起线",
+      "confidence": 0.93,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.64,
+      "genre_confidence_gap": 0.22,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "服化道统一",
+      "section_label": "服化道统一",
+      "text": "‘指尖悬停0.3s+微尘粒子’为轻玄幻能力触发标准分镜",
+      "full_text": "‘指尖悬停0.3s+微尘粒子’为轻玄幻能力触发标准分镜",
+      "preview_text": "‘指尖悬停0.3s+微尘粒子’为轻玄幻能力触发标准分镜",
+      "confidence": 0.91,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自整剧方法规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.62,
+      "genre_confidence_gap": 0.22,
+      "source_type": "reusable_skill_rules",
+      "source_label": "整剧方法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "场景与调度",
+      "section_label": "场景与调度",
+      "text": "skill：现代与玄幻空间碰撞",
+      "full_text": "skill：现代与玄幻空间碰撞",
+      "preview_text": "skill：现代与玄幻空间碰撞",
+      "confidence": 0.91,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自整剧方法规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.62,
+      "genre_confidence_gap": 0.22,
+      "source_type": "reusable_skill_rules",
+      "source_label": "整剧方法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "场景与调度",
+      "section_label": "场景与调度",
+      "text": "宗门底层空间规则暂不适用（本剧无宗门场景），但‘劳动工具三角区’可转化为‘都市生存三角’（便利店-公交站-出租屋）",
+      "full_text": "宗门底层空间规则暂不适用（本剧无宗门场景），但‘劳动工具三角区’可转化为‘都市生存三角’（便利店-公交站-出租屋）",
+      "preview_text": "宗门底层空间规则暂不适用（本剧无宗门场景），但‘劳动工具三…",
+      "confidence": 0.91,
+      "matched_keywords": [
+        "宗门"
+      ],
+      "reason": "来自场景设计规则，且与当前题材关键词“宗门”高度相关。 命中了当前题材叙事核心词“宗门”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.17,
+      "source_type": "scene_design_rules",
+      "source_label": "场景设计规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "结构与钩子",
+      "section_label": "结构与钩子",
+      "text": "method：在凡俗场景添加超常痕迹（草叶微光/车胎深痕），而非直接切换宗门",
+      "full_text": "method：在凡俗场景添加超常痕迹（草叶微光/车胎深痕），而非直接切换宗门",
+      "preview_text": "method：在凡俗场景添加超常痕迹（草叶微光/车胎深痕）…",
+      "confidence": 0.82,
+      "matched_keywords": [
+        "宗门"
+      ],
+      "reason": "来自整剧方法规则，且与当前题材关键词“宗门”高度相关。 命中了当前题材叙事核心词“宗门”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.62,
+      "genre_confidence_gap": 0.17,
+      "source_type": "reusable_skill_rules",
+      "source_label": "整剧方法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "情绪兑现点：留半拍给接收方反应（如叶枫自白后老者嘴角微扬），形成爽点闭环",
+      "full_text": "情绪兑现点：留半拍给接收方反应（如叶枫自白后老者嘴角微扬），形成爽点闭环",
+      "preview_text": "情绪兑现点：留半拍给接收方反应（如叶枫自白后老者嘴角微扬）…",
+      "confidence": 0.77,
+      "matched_keywords": [
+        "形成爽点闭环"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“形成爽点闭环”高度相关。 命中了当前题材叙事核心词“形成爽点闭环”。 它与“爱情”的区分度很弱（差值 0.03）。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.85,
+      "genre_confidence_gap": 0.03,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "情绪兑现点：留半拍给接收方反应（如叶枫转身时江千雪闭眼），形成爽点闭环",
+      "full_text": "情绪兑现点：留半拍给接收方反应（如叶枫转身时江千雪闭眼），形成爽点闭环",
+      "preview_text": "情绪兑现点：留半拍给接收方反应（如叶枫转身时江千雪闭眼）…",
+      "confidence": 0.77,
+      "matched_keywords": [
+        "形成爽点闭环"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“形成爽点闭环”高度相关。 命中了当前题材叙事核心词“形成爽点闭环”。 它与“爱情”的区分度很弱（差值 0.03）。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.85,
+      "genre_confidence_gap": 0.03,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    }
+  ]
+}

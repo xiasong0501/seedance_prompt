@@ -1,0 +1,16 @@
+{
+  "series_name": "心尖宠_test2",
+  "analysis_root": "analysis",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "genre_override_report_path": "",
+  "min_candidates_per_genre": 6,
+  "max_candidates_per_genre": 14,
+  "min_candidate_confidence": 0.68,
+  "min_confidence_to_apply": 0.82,
+  "dynamic_medium_confidence_threshold": 0.82,
+  "dynamic_high_confidence_threshold": 0.90,
+  "dynamic_default_group_limit": 2,
+  "dynamic_high_confidence_group_limit": 3,
+  "apply_updates": false
+}

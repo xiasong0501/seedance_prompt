@@ -1,0 +1,34 @@
+{
+  "__comment": "示例配置。把已生成人物图批量转换为非真实风格版本，默认使用 Gemini 图片模型。",
+  "provider": {
+    "gemini": {
+      "api_key": "",
+      "__comment_api_key": "可选。留空时自动尝试 GEMINI_API_KEY，再回退读取 config/video_pipeline.local.json 中的 gemini key。",
+      "model": "gemini-3-pro-image-preview"
+    }
+  },
+  "selection": {
+    "series_name": "",
+    "__comment_series_name": "通常走交互模式选择剧名，这里可留空。",
+    "episode_id": "",
+    "__comment_episode_id": "通常走交互模式选择 epXX，这里可留空。",
+    "episode_root": "",
+    "__comment_episode_root": "通常走交互模式自动推导。"
+  },
+  "quality": {
+    "negative_prompt": "避免真人、避免摄影、避免真实演员脸、避免照片感、避免皮肤毛孔摄影质感、避免超写实人像、避免多余人物、避免改变年龄和性别、避免改变服装结构、避免发型发色漂移、避免角色变成另一个人"
+  },
+  "output": {
+    "characters_source_dirname": "characters-real",
+    "__comment_characters_source_dirname": "原始真人向人物图目录名。",
+    "characters_target_dirname": "characters",
+    "__comment_characters_target_dirname": "风格化人物图输出目录名。"
+  },
+  "run": {
+    "dry_run": true,
+    "__comment_dry_run": "首次建议先预览。",
+    "skip_existing_images": true,
+    "timeout_seconds": 300,
+    "delay_seconds": 1.0
+  }
+}

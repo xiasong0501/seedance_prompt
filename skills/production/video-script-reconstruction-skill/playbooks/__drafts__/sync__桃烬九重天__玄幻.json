@@ -1,0 +1,413 @@
+{
+  "genre_key": "玄幻",
+  "source_series": "桃烬九重天",
+  "playbook_update_candidates": [
+    {
+      "genre_key": "玄幻",
+      "target_field": "script_hooks",
+      "target_field_label": "剧情抓点",
+      "text": "structure：日常压迫 → 异常事件 → 污名指控 → 理性干预 → 微光兑现 → 伪善胁迫",
+      "full_text": "structure：日常压迫 → 异常事件 → 污名指控 → 理性干预 → 微光兑现 → 伪善胁迫",
+      "preview_text": "structure：日常压迫→异常事件→污名指控→理性干预…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "日常压迫",
+        "异常事件",
+        "污名指控",
+        "理性干预"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“日常压迫、异常事件、污名指控、理性干预”高度相关。 命中了当前题材叙事核心词“日常压迫、异常事件、污名指控”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.32,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "negative_patterns",
+      "target_field_label": "负面模式",
+      "text": "禁止在玄幻场景中使用现代材质（不锈钢/塑料）；所有器物需有历史磨损痕迹",
+      "full_text": "禁止在玄幻场景中使用现代材质（不锈钢/塑料）；所有器物需有历史磨损痕迹",
+      "preview_text": "禁止在玄幻场景中使用现代材质（不锈钢/塑料）",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "所有器物需有历史磨损痕迹",
+        "塑料）",
+        "玄幻"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“所有器物需有历史磨损痕迹、塑料）、玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.66,
+      "genre_confidence_gap": 0.32,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "scene_focus",
+      "target_field_label": "场景设计重点",
+      "text": "凡俗与修真空间差异必须清楚：枫林山崖需雾气遮挡远景，神宫大殿需法阵/封印/阶层坐席三层结构",
+      "full_text": "凡俗与修真空间差异必须清楚：枫林山崖需雾气遮挡远景，神宫大殿需法阵/封印/阶层坐席三层结构",
+      "preview_text": "凡俗与修真空间差异必须清楚：枫林山崖需雾气遮挡远景，神宫大…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "修真",
+        "封印"
+      ],
+      "reason": "来自场景设计规则，且与当前题材关键词“修真、封印”高度相关。 命中了当前题材叙事核心词“修真”。 当前题材别名命中“修真”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.68,
+      "genre_confidence_gap": 0.27,
+      "source_type": "scene_design_rules",
+      "source_label": "场景设计规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "script_hooks",
+      "target_field_label": "剧情抓点",
+      "text": "evidence：本集：群仙议论（日常压迫）→ 瑶池闯入（异常事件）→ 偷剑睡人（污名指控）→ 将军劝阻（理性干预）",
+      "full_text": "evidence：本集：群仙议论（日常压迫）→ 瑶池闯入（异常事件）→ 偷剑睡人（污名指控）→ 将军劝阻（理性干预）",
+      "preview_text": "evidence：本集：群仙议论（日常压迫）→瑶池闯入（异…",
+      "confidence": 0.98,
+      "matched_keywords": [
+        "日常压迫",
+        "异常事件",
+        "污名指控",
+        "理性干预"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“日常压迫、异常事件、污名指控、理性干预”高度相关。 命中了当前题材叙事核心词“日常压迫、异常事件、污名指控”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.28,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "negative_patterns",
+      "target_field_label": "负面模式",
+      "text": "不要让玄幻写成普通短剧冲突外加一层光效；每次出手都应带来可见代价或更高层追责",
+      "full_text": "不要让玄幻写成普通短剧冲突外加一层光效；每次出手都应带来可见代价或更高层追责",
+      "preview_text": "不要让玄幻写成普通短剧冲突外加一层光效",
+      "confidence": 0.97,
+      "matched_keywords": [
+        "玄幻",
+        "每次出手都应带来可见代价"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“玄幻、每次出手都应带来可见代价”高度相关。 命中了当前题材叙事核心词“每次出手都应带来可见代价、玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.66,
+      "genre_confidence_gap": 0.24,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "集尾卡点禁用解释性镜头，必须停在‘后果将至、解释未给’的视觉留白瞬间",
+      "full_text": "集尾卡点禁用解释性镜头，必须停在‘后果将至、解释未给’的视觉留白瞬间",
+      "preview_text": "集尾卡点禁用解释性镜头，必须停在‘后果将至、解释未给’的视…",
+      "confidence": 0.96,
+      "matched_keywords": [
+        "解释未给’的视觉留白瞬间",
+        "必须停在‘后果将至"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“解释未给’的视觉留白瞬间、必须停在‘后果将至”高度相关。 命中了当前题材叙事核心词“必须停在‘后果将至”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.22,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "scene_focus",
+      "target_field_label": "场景设计重点",
+      "text": "宗门底层空间必须包含‘劳动工具三角区’（水桶-井-晾架），便于调度重复动作戏与磨损细节",
+      "full_text": "宗门底层空间必须包含‘劳动工具三角区’（水桶-井-晾架），便于调度重复动作戏与磨损细节",
+      "preview_text": "宗门底层空间必须包含‘劳动工具三角区’（水桶-井-晾架）…",
+      "confidence": 0.93,
+      "matched_keywords": [
+        "便于调度重复动作戏",
+        "宗门"
+      ],
+      "reason": "来自场景设计规则，且与当前题材关键词“便于调度重复动作戏、宗门”高度相关。 命中了当前题材叙事核心词“宗门”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.68,
+      "genre_confidence_gap": 0.22,
+      "source_type": "scene_design_rules",
+      "source_label": "场景设计规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "情绪兑现点要留半拍给接收方反应（如将军OS），形成爽点闭环",
+      "full_text": "情绪兑现点要留半拍给接收方反应（如将军OS），形成爽点闭环",
+      "preview_text": "情绪兑现点要留半拍给接收方反应（如将军OS），形成爽点闭环",
+      "confidence": 0.91,
+      "matched_keywords": [
+        "形成爽点闭环"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“形成爽点闭环”高度相关。 命中了当前题材叙事核心词“形成爽点闭环”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.17,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "script_hooks",
+      "target_field_label": "剧情抓点",
+      "text": "‘微尘粒子+指尖悬停0.3s’为轻玄幻能力触发标准分镜",
+      "full_text": "‘微尘粒子+指尖悬停0.3s’为轻玄幻能力触发标准分镜",
+      "preview_text": "‘微尘粒子+指尖悬停0.3s’为轻玄幻能力触发标准分镜",
+      "confidence": 0.83,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自整剧方法规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。 它与“大女主”仍有明显重叠（差值 0.05）。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.79,
+      "genre_confidence_gap": 0.05,
+      "source_type": "reusable_skill_rules",
+      "source_label": "整剧方法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "target_field": "script_hooks",
+      "target_field_label": "剧情抓点",
+      "text": "skill_name：轻玄幻能力触发标准分镜",
+      "full_text": "skill_name：轻玄幻能力触发标准分镜",
+      "preview_text": "skill_name：轻玄幻能力触发标准分镜",
+      "confidence": 0.83,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自整剧方法规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。 它与“大女主”仍有明显重叠（差值 0.05）。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.79,
+      "genre_confidence_gap": 0.05,
+      "source_type": "reusable_skill_rules",
+      "source_label": "整剧方法规则"
+    }
+  ],
+  "skill_update_candidates": [
+    {
+      "genre_key": "玄幻",
+      "section": "生产红线",
+      "section_label": "生产红线",
+      "text": "禁止在玄幻场景中使用现代材质（不锈钢/塑料）；所有器物需有历史磨损痕迹",
+      "full_text": "禁止在玄幻场景中使用现代材质（不锈钢/塑料）；所有器物需有历史磨损痕迹",
+      "preview_text": "禁止在玄幻场景中使用现代材质（不锈钢/塑料）",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "塑料）",
+        "玄幻",
+        "所有器物需有历史磨损痕迹"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“塑料）、玄幻、所有器物需有历史磨损痕迹”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.3,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "场景与调度",
+      "section_label": "场景与调度",
+      "text": "凡俗与修真空间差异必须清楚：枫林山崖需雾气遮挡远景，神宫大殿需法阵/封印/阶层坐席三层结构",
+      "full_text": "凡俗与修真空间差异必须清楚：枫林山崖需雾气遮挡远景，神宫大殿需法阵/封印/阶层坐席三层结构",
+      "preview_text": "凡俗与修真空间差异必须清楚：枫林山崖需雾气遮挡远景，神宫大…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "修真",
+        "封印"
+      ],
+      "reason": "来自场景设计规则，且与当前题材关键词“修真、封印”高度相关。 命中了当前题材叙事核心词“修真”。 当前题材别名命中“修真”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.27,
+      "source_type": "scene_design_rules",
+      "source_label": "场景设计规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "生产红线",
+      "section_label": "生产红线",
+      "text": "不要让玄幻写成普通短剧冲突外加一层光效；每次出手都应带来可见代价或更高层追责",
+      "full_text": "不要让玄幻写成普通短剧冲突外加一层光效；每次出手都应带来可见代价或更高层追责",
+      "preview_text": "不要让玄幻写成普通短剧冲突外加一层光效",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "玄幻",
+        "每次出手都应带来可见代价"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“玄幻、每次出手都应带来可见代价”高度相关。 命中了当前题材叙事核心词“每次出手都应带来可见代价、玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.24,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "结构与钩子",
+      "section_label": "结构与钩子",
+      "text": "structure：日常压迫 → 异常事件 → 污名指控 → 理性干预 → 微光兑现 → 伪善胁迫",
+      "full_text": "structure：日常压迫 → 异常事件 → 污名指控 → 理性干预 → 微光兑现 → 伪善胁迫",
+      "preview_text": "structure：日常压迫→异常事件→污名指控→理性干预…",
+      "confidence": 0.99,
+      "matched_keywords": [
+        "日常压迫",
+        "异常事件",
+        "污名指控",
+        "理性干预"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“日常压迫、异常事件、污名指控、理性干预”高度相关。 命中了当前题材叙事核心词“日常压迫、异常事件、污名指控”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.64,
+      "genre_confidence_gap": 0.32,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "集尾卡点禁用解释性镜头，必须停在‘后果将至、解释未给’的视觉留白瞬间",
+      "full_text": "集尾卡点禁用解释性镜头，必须停在‘后果将至、解释未给’的视觉留白瞬间",
+      "preview_text": "集尾卡点禁用解释性镜头，必须停在‘后果将至、解释未给’的视…",
+      "confidence": 0.96,
+      "matched_keywords": [
+        "解释未给’的视觉留白瞬间",
+        "必须停在‘后果将至"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“解释未给’的视觉留白瞬间、必须停在‘后果将至”高度相关。 命中了当前题材叙事核心词“必须停在‘后果将至”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.22,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "场景与调度",
+      "section_label": "场景与调度",
+      "text": "宗门底层空间必须包含‘劳动工具三角区’（水桶-井-晾架），便于调度重复动作戏与磨损细节",
+      "full_text": "宗门底层空间必须包含‘劳动工具三角区’（水桶-井-晾架），便于调度重复动作戏与磨损细节",
+      "preview_text": "宗门底层空间必须包含‘劳动工具三角区’（水桶-井-晾架）…",
+      "confidence": 0.96,
+      "matched_keywords": [
+        "便于调度重复动作戏",
+        "宗门"
+      ],
+      "reason": "来自场景设计规则，且与当前题材关键词“便于调度重复动作戏、宗门”高度相关。 命中了当前题材叙事核心词“宗门”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.22,
+      "source_type": "scene_design_rules",
+      "source_label": "场景设计规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "结构与钩子",
+      "section_label": "结构与钩子",
+      "text": "evidence：本集：群仙议论（日常压迫）→ 瑶池闯入（异常事件）→ 偷剑睡人（污名指控）→ 将军劝阻（理性干预）",
+      "full_text": "evidence：本集：群仙议论（日常压迫）→ 瑶池闯入（异常事件）→ 偷剑睡人（污名指控）→ 将军劝阻（理性干预）",
+      "preview_text": "evidence：本集：群仙议论（日常压迫）→瑶池闯入（异…",
+      "confidence": 0.95,
+      "matched_keywords": [
+        "日常压迫",
+        "异常事件",
+        "污名指控",
+        "理性干预"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“日常压迫、异常事件、污名指控、理性干预”高度相关。 命中了当前题材叙事核心词“日常压迫、异常事件、污名指控”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.64,
+      "genre_confidence_gap": 0.28,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "情绪兑现点要留半拍给接收方反应（如将军OS），形成爽点闭环",
+      "full_text": "情绪兑现点要留半拍给接收方反应（如将军OS），形成爽点闭环",
+      "preview_text": "情绪兑现点要留半拍给接收方反应（如将军OS），形成爽点闭环",
+      "confidence": 0.91,
+      "matched_keywords": [
+        "形成爽点闭环"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“形成爽点闭环”高度相关。 命中了当前题材叙事核心词“形成爽点闭环”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.17,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "服化道统一",
+      "section_label": "服化道统一",
+      "text": "‘微尘粒子+指尖悬停0.3s’为轻玄幻能力触发标准分镜",
+      "full_text": "‘微尘粒子+指尖悬停0.3s’为轻玄幻能力触发标准分镜",
+      "preview_text": "‘微尘粒子+指尖悬停0.3s’为轻玄幻能力触发标准分镜",
+      "confidence": 0.91,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自整剧方法规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.76,
+      "genre_confidence_gap": 0.08,
+      "source_type": "reusable_skill_rules",
+      "source_label": "整剧方法规则"
+    },
+    {
+      "genre_key": "玄幻",
+      "section": "服化道统一",
+      "section_label": "服化道统一",
+      "text": "skill_name：轻玄幻能力触发标准分镜",
+      "full_text": "skill_name：轻玄幻能力触发标准分镜",
+      "preview_text": "skill_name：轻玄幻能力触发标准分镜",
+      "confidence": 0.91,
+      "matched_keywords": [
+        "玄幻"
+      ],
+      "reason": "来自整剧方法规则，且与当前题材关键词“玄幻”高度相关。 命中了当前题材叙事核心词“玄幻”。 当前题材别名命中“玄幻”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.76,
+      "genre_confidence_gap": 0.08,
+      "source_type": "reusable_skill_rules",
+      "source_label": "整剧方法规则"
+    }
+  ],
+  "_source_series": "桃烬九重天"
+}

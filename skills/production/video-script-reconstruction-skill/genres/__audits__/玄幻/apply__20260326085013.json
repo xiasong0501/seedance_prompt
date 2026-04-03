@@ -1,0 +1,14 @@
+{
+  "genre_key": "玄幻",
+  "apply_mode": "audit_then_apply",
+  "official_playbook_path": "/mnt/myvg/Agent/Seedance2.0_AI/skills/production/video-script-reconstruction-skill/genres/玄幻/playbook.json",
+  "official_skill_path": "/mnt/myvg/Agent/Seedance2.0_AI/skills/production/video-script-reconstruction-skill/genres/玄幻/skill.md",
+  "backup_dir": "/mnt/myvg/Agent/Seedance2.0_AI/skills/production/video-script-reconstruction-skill/genres/__audits__/backups/玄幻__20260326085013",
+  "source_draft_dir": "/mnt/myvg/Agent/Seedance2.0_AI/skills/production/video-script-reconstruction-skill/genres/__drafts__/audit__玄幻__20260326083857",
+  "judgement_path": "/mnt/myvg/Agent/Seedance2.0_AI/skills/production/video-script-reconstruction-skill/genres/__audits__/玄幻/decision__20260326083857.json",
+  "refine_summary": "本次修订按已采纳建议，重点清除了明显来自具体样本的残留内容，如申家、豪宅客厅、钢饼、闻浅/文青等不可泛化信息。playbook 中补入了更高层的题材承诺，并将部分过窄的医院/宅门/精确调度规则改写为可复用的玄幻母题原则。skill 中同步删除样本化红线，补足了“超常能力必须有代价与边界”“设定首次显影的验证顺序”等玄幻核心方法论。整体上保留了原包中关于人物异质性、现代真实空间嵌入轻异质设定、能力与处境绑定等高价值经验，同时减少跨文件重复与职责错位。",
+  "draft_cleanup_requested": true,
+  "draft_cleanup_status": "deleted",
+  "draft_cleanup_error": "",
+  "deleted_draft_dir": "/mnt/myvg/Agent/Seedance2.0_AI/skills/production/video-script-reconstruction-skill/genres/__drafts__/audit__玄幻__20260326083857"
+}

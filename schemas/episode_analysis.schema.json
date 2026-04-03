@@ -1,0 +1,863 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EpisodeAnalysis",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "provider",
+    "episode",
+    "synopsis",
+    "characters",
+    "locations",
+    "dialogue_segments",
+    "story_beats",
+    "continuity_notes",
+    "adaptation_hints",
+    "genre_classification",
+    "genre_override_request",
+    "hook_profile",
+    "camera_language_analysis",
+    "art_direction_analysis",
+    "storyboard_blueprint",
+    "downstream_design_guidance",
+    "series_learning_extraction",
+    "quality_assessment"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "description": "Schema version for the episode analysis payload."
+    },
+    "provider": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "model",
+        "generated_at",
+        "run_id"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "generated_at": {
+          "type": "string"
+        },
+        "run_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "episode": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "episode_id",
+        "title",
+        "language",
+        "source_video",
+        "estimated_duration_seconds"
+      ],
+      "properties": {
+        "episode_id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string"
+        },
+        "source_video": {
+          "type": "string"
+        },
+        "estimated_duration_seconds": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      }
+    },
+    "synopsis": {
+      "type": "string",
+      "description": "High-level summary for this episode only."
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "character_id",
+          "name",
+          "aliases",
+          "role",
+          "relationship_to_protagonist",
+          "visual_profile",
+          "current_state",
+          "evidence"
+        ],
+        "properties": {
+          "character_id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "role": {
+            "type": "string"
+          },
+          "relationship_to_protagonist": {
+            "type": "string"
+          },
+          "visual_profile": {
+            "type": "string"
+          },
+          "current_state": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/evidence"
+            }
+          }
+        }
+      }
+    },
+    "locations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "location_id",
+          "name",
+          "time_of_day",
+          "visual_profile",
+          "props",
+          "evidence"
+        ],
+        "properties": {
+          "location_id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "time_of_day": {
+            "type": "string"
+          },
+          "visual_profile": {
+            "type": "string"
+          },
+          "props": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/evidence"
+            }
+          }
+        }
+      }
+    },
+    "dialogue_segments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "line_id",
+          "start_time",
+          "end_time",
+          "speaker",
+          "text",
+          "confidence"
+        ],
+        "properties": {
+          "line_id": {
+            "type": "string"
+          },
+          "start_time": {
+            "type": "string"
+          },
+          "end_time": {
+            "type": "string"
+          },
+          "speaker": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        }
+      }
+    },
+    "story_beats": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "beat_id",
+          "title",
+          "summary",
+          "start_time",
+          "end_time",
+          "location",
+          "time_of_day",
+          "characters",
+          "key_actions",
+          "plot_function",
+          "emotional_turn",
+          "visual_focus",
+          "camera_language",
+          "art_direction_cues",
+          "storyboard_value",
+          "dialogue_line_ids",
+          "evidence"
+        ],
+        "properties": {
+          "beat_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "start_time": {
+            "type": "string"
+          },
+          "end_time": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
+          "time_of_day": {
+            "type": "string"
+          },
+          "characters": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "key_actions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "plot_function": {
+            "type": "string"
+          },
+          "emotional_turn": {
+            "type": "string"
+          },
+          "visual_focus": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "camera_language": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "art_direction_cues": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "storyboard_value": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "dialogue_line_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/evidence"
+            }
+          }
+        }
+      }
+    },
+    "continuity_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "adaptation_hints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "genre_classification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primary_genre",
+        "secondary_genres",
+        "confirmed_user_genres",
+        "genre_resolution_mode",
+        "narrative_device",
+        "setting_era",
+        "audience_expectation",
+        "confidence",
+        "evidence"
+      ],
+      "properties": {
+        "primary_genre": {
+          "type": "string"
+        },
+        "secondary_genres": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "confirmed_user_genres": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "genre_resolution_mode": {
+          "type": "string"
+        },
+        "narrative_device": {
+          "type": "string"
+        },
+        "setting_era": {
+          "type": "string"
+        },
+        "audience_expectation": {
+          "type": "string"
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          }
+        }
+      }
+    },
+    "genre_override_request": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "needs_user_confirmation",
+        "proposed_primary_genre",
+        "proposed_secondary_genres",
+        "proposed_new_genres",
+        "reason"
+      ],
+      "properties": {
+        "needs_user_confirmation": {
+          "type": "boolean"
+        },
+        "proposed_primary_genre": {
+          "type": "string"
+        },
+        "proposed_secondary_genres": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "proposed_new_genres": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reason": {
+          "type": "string"
+        }
+      }
+    },
+    "hook_profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "opening_hook",
+        "episode_hook_types",
+        "emotional_payoff_points",
+        "cliffhanger_strategy",
+        "viral_moments"
+      ],
+      "properties": {
+        "opening_hook": {
+          "type": "string"
+        },
+        "episode_hook_types": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "emotional_payoff_points": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "cliffhanger_strategy": {
+          "type": "string"
+        },
+        "viral_moments": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "camera_language_analysis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "dominant_shot_types",
+        "camera_motion_patterns",
+        "composition_patterns",
+        "visual_emphasis_rules",
+        "transition_rhythm",
+        "climax_visual_strategy",
+        "cliffhanger_visual_pattern"
+      ],
+      "properties": {
+        "dominant_shot_types": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "camera_motion_patterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "composition_patterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "visual_emphasis_rules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "transition_rhythm": {
+          "type": "string"
+        },
+        "climax_visual_strategy": {
+          "type": "string"
+        },
+        "cliffhanger_visual_pattern": {
+          "type": "string"
+        }
+      }
+    },
+    "art_direction_analysis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "costume_signatures",
+        "hair_makeup_signatures",
+        "prop_signatures",
+        "set_signatures",
+        "lighting_signatures",
+        "color_mood_patterns",
+        "texture_material_patterns"
+      ],
+      "properties": {
+        "costume_signatures": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "hair_makeup_signatures": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "prop_signatures": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "set_signatures": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "lighting_signatures": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "color_mood_patterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "texture_material_patterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "storyboard_blueprint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "opening_hook_blueprint",
+        "conflict_escalation_blueprint",
+        "emotional_payoff_blueprint",
+        "ending_button_blueprint",
+        "seedance_emphasis_points",
+        "avoid_patterns"
+      ],
+      "properties": {
+        "opening_hook_blueprint": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "conflict_escalation_blueprint": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "emotional_payoff_blueprint": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ending_button_blueprint": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "seedance_emphasis_points": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "avoid_patterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "downstream_design_guidance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "script_reconstruction_focus",
+        "character_design_focus",
+        "scene_design_focus",
+        "storyboard_focus",
+        "adaptation_priorities"
+      ],
+      "properties": {
+        "script_reconstruction_focus": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "character_design_focus": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "scene_design_focus": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "storyboard_focus": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "adaptation_priorities": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "series_learning_extraction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "episode_strengths",
+        "why_it_works",
+        "character_design_rules",
+        "costume_makeup_rules",
+        "scene_design_rules",
+        "camera_language_rules",
+        "storyboard_execution_rules",
+        "dialogue_timing_rules",
+        "continuity_guardrails",
+        "negative_patterns",
+        "reusable_playbook_rules",
+        "reusable_skill_rules",
+        "character_appeal_patterns",
+        "scene_staging_patterns",
+        "dialogue_patterns",
+        "camera_language_patterns",
+        "costume_image_patterns",
+        "prop_visual_patterns",
+        "storyboard_execution_patterns"
+      ],
+      "properties": {
+        "episode_strengths": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "why_it_works": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reusable_playbook_rules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reusable_skill_rules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "character_appeal_patterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "scene_staging_patterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "dialogue_patterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "camera_language_patterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "costume_image_patterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "prop_visual_patterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "storyboard_execution_patterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "character_design_rules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "costume_makeup_rules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "scene_design_rules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "camera_language_rules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "storyboard_execution_rules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "dialogue_timing_rules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "continuity_guardrails": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "negative_patterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "quality_assessment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "overall_confidence",
+        "needs_human_review",
+        "known_gaps",
+        "risky_facts"
+      ],
+      "properties": {
+        "overall_confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "needs_human_review": {
+          "type": "boolean"
+        },
+        "known_gaps": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "risky_facts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_type",
+        "timestamp",
+        "quote_or_description"
+      ],
+      "properties": {
+        "source_type": {
+          "type": "string",
+          "enum": [
+            "video",
+            "frame",
+            "transcript",
+            "ocr",
+            "metadata"
+          ]
+        },
+        "timestamp": {
+          "type": "string"
+        },
+        "quote_or_description": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "__comment": "批量处理整部剧。默认继承 config/video_pipeline.local.json 里的 providers 和 preprocess 基础配置。",
+  "base_config": "config/video_pipeline.local.json",
+  "providers": {
+    "openai": {
+      "model": "gpt-5.4",
+      "image_detail": "low",
+      "max_analysis_frames": 20
+    },
+    "qwen": {
+      "model": "qwen3-vl-plus",
+      "endpoint": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+      "structured_output_mode": "json_object",
+      "max_analysis_frames": 20,
+      "video_fps": 2.0
+    },
+    "gemini": {
+      "model": "gemini-3-pro-preview"
+    }
+  },
+  "series": {
+    "video_dir": "/mnt/myvg/Agent/Seedance2.0_AI/videos/奇幻/三千庇护",
+    "series_name": "",
+    "file_extensions": [
+      ".mp4"
+    ],
+    "episode_number_regex": "",
+    "episode_id_prefix": "ep",
+    "episode_id_padding": 2,
+    "title_template": "第{num}集",
+    "start_episode": 1,
+    "end_episode": 20,
+    "genre_hints": {
+      "library_keys": [],
+      "custom_tokens": [],
+      "ai_suggested_keys": [],
+      "source": ""
+    }
+  },
+  "run": {
+    "selected_provider": "gemini",
+    "language": "zh-CN",
+    "analysis_root": "analysis",
+    "script_root": "script",
+    "skip_preprocess": false,
+    "only_preprocess": false,
+    "reuse_preprocess_if_exists": true,
+    "continue_on_error": true,
+    "collect_metrics": false,
+    "dry_run": false,
+    "temperature": 0.2
+  },
+  "preprocess": {
+    "asr_model_size": "small",
+    "asr_language": "zh",
+    "asr_device": "auto",
+    "asr_compute_type": "auto",
+    "asr_beam_size": 5,
+    "asr_enable_dual_track_fusion": false,
+    "shot_threshold": 27.0,
+    "shot_min_scene_len": 15,
+    "max_keyframes": null,
+    "ocr_crop_bottom_ratio": 0.35,
+    "ocr_sample_interval_seconds": 0.5,
+    "keyframe_scale_ratio": 0.5
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "__comment": "题材包体检配置。用于审核 skills/production/video-script-reconstruction-skill/genres/<题材>/ 下的 playbook.json 与 skill.md。",
+  "provider": {
+    "openai": {
+      "api_key": "",
+      "model": "gpt-5.4"
+    }
+  },
+  "genre_key": "爱情",
+  "__comment_genre_key": "可选。config 模式下直接审核哪个题材；交互模式会覆盖这个值。",
+  "run": {
+    "dry_run": false,
+    "__comment_dry_run": "true 时只做路径解析和程序预检，不调用 LLM。",
+    "apply_mode": "audit_only",
+    "__comment_apply_mode": "audit_only / audit_then_apply / apply_existing_draft。交互模式下会现场选择。",
+    "selected_draft_dir": "",
+    "__comment_selected_draft_dir": "仅 apply_existing_draft 时使用；指向 __drafts__/audit__<题材>__<时间戳>/。",
+    "cleanup_applied_draft": true,
+    "__comment_cleanup_applied_draft": "当正式并入成功后，自动删除对应 draft 目录，避免重复应用。",
+    "temperature": 0.15,
+    "timeout_seconds": 300,
+    "interactive_review": true,
+    "__comment_interactive_review": "true 时在终端逐条给用户做二次判断；非 TTY 环境会自动退回只生成报告。",
+    "review_mode": "high_priority",
+    "__comment_review_mode": "high_priority / all / report_only。交互模式下仍可现场重选。",
+    "max_findings": 12,
+    "max_suggestions_per_type": 8,
+    "max_related_genres": 4,
+    "max_duplicate_clusters": 12,
+    "max_examples_per_genre": 4,
+    "max_suspicious_items": 10
+  }
+}

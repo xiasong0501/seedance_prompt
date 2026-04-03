@@ -1,0 +1,65 @@
+{
+  "__comment": "示例配置。根据导演讲戏本 + episode_analysis + series_context 生成按剧名分装的服化道提示词。",
+  "base_config": "config/video_pipeline.local.json",
+  "script": {
+    "script_path": "/mnt/myvg/Agent/Seedance2.0_AI/script/心尖宠/ep01__openai__gpt-5.4.md",
+    "__comment_script_path": "剧本入口路径。",
+    "episode_id": "",
+    "__comment_episode_id": "通常留空，让脚本自动识别 ep01 / ep02。"
+  },
+  "series": {
+    "series_name": "",
+    "__comment_series_name": "可选。留空时从 script_path 自动推导剧名。",
+    "start_episode": 1,
+    "end_episode": 2,
+    "episode_id_prefix": "ep",
+    "episode_id_padding": 2
+  },
+  "provider": {
+    "__comment": "生成服化道提示词的文本模型。",
+    "selected_provider": "openai",
+    "openai": {
+      "api_key": "",
+      "model": "gpt-5.4"
+    },
+    "gemini": {
+      "api_key": "",
+      "model": "gemini-3-pro-preview"
+    }
+  },
+  "sources": {
+    "__comment": "上游文件来源。",
+    "analysis_provider": "gemini",
+    "analysis_model": "gemini-3-pro-preview",
+    "analysis_path": "",
+    "__comment_analysis_path": "可选。手动指定 episode_analysis 文件。",
+    "director_analysis_path": "",
+    "__comment_director_analysis_path": "可选。手动指定 01-director-analysis.md。",
+    "director_outputs_root": "outputs",
+    "__comment_director_outputs_root": "导演讲戏本根目录，兼容 outputs/<剧名>/<集数>/ 和旧版 outputs/<集数>/。"
+  },
+  "quality": {
+    "visual_style": "真人写实，移动端9:16竖屏电影感构图，适合后续 Nano Banana / Seedance 参考图工作流",
+    "frame_orientation": "9:16竖屏",
+    "target_medium": "漫剧",
+    "extra_rules": [
+      "角色提示词优先保证人物一致性、身份质感和三视图可执行性。",
+      "场景提示词优先保证空间逻辑、光影统一和宫格内的风格一致性。",
+      "人物和场景都要服务9:16竖屏取景，优先提供中近景识别点、门框立柱台阶和前中后景层次。"
+    ]
+  },
+  "output": {
+    "__comment": "输出目录命名。",
+    "assets_series_name": "",
+    "__comment_assets_series_name": "可选。手动指定完整 assets 文件夹名。",
+    "assets_series_suffix": "-gpt",
+    "__comment_assets_series_suffix": "如果留空则直接写到 assets/<剧名>/；也可以设为 -gpt / -gemini 做区分。"
+  },
+  "run": {
+    "analysis_root": "analysis",
+    "temperature": 0.2,
+    "timeout_seconds": 300,
+    "enable_review_pass": true,
+    "__comment_enable_review_pass": "是否启用复审修订。"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "review_mode": "high_priority",
+  "accepted_playbook_suggestions": [
+    {
+      "edit_id": "P01",
+      "priority": "high",
+      "action": "remove",
+      "source_field": "continuity_guardrails",
+      "target_field": "continuity_guardrails",
+      "old_text": "后续必须承认本集已公开建立‘叶枫是江天雪男朋友’的对外说法，不能下一集无痕清零",
+      "new_text": "",
+      "reason": "专有人名与具体剧情残留，完全不具备题材复用性。"
+    },
+    {
+      "edit_id": "P02",
+      "priority": "high",
+      "action": "remove",
+      "source_field": "continuity_guardrails",
+      "target_field": "continuity_guardrails",
+      "old_text": "后续必须承认本集已明确提出‘蛊虫’病因线，不能无痕退回纯常规病症。",
+      "new_text": "",
+      "reason": "属于具体医疗悬疑剧情续接，不是奇幻题材通用 guardrail。"
+    },
+    {
+      "edit_id": "P03",
+      "priority": "high",
+      "action": "rewrite",
+      "source_field": "continuity_guardrails",
+      "target_field": "continuity_guardrails",
+      "old_text": "结尾出现的空间级后果画面必须在后续得到解释，否则会破坏世界观可信度。",
+      "new_text": "已展示的超常后果必须在后续得到规则层解释或因果回收，否则会破坏奇幻世界观可信度。",
+      "reason": "保留有效奇幻连续性，同时去掉过于场面化的表述。"
+    },
+    {
+      "edit_id": "P04",
+      "priority": "high",
+      "action": "rewrite",
+      "source_field": "negative_patterns",
+      "target_field": "negative_patterns",
+      "old_text": "不要把奇幻/玄幻感只做成廉价特效，当前更有效的是人物异质造型与压制气场",
+      "new_text": "不要只靠廉价特效表现奇幻感；优先用异常行为、时间规则、空间后果和人物状态反差建立超常感。",
+      "reason": "增强奇幻专属性，减少与玄幻混写及爽剧单一路径。"
+    }
+  ],
+  "accepted_skill_suggestions": [
+    {
+      "edit_id": "S01",
+      "priority": "high",
+      "action": "remove",
+      "source_section": "人物塑造",
+      "target_section": "人物塑造",
+      "old_text": "集尾卡点优先卡在‘关系已发生、后果未揭晓’的瞬间，比单纯人…",
+      "new_text": "",
+      "reason": "文本明显截断，无法保证原意，建议直接删除或待人工补全后再入包。"
+    },
+    {
+      "edit_id": "S02",
+      "priority": "high",
+      "action": "rewrite",
+      "source_section": "结构与钩子",
+      "target_section": "结构与钩子",
+      "old_text": "当题材兼具奇幻时，可在第一集后半引入‘命运变量型角色’",
+      "new_text": "奇幻首轮钩子可通过‘异常规则的见证者/触发者/破局者’入场，推动主角命运偏离原有现实轨道。",
+      "reason": "避免与 playbook 逐字重复，并补足方法解释。"
+    },
+    {
+      "edit_id": "S03",
+      "priority": "high",
+      "action": "move",
+      "source_section": "服化道统一",
+      "target_section": "结构与钩子",
+      "old_text": "现代奇幻短剧不必依赖重特效，人物状态反差和时间触发已足够成立。",
+      "new_text": "现代奇幻短剧可优先用人物状态反差、时间触发和局部异常后果建立设定，不必依赖重特效。",
+      "reason": "该条本质是设定建立方法，不属于服化道。"
+    },
+    {
+      "edit_id": "S04",
+      "priority": "high",
+      "action": "remove",
+      "source_section": "生产红线",
+      "target_section": "生产红线",
+      "old_text": "‘让申家成为顶级权贵’是男主明确承诺，后续若展开身份线应与此能力宣言呼应。",
+      "new_text": "",
+      "reason": "具体剧残留，应从 skill 中清除。"
+    }
+  ],
+  "rejected_playbook_suggestions": [],
+  "rejected_skill_suggestions": [],
+  "deferred_playbook_suggestions": [],
+  "deferred_skill_suggestions": []
+}

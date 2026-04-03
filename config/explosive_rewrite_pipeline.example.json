@@ -1,0 +1,65 @@
+{
+  "__comment": "示例配置。用于比较同一集多个模型版本剧本，并输出更抓眼球的强化版剧本。",
+  "base_config": "config/video_pipeline.local.json",
+  "script": {
+    "series_dir": "/mnt/myvg/Agent/Seedance2.0_AI/script/心尖宠",
+    "__comment_series_dir": "输入剧本目录。这里放原始 GPT/Gemini 等多个版本剧本。",
+    "series_name": "",
+    "__comment_series_name": "可选。留空时自动从 series_dir 推导剧名。"
+  },
+  "source": {
+    "include_existing_explosive_variants": false,
+    "base_variant_selection_mode": "single",
+    "preferred_base_variant_patterns": [
+      "__openai__gpt-5.4.md",
+      "__gemini__gemini-3-pro-preview.md"
+    ]
+  },
+  "series": {
+    "series_name": "心尖宠",
+    "start_episode": 1,
+    "end_episode": 2,
+    "episode_id_prefix": "ep",
+    "episode_id_padding": 2
+  },
+  "provider": {
+    "openai": {
+      "api_key": "",
+      "model": "gpt-5.4"
+    }
+  },
+  "quality": {
+    "target_audience": "女频古言漫剧用户，偏爱高钩子、高反差、高情绪兑现与强卡点",
+    "extra_rules": [
+      "保留故事主干与人物连续性，不要为了猎奇乱改世界观。",
+      "优先强化前3秒钩子、前30秒留存、人物欲望和结尾卡点。",
+      "遇到容易触发软色情或误杀的表达，保守化处理但不要损失张力。"
+    ]
+  },
+  "style_target": {
+    "genre_keys": [
+      "爱情"
+    ],
+    "custom_style_tokens": [],
+    "style_label": "",
+    "include_current_series_genres": true,
+    "prompt_genre_reference_limit": 3
+  },
+  "context_summary": {
+    "reuse_if_exists": true
+  },
+  "output": {
+    "analysis_dir_name": "explosive-actor-gpt",
+    "__comment_analysis_dir_name": "分析输出目录名，会写到 analysis/<剧名>/<这个名字>/。",
+    "script_series_suffix": "",
+    "__comment_script_series_suffix": "默认留空，表示强化版剧本直接写回原始 script/<剧名>/ 目录；只有你想单独分目录时才填 -gpt 之类后缀。",
+    "rewrite_filename_suffix": "__explosive",
+    "__comment_rewrite_filename_suffix": "强化版剧本文件后缀。"
+  },
+  "run": {
+    "temperature": 0.3,
+    "timeout_seconds": 300,
+    "collect_metrics": true,
+    "dry_run": true
+  }
+}

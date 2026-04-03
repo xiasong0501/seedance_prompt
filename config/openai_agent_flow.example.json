@@ -1,0 +1,145 @@
+{
+  "__comment": "OpenAI-native 生产流配置。它不只是换模型名，而是把爆款改稿、导演分析、服化道、分镜四段串成一条可执行链。",
+  "base_config": "config/video_pipeline.local.json",
+  "provider": {
+    "model": "gpt-5.4",
+    "__comment_model": "OpenAI 主力文本模型。导演分析、爆款改稿、分镜提示词默认都用它。",
+    "api_key": "",
+    "__comment_api_key": "可选。留空时自动尝试 OPENAI_API_KEY，再回退读取 config/video_pipeline.local.json 中的 openai key。"
+  },
+  "series": {
+    "series_name": "心尖宠",
+    "__comment_series_name": "主剧名。outputs/ 与 analysis/ 都按这个剧名分仓。",
+    "script_series_dir": "/mnt/myvg/Agent/Seedance2.0_AI/script/心尖宠",
+    "__comment_script_series_dir": "输入剧本目录。这里放原始 GPT/Gemini 版本，以及后续 __explosive 版本。",
+    "start_episode": 1,
+    "end_episode": 2,
+    "episode_id_prefix": "ep",
+    "episode_id_padding": 2
+  },
+  "source": {
+    "script_path_override": "",
+    "__comment_script_path_override": "可选。手动指定某一集剧本时使用；通常留空，让系统按 series_dir + episode 自动找。",
+    "preferred_filename_suffixes": [
+      "__explosive.md",
+      "__openai__gpt-5.4.md",
+      "__gemini__gemini-3-pro-preview.md"
+    ],
+    "__comment_preferred_filename_suffixes": "同一集存在多个版本时，按这个优先级挑选后续 director/art/storyboard 的上游剧本。"
+  },
+  "genre_reference": {
+    "library_keys": [],
+    "__comment_library_keys": "给全新剧本手动指定题材，例如 爱情、萌宝团宠、复仇逆袭。交互模式下会让用户选择。",
+    "custom_tokens": [],
+    "__comment_custom_tokens": "如果现有题材库没有完全命中，也可以补充自定义题材词。",
+    "reuse_if_exists": true,
+    "__comment_reuse_if_exists": "true 时优先复用 analysis/<剧名>/openai_agent_flow/genre_reference_bundle.json。",
+    "include_similar_series_analysis": true,
+    "__comment_include_similar_series_analysis": "true 时会检索其他同题材剧的已有 analysis 经验，作为后续导演/美术/分镜参考。",
+    "max_similar_series": 3,
+    "__comment_max_similar_series": "最多检索多少部相近题材剧。"
+  },
+  "quality": {
+    "visual_style": "真人写实，移动端9:16竖屏电影感构图，适合古装漫剧前期开发和 Seedance 2.0 工作流",
+    "frame_orientation": "9:16竖屏",
+    "target_medium": "漫剧",
+    "assets_series_suffix": "-gpt",
+    "__comment_assets_series_suffix": "服化道产物写到 assets/<剧名>-gpt/，方便和原始资产分开比较。",
+    "assets_series_name": "",
+    "__comment_assets_series_name": "可选。手动指定完整 assets 文件夹名；如果留空，就使用 series_name + assets_series_suffix。",
+    "analysis_provider": "gemini",
+    "analysis_model": "gemini-3-pro-preview",
+    "__comment_analysis_provider_model": "art 阶段回读 episode_analysis 时优先找哪份 provider/model 产物。",
+    "art_selected_provider": "openai",
+    "__comment_art_selected_provider": "服化道提示词当前用哪家文本模型来写。openai 更适合走这条 OpenAI-native 工作流。",
+    "art_gemini_model": "gemini-3-pro-preview",
+    "__comment_art_gemini_model": "只有 art_selected_provider=gemini 时才会用到。",
+    "director_scene_budget": {
+      "baseline_preferred_min": 4,
+      "baseline_preferred_max": 6,
+      "max_adaptive_expansion": 2
+    },
+    "__comment_director_scene_budget": "导演场景母体策略。默认建议 4-6 个，脚本如果确有多个不可互相复用的大空间，可自适应再增加 1-2 个；总原则仍是尽可能少、尽可能宏大、尽可能有代表性。",
+    "director_extra_rules": [
+      "导演讲戏要像真正给演员和分镜师讲戏，不能只做剧情摘要。",
+      "人物和场景素材状态必须对照现有 assets/<剧名>-gpt/ 判断，优先减少无谓重造。",
+      "场景清单默认优先收束到 4-6 个代表性母体场景，但数量要服从剧本真实内容；如果确有多个不可互相复用的大空间，可以适当增加。",
+      "同一地点的入口、门外、走廊、前后院、边缘、高低位、上空、废墟态、对峙区都优先并入同一母体场景，用 reuse_note 写分区和战损差异。",
+      "不要为了每个剧情点单独发明一个新场景；剧情点可以更多，但场景应尽量少而大、差异明显、可复用。",
+      "默认按9:16竖屏讲戏，优先中轴构图、上下层级、前后景遮挡和纵深推进，避免把群像一字排开。",
+      "每个剧情点都要讲清谁先在镜、谁从哪里入画、谁留在前中后景、谁如何离场，避免后续分镜让人物凭空出现或消失。",
+      "高能场面先讲清空间轴线、镜头锚点、出入口/高差/遮挡，再讲情绪与对白，不要只讲结果。",
+      "特效、法术、天雷、机关齐鸣等要讲清源头、传播路径、受光变化、烟尘/碎屑/余波和人物反应，避免空泛特效词。",
+      "整体叙事速度比当前常规模式再快约30-40%，不重要的过场、重复反应和弱桥段优先压进相邻强剧情点。",
+      "燃点、羞辱反击、揭示翻盘、情绪爆发和权力转向要优先展开，说明性铺垫和低价值连接动作要明显收短。"
+    ],
+    "art_extra_rules": [
+      "人物提示词要优先保证稳定人设与服装层次，避免空泛标签堆砌。",
+      "场景宫格要强调空间布局、光照方向、材质质感和叙事情绪。",
+      "场景设计要明确可连续复用的出入口、台阶、高差、遮挡物、前中后景层次和镜头锚点，方便后续人物有理进出。",
+      "涉及特效或大战的场景，要给出可被光效和冲击反馈的材质细节，例如石面焦痕、烟尘路径、旗幡受风、金属反光和碎屑落点。",
+      "人物和场景都要服务9:16竖屏取景，优先提供中近景识别点、门框立柱台阶、纵深通道和前中后景层次。"
+    ],
+    "storyboard_extra_rules": [
+      "竖屏、风格连续、运镜、节奏与合规这些要求只作为内部约束，不要在最终 prompt_text 末尾再单列模板化说明段。",
+      "提示词里要明确动作顺序、运镜方向、声音设计和氛围收束，避免文学化空话。",
+      "一条提示词内不要塞入叙事上无关的多段内容。",
+      "每条提示词都要交代当前在镜角色、入画路径、前中后景层次和离场/被遮挡方式，不要让人物凭空出现或消失。",
+      "同一条里同时承担主要动作的核心人物尽量控制在1-4个，其余角色优先放在背景秩序、反应层次或遮挡层里。",
+      "每条提示词默认按9:16手机竖屏构图，主体尽量落在中轴或中轴偏上/偏下，关键动作和道具不要丢到左右边缘。",
+      "跨分镜保持统一主光方向、色温、材质质感、人物体量和镜头高度，不要每条都换一种画风。",
+      "运镜必须绑定稳定空间锚点和明确路径，切镜要由动作、视线、声响或特效冲击触发，避免跳轴、镜头漂移和无动机瞬移。",
+      "高能特效要写成有源头、有传播、有余波、有环境反馈的物理事件，并补足烟尘、碎屑、受光和材质细节，不要只写抽象法术名或廉价粒子效果。",
+      "单条分镜内优先只用1-2个有动机的主运镜，镜头转向要由人物动作、视线或道具带动，避免乱晃。",
+      "整体叙事速度比当前常规模式再快约20%，前20%时长内进入有效剧情，每2-3秒必须有新信息或新动作。"
+    ]
+  },
+  "explosive": {
+    "analysis_dir_name": "explosive-actor-gpt",
+    "rewrite_filename_suffix": "__explosive",
+    "target_audience": "女频古言漫剧用户，偏爱高钩子、高反差、高情绪兑现与强卡点",
+    "extra_rules": [
+      "保留故事主干与人物连续性，不要为了猎奇乱改世界观。",
+      "优先强化前3秒钩子、前30秒留存、人物欲望和结尾卡点。"
+    ]
+  },
+  "output": {
+    "outputs_root": "outputs",
+    "outputs_series_name": "",
+    "outputs_series_suffix": "-gpt",
+    "analysis_root": "analysis"
+  },
+  "stages": {
+    "run_explosive_rewrite": false,
+    "run_director_analysis": true,
+    "run_art_design": true,
+    "run_storyboard": true,
+    "run_storyboard_review": false,
+    "__comment_run_storyboard_review": "已并入 storyboard 的 review pass，默认不再单独跑第二轮 Seedance 逻辑检查。",
+    "run_seedance_prompt_refine": false,
+    "__comment_run_seedance_prompt_refine": "true 时在 storyboard 完成后自动再跑一轮 Seedance prompt refine；如果走交互 run 模式，也可以在主流程结束后临时确认是否执行。"
+  },
+  "runtime": {
+    "dry_run": true,
+    "__comment_dry_run": "true 表示先逐阶段预演，不真正调用模型；第一次建议先开 true。",
+    "collect_metrics": false,
+    "__comment_collect_metrics": "true 表示记录整条 OpenAI 生产流的时间和 token 统计，并落到 analysis/<剧名>/openai_agent_flow/ 下。",
+    "storyboard_profile": "normal",
+    "__comment_storyboard_profile": "storyboard 生成模式。normal 细节优先，fast（极速版）更强调速度与上下文压缩。",
+    "write_storyboard_metrics": true,
+    "__comment_write_storyboard_metrics": "true 表示为每一集 storyboard 单独落盘 metrics 报告，方便单独诊断 draft/review 的耗时与 token。",
+    "write_seedance_prompt_refine_metrics": true,
+    "__comment_write_seedance_prompt_refine_metrics": "true 表示为每一集 Seedance prompt refine 单独落盘 metrics 报告。",
+    "seedance_prompt_refine_temperature": 0.35,
+    "__comment_seedance_prompt_refine_temperature": "Seedance prompt refine 的默认温度；建议 0.3-0.45，让 refine 更积极地强化镜头、动作、空间关系和场景质感，同时仍冻结剧情与素材映射。",
+    "skip_existing_outputs": true,
+    "__comment_skip_existing_outputs": "true 表示如果某阶段对应产物已经存在，就自动跳过；false 表示不管是否已存在都重跑。",
+    "temperature": 0.25,
+    "timeout_seconds": 600,
+    "__comment_timeout_seconds": "单次模型请求超时秒数。storyboard normal 模式上下文较大，建议默认 600。",
+    "enable_review_pass": true,
+    "__comment_enable_review_pass": "true 表示导演、服化道、分镜都会先出初稿，再按审核 skill 走一次复审修订。",
+    "prompt_for_seedance_prompt_refine": false,
+    "__comment_prompt_for_seedance_prompt_refine": "交互式正式运行时通常会临时改为 true：当 storyboard 文件已生成/确认存在后，在流程收尾处询问是否继续执行轻量 refine。"
+  }
+}

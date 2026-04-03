@@ -1,0 +1,424 @@
+{
+  "genre_key": "爱情",
+  "source_series": "桃烬九重天",
+  "mode": "ranked_update_candidates",
+  "playbook_update_candidates": [
+    {
+      "genre_key": "爱情",
+      "target_field": "scene_focus",
+      "target_field_label": "场景设计重点",
+      "text": "情感戏空间首选‘斜向构图+自然光晕’（如枫林/竹径），避免对称厅堂破坏亲密感",
+      "full_text": "情感戏空间首选‘斜向构图+自然光晕’（如枫林/竹径），避免对称厅堂破坏亲密感",
+      "preview_text": "情感戏空间首选‘斜向构图+自然光晕’（如枫林/竹径），避免…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "情感",
+        "亲密"
+      ],
+      "reason": "来自场景设计规则，且与当前题材关键词“情感、亲密”高度相关。 命中了当前题材叙事核心词“情感”。 当前题材别名命中“情感”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.68,
+      "genre_confidence_gap": 0.27,
+      "source_type": "scene_design_rules",
+      "source_label": "场景设计规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "continuity_guardrails",
+      "target_field_label": "连续性红线",
+      "text": "枫林场景不可重复使用超过2次，需更换情感空间（如雪崖/古桥）防审美疲劳",
+      "full_text": "枫林场景不可重复使用超过2次，需更换情感空间（如雪崖/古桥）防审美疲劳",
+      "preview_text": "枫林场景不可重复使用超过2次，需更换情感空间（如雪崖/古桥…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "情感"
+      ],
+      "reason": "来自连续性红线，且与当前题材关键词“情感”高度相关。 命中了当前题材叙事核心词“情感”。 当前题材别名命中“情感”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.72,
+      "genre_confidence_gap": 0.22,
+      "source_type": "continuity_guardrails",
+      "source_label": "连续性红线"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "director_focus",
+      "target_field_label": "导演重点",
+      "text": "集尾卡点统一采用‘侧脸2/3构图+眼神骤变+字幕淡入+停帧2秒’模板",
+      "full_text": "集尾卡点统一采用‘侧脸2/3构图+眼神骤变+字幕淡入+停帧2秒’模板",
+      "preview_text": "集尾卡点统一采用‘侧脸2/3构图+眼神骤变+字幕淡入+停帧…",
+      "confidence": 0.99,
+      "matched_keywords": [
+        "字幕淡入",
+        "停帧2秒",
+        "眼神"
+      ],
+      "reason": "来自镜头语言规则，且与当前题材关键词“字幕淡入、停帧2秒、眼神”高度相关。 命中了当前题材叙事核心词“字幕淡入、停帧2秒、眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.69,
+      "genre_confidence_gap": 0.27,
+      "source_type": "camera_language_rules",
+      "source_label": "镜头语言规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "character_focus",
+      "target_field_label": "人物设计重点",
+      "text": "隐世强者人设靠‘极简动作+沉默压迫’建立，台词≤3句/场，重点在手部/眼神/呼吸节奏",
+      "full_text": "隐世强者人设靠‘极简动作+沉默压迫’建立，台词≤3句/场，重点在手部/眼神/呼吸节奏",
+      "preview_text": "隐世强者人设靠‘极简动作+沉默压迫’建立，台词≤3句/场",
+      "confidence": 0.95,
+      "matched_keywords": [
+        "眼神",
+        "沉默"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“眼神、沉默”高度相关。 命中了当前题材叙事核心词“眼神、沉默”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.22,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "negative_patterns",
+      "target_field_label": "负面模式",
+      "text": "禁止男主在亲密戏中主动告白，应维持‘沉默认领’人设一致性",
+      "full_text": "禁止男主在亲密戏中主动告白，应维持‘沉默认领’人设一致性",
+      "preview_text": "禁止男主在亲密戏中主动告白，应维持‘沉默认领’人设一致性",
+      "confidence": 0.93,
+      "matched_keywords": [
+        "沉默",
+        "亲密",
+        "认领"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“沉默、亲密、认领”高度相关。 命中了当前题材叙事核心词“认领、沉默”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.66,
+      "genre_confidence_gap": 0.24,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "dialogue_timing_rules",
+      "target_field_label": "台词时间规则",
+      "text": "称呼变化（如‘爹’）必须伴随表情突变，形成认知错位爽点",
+      "full_text": "称呼变化（如‘爹’）必须伴随表情突变，形成认知错位爽点",
+      "preview_text": "称呼变化（如‘爹’）必须伴随表情突变，形成认知错位爽点",
+      "confidence": 0.92,
+      "matched_keywords": [
+        "称呼变化",
+        "称呼"
+      ],
+      "reason": "来自台词时间规则，且与当前题材关键词“称呼变化、称呼”高度相关。 命中了当前题材叙事核心词“称呼”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.22,
+      "source_type": "dialogue_timing_rules",
+      "source_label": "台词时间规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "character_focus",
+      "target_field_label": "人物设计重点",
+      "text": "废柴女主必须有‘视觉缺陷标签’（如红斑/旧衣/微驼背），但眼神需保有灵性，避免彻底扁平化",
+      "full_text": "废柴女主必须有‘视觉缺陷标签’（如红斑/旧衣/微驼背），但眼神需保有灵性，避免彻底扁平化",
+      "preview_text": "废柴女主必须有‘视觉缺陷标签’（如红斑/旧衣/微驼背），但…",
+      "confidence": 0.9,
+      "matched_keywords": [
+        "眼神"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.17,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "script_hooks",
+      "target_field_label": "剧情抓点",
+      "text": "屈辱-退婚-醉酒-认领-身份质疑 五段式结构适用于仙侠复仇爱情首集",
+      "full_text": "屈辱-退婚-醉酒-认领-身份质疑 五段式结构适用于仙侠复仇爱情首集",
+      "preview_text": "屈辱-退婚-醉酒-认领-身份质疑五段式结构适用于仙侠复仇爱…",
+      "confidence": 0.9,
+      "matched_keywords": [
+        "爱情",
+        "认领"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“爱情、认领”高度相关。 命中了当前题材叙事核心词“爱情、认领”。 当前题材别名命中“爱情”，归属更明确。 它与“复仇逆袭”仍有明显重叠（差值 0.07）。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.84,
+      "genre_confidence_gap": 0.07,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "director_focus",
+      "target_field_label": "导演重点",
+      "text": "情感升温：单人特写 → 同框中景 → 手部交叠特写 → 花瓣慢镜头",
+      "full_text": "情感升温：单人特写 → 同框中景 → 手部交叠特写 → 花瓣慢镜头",
+      "preview_text": "情感升温：单人特写→同框中景→手部交叠特写→花瓣慢镜头",
+      "confidence": 0.85,
+      "matched_keywords": [
+        "情感"
+      ],
+      "reason": "来自camera_language_patterns，且与当前题材关键词“情感”高度相关。 命中了当前题材叙事核心词“情感”。 当前题材别名命中“情感”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.56,
+      "genre_confidence_gap": 0.22,
+      "source_type": "camera_language_patterns",
+      "source_label": "camera_language_patterns"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "script_hooks",
+      "target_field_label": "剧情抓点",
+      "text": "隐世强者眼神管理：平时低垂眼帘+偶尔抬眼0.2s，瞳孔在关键句时微缩",
+      "full_text": "隐世强者眼神管理：平时低垂眼帘+偶尔抬眼0.2s，瞳孔在关键句时微缩",
+      "preview_text": "隐世强者眼神管理：平时低垂眼帘+偶尔抬眼0.2s，瞳孔在关…",
+      "confidence": 0.82,
+      "matched_keywords": [
+        "眼神"
+      ],
+      "reason": "来自整剧方法规则，且与当前题材关键词“眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.62,
+      "genre_confidence_gap": 0.17,
+      "source_type": "reusable_skill_rules",
+      "source_label": "整剧方法规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "dialogue_timing_rules",
+      "target_field_label": "台词时间规则",
+      "text": "反击台词必须短于5字，且置于证据展示后（如‘记住了’在眼神锁定后）",
+      "full_text": "反击台词必须短于5字，且置于证据展示后（如‘记住了’在眼神锁定后）",
+      "preview_text": "反击台词必须短于5字，且置于证据展示后（如‘记住了’在眼神…",
+      "confidence": 0.73,
+      "matched_keywords": [
+        "眼神"
+      ],
+      "reason": "来自台词时间规则，且与当前题材关键词“眼神”高度相关。 命中了当前题材叙事核心词“眼神”。 它与“复仇逆袭”的区分度很弱（差值 0.03）。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.81,
+      "genre_confidence_gap": 0.03,
+      "source_type": "dialogue_timing_rules",
+      "source_label": "台词时间规则"
+    }
+  ],
+  "skill_update_candidates": [
+    {
+      "genre_key": "爱情",
+      "section": "场景与调度",
+      "section_label": "场景与调度",
+      "text": "情感戏空间首选‘斜向构图+自然光晕’（如枫林/竹径），避免对称厅堂破坏亲密感",
+      "full_text": "情感戏空间首选‘斜向构图+自然光晕’（如枫林/竹径），避免对称厅堂破坏亲密感",
+      "preview_text": "情感戏空间首选‘斜向构图+自然光晕’（如枫林/竹径），避免…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "情感",
+        "亲密"
+      ],
+      "reason": "来自场景设计规则，且与当前题材关键词“情感、亲密”高度相关。 命中了当前题材叙事核心词“情感”。 当前题材别名命中“情感”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.27,
+      "source_type": "scene_design_rules",
+      "source_label": "场景设计规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "生产红线",
+      "section_label": "生产红线",
+      "text": "枫林场景不可重复使用超过2次，需更换情感空间（如雪崖/古桥）防审美疲劳",
+      "full_text": "枫林场景不可重复使用超过2次，需更换情感空间（如雪崖/古桥）防审美疲劳",
+      "preview_text": "枫林场景不可重复使用超过2次，需更换情感空间（如雪崖/古桥…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "情感"
+      ],
+      "reason": "来自连续性红线，且与当前题材关键词“情感”高度相关。 命中了当前题材叙事核心词“情感”。 当前题材别名命中“情感”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.76,
+      "genre_confidence_gap": 0.22,
+      "source_type": "continuity_guardrails",
+      "source_label": "连续性红线"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "集尾卡点统一采用‘侧脸2/3构图+眼神骤变+字幕淡入+停帧2秒’模板",
+      "full_text": "集尾卡点统一采用‘侧脸2/3构图+眼神骤变+字幕淡入+停帧2秒’模板",
+      "preview_text": "集尾卡点统一采用‘侧脸2/3构图+眼神骤变+字幕淡入+停帧…",
+      "confidence": 0.99,
+      "matched_keywords": [
+        "字幕淡入",
+        "停帧2秒",
+        "眼神"
+      ],
+      "reason": "来自镜头语言规则，且与当前题材关键词“字幕淡入、停帧2秒、眼神”高度相关。 命中了当前题材叙事核心词“字幕淡入、停帧2秒、眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.69,
+      "genre_confidence_gap": 0.27,
+      "source_type": "camera_language_rules",
+      "source_label": "镜头语言规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "人物塑造",
+      "section_label": "人物塑造",
+      "text": "隐世强者人设靠‘极简动作+沉默压迫’建立，台词≤3句/场，重点在手部/眼神/呼吸节奏",
+      "full_text": "隐世强者人设靠‘极简动作+沉默压迫’建立，台词≤3句/场，重点在手部/眼神/呼吸节奏",
+      "preview_text": "隐世强者人设靠‘极简动作+沉默压迫’建立，台词≤3句/场",
+      "confidence": 0.98,
+      "matched_keywords": [
+        "眼神",
+        "沉默"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“眼神、沉默”高度相关。 命中了当前题材叙事核心词“眼神、沉默”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.73,
+      "genre_confidence_gap": 0.22,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "生产红线",
+      "section_label": "生产红线",
+      "text": "禁止男主在亲密戏中主动告白，应维持‘沉默认领’人设一致性",
+      "full_text": "禁止男主在亲密戏中主动告白，应维持‘沉默认领’人设一致性",
+      "preview_text": "禁止男主在亲密戏中主动告白，应维持‘沉默认领’人设一致性",
+      "confidence": 0.97,
+      "matched_keywords": [
+        "沉默",
+        "亲密",
+        "认领"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“沉默、亲密、认领”高度相关。 命中了当前题材叙事核心词“认领、沉默”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.24,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "人物塑造",
+      "section_label": "人物塑造",
+      "text": "废柴女主必须有‘视觉缺陷标签’（如红斑/旧衣/微驼背），但眼神需保有灵性，避免彻底扁平化",
+      "full_text": "废柴女主必须有‘视觉缺陷标签’（如红斑/旧衣/微驼背），但眼神需保有灵性，避免彻底扁平化",
+      "preview_text": "废柴女主必须有‘视觉缺陷标签’（如红斑/旧衣/微驼背），但…",
+      "confidence": 0.93,
+      "matched_keywords": [
+        "眼神"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.73,
+      "genre_confidence_gap": 0.17,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "对白与节奏",
+      "section_label": "对白与节奏",
+      "text": "称呼变化（如‘爹’）必须伴随表情突变，形成认知错位爽点",
+      "full_text": "称呼变化（如‘爹’）必须伴随表情突变，形成认知错位爽点",
+      "preview_text": "称呼变化（如‘爹’）必须伴随表情突变，形成认知错位爽点",
+      "confidence": 0.92,
+      "matched_keywords": [
+        "称呼变化",
+        "称呼"
+      ],
+      "reason": "来自台词时间规则，且与当前题材关键词“称呼变化、称呼”高度相关。 命中了当前题材叙事核心词“称呼”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.22,
+      "source_type": "dialogue_timing_rules",
+      "source_label": "台词时间规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "结构与钩子",
+      "section_label": "结构与钩子",
+      "text": "屈辱-退婚-醉酒-认领-身份质疑 五段式结构适用于仙侠复仇爱情首集",
+      "full_text": "屈辱-退婚-醉酒-认领-身份质疑 五段式结构适用于仙侠复仇爱情首集",
+      "preview_text": "屈辱-退婚-醉酒-认领-身份质疑五段式结构适用于仙侠复仇爱…",
+      "confidence": 0.87,
+      "matched_keywords": [
+        "爱情",
+        "认领"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“爱情、认领”高度相关。 命中了当前题材叙事核心词“爱情、认领”。 当前题材别名命中“爱情”，归属更明确。 它与“复仇逆袭”仍有明显重叠（差值 0.07）。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.81,
+      "genre_confidence_gap": 0.07,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "结构与钩子",
+      "section_label": "结构与钩子",
+      "text": "隐世强者眼神管理：平时低垂眼帘+偶尔抬眼0.2s，瞳孔在关键句时微缩",
+      "full_text": "隐世强者眼神管理：平时低垂眼帘+偶尔抬眼0.2s，瞳孔在关键句时微缩",
+      "preview_text": "隐世强者眼神管理：平时低垂眼帘+偶尔抬眼0.2s，瞳孔在关…",
+      "confidence": 0.82,
+      "matched_keywords": [
+        "眼神"
+      ],
+      "reason": "来自整剧方法规则，且与当前题材关键词“眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.62,
+      "genre_confidence_gap": 0.17,
+      "source_type": "reusable_skill_rules",
+      "source_label": "整剧方法规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "对白与节奏",
+      "section_label": "对白与节奏",
+      "text": "反击台词必须短于5字，且置于证据展示后（如‘记住了’在眼神锁定后）",
+      "full_text": "反击台词必须短于5字，且置于证据展示后（如‘记住了’在眼神锁定后）",
+      "preview_text": "反击台词必须短于5字，且置于证据展示后（如‘记住了’在眼神…",
+      "confidence": 0.73,
+      "matched_keywords": [
+        "眼神"
+      ],
+      "reason": "来自台词时间规则，且与当前题材关键词“眼神”高度相关。 命中了当前题材叙事核心词“眼神”。 它与“复仇逆袭”的区分度很弱（差值 0.03）。",
+      "series_specific_matches": [],
+      "best_competing_genre": "复仇逆袭",
+      "best_competing_confidence": 0.81,
+      "genre_confidence_gap": 0.03,
+      "source_type": "dialogue_timing_rules",
+      "source_label": "台词时间规则"
+    }
+  ]
+}

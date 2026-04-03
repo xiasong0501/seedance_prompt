@@ -1,0 +1,14 @@
+{
+  "genre_key": "奇幻",
+  "apply_mode": "audit_then_apply",
+  "official_playbook_path": "/mnt/myvg/Agent/Seedance2.0_AI/skills/production/video-script-reconstruction-skill/genres/奇幻/playbook.json",
+  "official_skill_path": "/mnt/myvg/Agent/Seedance2.0_AI/skills/production/video-script-reconstruction-skill/genres/奇幻/skill.md",
+  "backup_dir": "/mnt/myvg/Agent/Seedance2.0_AI/skills/production/video-script-reconstruction-skill/genres/__audits__/backups/奇幻__20260326084949",
+  "source_draft_dir": "/mnt/myvg/Agent/Seedance2.0_AI/skills/production/video-script-reconstruction-skill/genres/__drafts__/audit__奇幻__20260326083755",
+  "judgement_path": "/mnt/myvg/Agent/Seedance2.0_AI/skills/production/video-script-reconstruction-skill/genres/__audits__/奇幻/decision__20260326083755.json",
+  "refine_summary": "本次修订主要清除了题材包中的单剧残留与跨题材污染，删除了具体人名、具体数量锚点、医院模板和过细的执行备注。对仍有价值但过于具体的条目做了抽象改写，例如将单集状态回退问题提升为奇幻题材通用的连续性规则，将精确站位距离改为可迁移的调度原则。同时按已采纳建议补入了奇幻题材真正核心的观众承诺与规则揭示方法，并把误放在 script_hooks 中的卡点规则收束到 storyboard_focus。整体上保留了低特效成立、时间触发、异常后果、日常空间压制感等有效经验，使包体更聚焦、更适合长期维护。",
+  "draft_cleanup_requested": true,
+  "draft_cleanup_status": "deleted",
+  "draft_cleanup_error": "",
+  "deleted_draft_dir": "/mnt/myvg/Agent/Seedance2.0_AI/skills/production/video-script-reconstruction-skill/genres/__drafts__/audit__奇幻__20260326083755"
+}

@@ -1,0 +1,303 @@
+{
+  "genre_key": "奇幻",
+  "health_score": 42,
+  "overall_assessment": "该题材包存在明显的包内污染与职责失衡：大量条目带有具体剧集残留（人名、道具、病因、拜帖数量等），并混入现代情感、婚内背叛、医院会诊、权贵打脸等子模板经验，导致“奇幻”题材共性不足、具体场景过强。playbook 与 skill 间存在大量逐字重复，且不少规则更像导演执行细则或单集 continuity 备注，不适合作为正式题材包长期沉淀。优点是已积累一些可复用的奇幻表达经验，如低特效成立方式、时间触发、异常后果卡点、超常能力在日常空间中的压制感。但当前需要先做去具体剧残留、去跨题材模板化、去重复，再补足真正属于奇幻题材的世界规则与能力代价类规则。",
+  "key_strengths": [
+    "已沉淀出少量较像奇幻共性的有效经验：‘不依赖重特效’、‘时间触发型反转’、‘异常后果卡点’。",
+    "对短剧节奏、卡点、镜头信息密度有较强执行经验，可作为 skill 方法论基础。",
+    "部分条目能把奇幻落到低成本可拍层面，如日常空间中的突然压制、人物状态反差、关键道具前后命名。"
+  ],
+  "findings": [
+    {
+      "finding_id": "F01",
+      "severity": "high",
+      "category": "cross_genre_overlap",
+      "location": "playbook.json / skill.md 多处",
+      "problem": "大量条目明显不是‘奇幻’共性，而是现代情感/婚内背叛/医院悬疑/权贵打脸等其他题材或子模板经验，例如‘婚内背叛清算戏优先放在公开家庭空间’、‘病床居中、家属站侧、医生围床’、‘会诊戏优先使用中近景和正反打’、‘女主官宣关系时必须给身体靠近和眼神确认镜头’。",
+      "why_it_matters": "这会让题材包失去题材层抽象能力，模型容易把‘奇幻’误写成现代狗血、医院群戏或背叛打脸剧，降低泛化能力。",
+      "recommendation": "保留真正与奇幻机制相关的规则；将明显依赖‘婚恋背叛/医院/权贵围猎’前提的条目删除，或改写为更高层的奇幻适配规则。",
+      "confidence": 0.99
+    },
+    {
+      "finding_id": "F02",
+      "severity": "high",
+      "category": "missing",
+      "location": "playbook.json::continuity_guardrails",
+      "problem": "存在大量具体剧集残留：‘叶枫’‘江天雪’‘黄雨晗’‘申家’‘盲杖、墨镜、挂钟、雪糕’‘蛊虫’‘八+一拜帖’等。",
+      "why_it_matters": "continuity_guardrails 应是题材级连续性约束，不应绑定某部具体剧。此类内容会严重污染后续生成，使模型误以为这些设定属于奇幻题材默认元素。",
+      "recommendation": "整批移除具体人名、具体道具、具体病因、具体数量锚点；若其中有可抽象经验，改写为通用规则，如‘已公开的身份/关系/能力变化不可无痕回退’。",
+      "confidence": 1
+    },
+    {
+      "finding_id": "F03",
+      "severity": "high",
+      "category": "duplicate",
+      "location": "playbook.json 与 skill.md 跨文件多处",
+      "problem": "两文件存在大量逐字重复，预检已列出多条 1.0 重复，如‘命运变量型角色’‘决定已做出、方法未展示’‘拜帖-邀约-赴约’‘关键道具先私密后公共命名’‘集尾卡点优先停在后果将至、解释未给’等。",
+      "why_it_matters": "playbook 应偏结构化规则，skill 应偏展开说明。逐字重复会造成维护成本高、冲突难发现，也削弱文件分工。",
+      "recommendation": "同一句只保留一处：抽象、短、可检索的版本留在 playbook；带解释、适用条件、例外说明的版本留在 skill。",
+      "confidence": 0.98
+    },
+    {
+      "finding_id": "F04",
+      "severity": "high",
+      "category": "structure",
+      "location": "playbook.json 多字段",
+      "problem": "字段职责混乱。script_hooks、storyboard_focus、director_focus、dialogue_timing_rules、scene_focus 之间多次交叉；例如卡点规则同时出现在 script_hooks、storyboard_focus、director_focus、skill 分镜表达。",
+      "why_it_matters": "同类规则散落多处，人工难判断优先级，也容易出现近重复和冲突。",
+      "recommendation": "将‘卡点/开场30秒/动作三拍/时间触发’统一收束到 storyboard_focus；将镜头执行如‘先拍脸后拍动作’保留在 director_focus；将场景模板与空间锚点留在 scene_focus；script_hooks 只保留题材级开局钩子。",
+      "confidence": 0.95
+    },
+    {
+      "finding_id": "F05",
+      "severity": "medium",
+      "category": "duplicate",
+      "location": "playbook.json::character_focus / costume_focus / scene_focus / skill.md 多处",
+      "problem": "存在大量近重复条目，如‘背叛型伴侣…吸引力与危险感’出现两版；‘第三者角色…’出现两版；‘强势家属/掌权型家属’高度相近；‘妆发要服务近景表情读取’在 costume_focus 与 skill 中反复出现；‘三人同场阵营识别’在人物、场景、分镜多处重复。",
+      "why_it_matters": "近重复会稀释真正有效的规则，且这些条目大多依赖特定现代情感/医院/三角关系模板，不适合作为奇幻题材核心。",
+      "recommendation": "每组只保留信息量最高、适用范围最广的一条；删除依赖‘背叛伴侣/第三者/家属/医生’等特定模板的版本。",
+      "confidence": 0.94
+    },
+    {
+      "finding_id": "F06",
+      "severity": "medium",
+      "category": "clarity",
+      "location": "skill.md::人物塑造",
+      "problem": "存在明显截断文本：‘集尾卡点优先卡在‘关系已发生、后果未揭晓’的瞬间，比单纯人…’。",
+      "why_it_matters": "截断文本保真度低，模型无法稳定理解，且该条本身也更像分镜/卡点规则，不属于人物塑造。",
+      "recommendation": "若能追溯原文则改写完整并移至‘分镜表达’；若无法确认原意则直接删除。",
+      "confidence": 1
+    },
+    {
+      "finding_id": "F07",
+      "severity": "medium",
+      "category": "reasonableness",
+      "location": "playbook.json::scene_focus",
+      "problem": "‘跪地场景人物间距精确：求援者距主角1.2米，质疑者距主角1.8米’过度量化，像单次拍摄经验，不适合作为题材规则。",
+      "why_it_matters": "题材包应提供可迁移原则，不应给出伪精确数值；不同景别、镜头焦段、场地大小下该数值没有稳定适用性。",
+      "recommendation": "改为原则性表述，如‘求援者与主角保持明显近距低位，质疑者保持更远的侧向高位，形成压迫梯度’。",
+      "confidence": 0.97
+    },
+    {
+      "finding_id": "F08",
+      "severity": "medium",
+      "category": "scope",
+      "location": "playbook.json::director_focus / dialogue_timing_rules / skill.md 多处",
+      "problem": "若干条目过于通用，几乎适用于所有短剧，不足以证明‘奇幻’特征，如‘冲突升级时要让每句关键台词都推动局势’、‘传播型金句段应减少切镜频率’、‘专业冲突戏优先用群像全景交代站位’。",
+      "why_it_matters": "正式题材包容量有限，过多通用短剧规则会挤占真正的奇幻规则空间。",
+      "recommendation": "保留少量与奇幻表达强相关的通用规则，其余迁移到更通用的短剧基础包，或删除。",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "F09",
+      "severity": "medium",
+      "category": "missing",
+      "location": "playbook.json::core_audience_promises / character_design_focus",
+      "problem": "两个关键字段为空，且当前包缺少对‘奇幻观众期待’与‘奇幻角色设计共性’的明确抽象。",
+      "why_it_matters": "没有 audience promise，模型难抓住题材爽点；没有角色设计共性，现有内容就会被具体剧模板替代。",
+      "recommendation": "补充少量高质量规则，聚焦‘异常进入日常、规则逐步揭示、能力有代价、世界反馈真实’等奇幻核心期待。",
+      "confidence": 0.96
+    },
+    {
+      "finding_id": "F10",
+      "severity": "high",
+      "category": "missing",
+      "location": "全包层面",
+      "problem": "真正属于奇幻题材的关键能力缺失：世界规则建立、超常能力边界、代价/限制、常人与异常的认知差、奇幻元素如何改变人物选择，而不只是制造打脸。",
+      "why_it_matters": "当前包更像‘现代爽剧里加一点超常’，而不是完整奇幻题材方法论。缺少这些规则会导致生成内容只有异能表演，没有世界感与因果闭环。",
+      "recommendation": "新增少量核心规则：1) 超常能力首次出现必须同时给出可观察后果；2) 能力使用需有代价/限制； 3) 世界规则揭示遵循‘异常现象—误判—局部验证—新规则成立’；4) 奇幻能力必须改变人物关系或选择。",
+      "confidence": 0.95
+    },
+    {
+      "finding_id": "F11",
+      "severity": "medium",
+      "category": "cross_genre_overlap",
+      "location": "playbook.json::character_focus / costume_focus / skill.md::人物塑造/服化道统一",
+      "problem": "‘质疑型配角可复用现代混搭西装+油头模板，适用于多集不同家族’、‘墨绿裙装’、‘现代元素与古风环境冲突’等条目带有强烈具体造型模板痕迹，且互相冲突。",
+      "why_it_matters": "这类条目既不稳定适用于奇幻，也会把模型引向固定审美模板，甚至造成时代背景混乱。",
+      "recommendation": "删除具体服装模板与颜色示例，只保留高层原则，如‘质疑者需高辨识度且与主角阵营形成视觉对立’。",
+      "confidence": 0.92
+    },
+    {
+      "finding_id": "F12",
+      "severity": "medium",
+      "category": "scope",
+      "location": "playbook.json::script_hooks / skill.md::结构与钩子",
+      "problem": "‘奇幻主线推进采用拜帖-邀约-赴约三段式’、‘命运变量型角色’等条目有一定启发性，但更像某类宅门/权贵/命书式子模板，不足以覆盖奇幻整体。",
+      "why_it_matters": "若作为题材级主规则，会把奇幻误收窄为少数叙事模板。",
+      "recommendation": "保留时需明确适用条件，如‘适用于权力邀请/命运召唤型奇幻支线’；否则降级到 skill 中的可选模板，不宜作为 playbook 核心钩子。",
+      "confidence": 0.88
+    }
+  ],
+  "playbook_edit_suggestions": [
+    {
+      "edit_id": "P01",
+      "priority": "high",
+      "action": "remove",
+      "source_field": "continuity_guardrails",
+      "target_field": "continuity_guardrails",
+      "old_text": "后续必须承认本集已公开建立‘叶枫是江天雪男朋友’的对外说法，不能下一集无痕清零",
+      "new_text": "",
+      "reason": "具体人名与具体关系残留，明显属于单剧 continuity，不应保留在题材包。"
+    },
+    {
+      "edit_id": "P02",
+      "priority": "high",
+      "action": "rewrite",
+      "source_field": "continuity_guardrails",
+      "target_field": "continuity_guardrails",
+      "old_text": "后续必须承认男主已在本集结尾恢复视力，不能无痕回退到完全失明状态。",
+      "new_text": "已公开展示的能力变化、身体状态变化或身份变化，后续不得无痕回退；若回退必须给出明确规则原因。",
+      "reason": "将单剧残留抽象为奇幻题材可复用的连续性规则。"
+    },
+    {
+      "edit_id": "P03",
+      "priority": "high",
+      "action": "remove",
+      "source_field": "continuity_guardrails",
+      "target_field": "continuity_guardrails",
+      "old_text": "拜帖数量（八+一）为固定悬念锚点，后续不得修改为‘八封’或‘十封’",
+      "new_text": "",
+      "reason": "过于具体，明显是某部剧的悬念锚点，不具题材复用性。"
+    },
+    {
+      "edit_id": "P04",
+      "priority": "high",
+      "action": "rewrite",
+      "source_field": "scene_focus",
+      "target_field": "scene_focus",
+      "old_text": "跪地场景人物间距精确：求援者距主角1.2米，质疑者距主角1.8米，形成压迫梯度",
+      "new_text": "跪地/求援场景中，求援者应保持明显近距低位，质疑者保持更远的侧向高位，形成清晰压迫梯度。",
+      "reason": "去除伪精确数值，保留可迁移的调度原则。"
+    },
+    {
+      "edit_id": "P05",
+      "priority": "high",
+      "action": "remove",
+      "source_field": "scene_focus",
+      "target_field": "scene_focus",
+      "old_text": "病床居中、家属站侧、医生围床的站位能快速读清关系。",
+      "new_text": "",
+      "reason": "明显属于医院题材或医疗悬疑模板，不是奇幻题材共性。"
+    },
+    {
+      "edit_id": "P06",
+      "priority": "medium",
+      "action": "move",
+      "source_field": "script_hooks",
+      "target_field": "storyboard_focus",
+      "old_text": "集尾优先停在‘决定已做出、方法未展示’的节点，比直接解释答案更能推动下一集点击",
+      "new_text": "集尾优先停在‘决定已做出、方法未展示’的节点，比直接解释答案更能推动下一集点击",
+      "reason": "这是卡点/分镜规则，不是题材钩子；应统一收束到 storyboard_focus。"
+    },
+    {
+      "edit_id": "P07",
+      "priority": "medium",
+      "action": "rewrite",
+      "source_field": "script_hooks",
+      "target_field": "script_hooks",
+      "old_text": "奇幻主线推进采用‘拜帖-邀约-赴约’三段式结构，每段聚焦不同情绪支付点",
+      "new_text": "当奇幻剧情以‘召唤/邀约/赴约’驱动时，可采用三段式推进；每段都应带出新的规则信息或代价信息。",
+      "reason": "保留可用模板，但加上适用条件，避免误当成奇幻通用主线。"
+    },
+    {
+      "edit_id": "P08",
+      "priority": "high",
+      "action": "add",
+      "source_field": "core_audience_promises",
+      "target_field": "core_audience_promises",
+      "old_text": "",
+      "new_text": "奇幻题材应让观众持续获得‘日常秩序被异常规则改写’的惊异感，同时保证异常后果可观察、可追踪、可兑现。",
+      "reason": "当前 audience promise 为空，且这是奇幻题材最核心的观众期待之一。"
+    }
+  ],
+  "skill_edit_suggestions": [
+    {
+      "edit_id": "S01",
+      "priority": "high",
+      "action": "remove",
+      "source_section": "生产红线",
+      "target_section": "生产红线",
+      "old_text": "‘让申家成为顶级权贵’是男主明确承诺，后续若展开身份线应与此能力宣言呼应。",
+      "new_text": "",
+      "reason": "具体剧残留，污染严重。"
+    },
+    {
+      "edit_id": "S02",
+      "priority": "high",
+      "action": "remove",
+      "source_section": "生产红线",
+      "target_section": "生产红线",
+      "old_text": "豪宅客厅、盲杖、墨镜、挂钟、雪糕等关键锚点若回闪或续接，应保持一致性。",
+      "new_text": "",
+      "reason": "具体道具残留，不是题材级知识。"
+    },
+    {
+      "edit_id": "S03",
+      "priority": "high",
+      "action": "rewrite",
+      "source_section": "人物塑造",
+      "target_section": "分镜表达",
+      "old_text": "集尾卡点优先卡在‘关系已发生、后果未揭晓’的瞬间，比单纯人…",
+      "new_text": "集尾卡点优先停在‘关系已发生、后果未揭晓’的瞬间，比单纯人物喊话更能制造追看动力。",
+      "reason": "修复截断文本，并移动到更合适的章节。"
+    },
+    {
+      "edit_id": "S04",
+      "priority": "medium",
+      "action": "remove",
+      "source_section": "场景与调度",
+      "target_section": "场景与调度",
+      "old_text": "病床居中、家属站侧、医生围床的站位能快速读清关系。",
+      "new_text": "",
+      "reason": "医院模板经验，不宜留在奇幻 skill。"
+    },
+    {
+      "edit_id": "S05",
+      "priority": "medium",
+      "action": "rewrite",
+      "source_section": "人物塑造",
+      "target_section": "人物塑造",
+      "old_text": "质疑型配角可复用‘现代混搭西装+油头’模板，适用于多集不同家族",
+      "new_text": "质疑型配角应具备高辨识度外形，并与主角阵营形成明确视觉对立，但不应固化为单一服装模板。",
+      "reason": "去除具体造型模板，提升泛化能力。"
+    },
+    {
+      "edit_id": "S06",
+      "priority": "medium",
+      "action": "remove",
+      "source_section": "服化道统一",
+      "target_section": "服化道统一",
+      "old_text": "医院题材中的关键年轻人物宜用低饱和、简洁制服，避免过度时装化削弱可信度",
+      "new_text": "",
+      "reason": "明显跨到医院题材，不属于奇幻 skill 核心。"
+    },
+    {
+      "edit_id": "S07",
+      "priority": "high",
+      "action": "add",
+      "source_section": "结构与钩子",
+      "target_section": "结构与钩子",
+      "old_text": "",
+      "new_text": "奇幻规则的揭示宜遵循‘异常现象出现—常人误判—局部验证—新规则成立’的顺序，避免一上来用设定说明书替代戏剧推进。",
+      "reason": "补足真正缺失的奇幻方法论核心。"
+    },
+    {
+      "edit_id": "S08",
+      "priority": "high",
+      "action": "add",
+      "source_section": "生产红线",
+      "target_section": "生产红线",
+      "old_text": "",
+      "new_text": "超常能力一旦介入剧情，必须同时留下可观察后果或代价；若只有炫示没有后果，奇幻感会迅速失真。",
+      "reason": "补足奇幻题材最关键的可信度约束。"
+    }
+  ],
+  "questions_for_human": [
+    "当前包是否本来就是从若干‘现代奇幻短剧’样本中抽取的？如果是，是否接受将大量现代情感/医院/背叛模板经验下沉到子题材，而不是保留在‘奇幻’总包？",
+    "‘奇幻’在你们体系里是否需要覆盖现代奇幻、宅门奇幻、医疗奇幻、权贵奇幻等混合型子类？若需要，建议明确哪些规则可作为总包共性，哪些应拆到子包。",
+    "对于‘拜帖-邀约-赴约’‘命运变量型角色’这类模板，你们希望它们作为核心规则，还是作为可选叙事模板保留在 skill？",
+    "是否有可用的上位通用包（如短剧节奏/导演执行/群像调度）可承接那些过于通用的规则？若有，本包应进一步瘦身。",
+    "空字段 core_audience_promises 与 character_design_focus 是否允许补 1-3 条高质量规则，还是当前阶段只做清洗不做新增？"
+  ]
+}

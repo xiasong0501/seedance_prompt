@@ -1,0 +1,50 @@
+{
+  "__comment": "示例配置。复制为 video_pipeline.local.json 后再填入真实 API key 和视频路径。",
+  "providers": {
+    "openai": {
+      "api_key": "",
+      "model": "gpt-5",
+      "image_detail": "low"
+    },
+    "qwen": {
+      "api_key": "",
+      "model": "qwen3-vl-plus",
+      "endpoint": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+      "structured_output_mode": "json_object",
+      "max_analysis_frames": 20,
+      "video_fps": 2.0
+    },
+    "gemini": {
+      "api_key": "",
+      "model": "gemini-3-pro-preview"
+    }
+  },
+  "run": {
+    "selected_provider": "gemini",
+    "episode_id": "ep01",
+    "title": "第1集",
+    "series_name": "待填写剧名",
+    "video_path": "videos/待填写视频.mp4",
+    "language": "zh-CN",
+    "analysis_root": "analysis",
+    "script_root": "script",
+    "skip_preprocess": false,
+    "only_preprocess": false,
+    "reuse_preprocess_if_exists": true
+  },
+  "preprocess": {
+    "output_root": "analysis",
+    "asr_model_size": "small",
+    "asr_language": "zh",
+    "asr_device": "auto",
+    "asr_compute_type": "auto",
+    "asr_beam_size": 5,
+    "asr_enable_dual_track_fusion": false,
+    "shot_threshold": 27.0,
+    "shot_min_scene_len": 15,
+    "max_keyframes": null,
+    "ocr_crop_bottom_ratio": 0.35,
+    "ocr_sample_interval_seconds": 0.5,
+    "keyframe_scale_ratio": 0.5
+  }
+}

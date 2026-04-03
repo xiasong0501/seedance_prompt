@@ -1,0 +1,439 @@
+{
+  "genre_key": "大女主",
+  "source_series": "桃烬九重天",
+  "playbook_update_candidates": [
+    {
+      "genre_key": "大女主",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "高光场优先给思考→决断→执行三段，而非只拍结果",
+      "full_text": "高光场优先给思考→决断→执行三段，而非只拍结果",
+      "preview_text": "高光场优先给思考→决断→执行三段，而非只拍结果",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "高光场优先给思考",
+        "执行三段",
+        "决断"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“高光场优先给思考、执行三段、决断”高度相关。 命中了当前题材叙事核心词“高光场优先给思考、执行三段、决断”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.27,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "大女主",
+      "target_field": "negative_patterns",
+      "target_field_label": "负面模式",
+      "text": "不要把大女主写成只会发火或说狠话的空壳强者；能力必须解决具体问题",
+      "full_text": "不要把大女主写成只会发火或说狠话的空壳强者；能力必须解决具体问题",
+      "preview_text": "不要把大女主写成只会发火或说狠话的空壳强者",
+      "confidence": 0.97,
+      "matched_keywords": [
+        "大女主",
+        "能力"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“大女主、能力”高度相关。 命中了当前题材叙事核心词“大女主、能力”。 当前题材别名命中“大女主”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.66,
+      "genre_confidence_gap": 0.24,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "大女主",
+      "target_field": "script_hooks",
+      "target_field_label": "剧情抓点",
+      "text": "大女主首集屈辱→次集规则重写结构：1) 被定义 2) 被公开审判 3) 他人代行裁决 4) 她被卷入新规则",
+      "full_text": "大女主首集屈辱→次集规则重写结构：1) 被定义 2) 被公开审判 3) 他人代行裁决 4) 她被卷入新规则",
+      "preview_text": "大女主首集屈辱→次集规则重写结构：1)被定义2)被公开审判…",
+      "confidence": 0.96,
+      "matched_keywords": [
+        "大女主"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“大女主”高度相关。 命中了当前题材叙事核心词“大女主”。 当前题材别名命中“大女主”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.22,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "大女主",
+      "target_field": "negative_patterns",
+      "target_field_label": "负面模式",
+      "text": "不要把大女主写成只会发火或说狠话的空壳强者；她的强在于判断力与边界感",
+      "full_text": "不要把大女主写成只会发火或说狠话的空壳强者；她的强在于判断力与边界感",
+      "preview_text": "不要把大女主写成只会发火或说狠话的空壳强者",
+      "confidence": 0.95,
+      "matched_keywords": [
+        "大女主"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“大女主”高度相关。 命中了当前题材叙事核心词“大女主”。 当前题材别名命中“大女主”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.66,
+      "genre_confidence_gap": 0.22,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "大女主",
+      "target_field": "continuity_guardrails",
+      "target_field_label": "连续性红线",
+      "text": "女主一旦建立能力标签（微尘粒子），后续失败必须给出更强阻力而非强行降智",
+      "full_text": "女主一旦建立能力标签（微尘粒子），后续失败必须给出更强阻力而非强行降智",
+      "preview_text": "女主一旦建立能力标签（微尘粒子），后续失败必须给出更强阻力…",
+      "confidence": 0.94,
+      "matched_keywords": [
+        "女主一旦建立能力标签",
+        "能力"
+      ],
+      "reason": "来自连续性红线，且与当前题材关键词“女主一旦建立能力标签、能力”高度相关。 命中了当前题材叙事核心词“能力”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.72,
+      "genre_confidence_gap": 0.19,
+      "source_type": "continuity_guardrails",
+      "source_label": "连续性红线"
+    },
+    {
+      "genre_key": "大女主",
+      "target_field": "negative_patterns",
+      "target_field_label": "负面模式",
+      "text": "避免让女主在能力揭示前有主动微笑/抬头动作（破坏人设可信度）",
+      "full_text": "避免让女主在能力揭示前有主动微笑/抬头动作（破坏人设可信度）",
+      "preview_text": "避免让女主在能力揭示前有主动微笑/抬头动作（破坏人设可信度）",
+      "confidence": 0.93,
+      "matched_keywords": [
+        "避免让女主在能力揭示前有主动微笑",
+        "抬头动作（破坏人设可信度）",
+        "能力"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“避免让女主在能力揭示前有主动微笑、抬头动作（破坏人设可信度）、能力”高度相关。 命中了当前题材叙事核心词“能力”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.66,
+      "genre_confidence_gap": 0.24,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "大女主",
+      "target_field": "continuity_guardrails",
+      "target_field_label": "连续性红线",
+      "text": "天帝羞耻感=克制动作（捂鼻/垂眸）+无笑容；禁止在能力揭示前展现‘眼神坚定’",
+      "full_text": "天帝羞耻感=克制动作（捂鼻/垂眸）+无笑容；禁止在能力揭示前展现‘眼神坚定’",
+      "preview_text": "天帝羞耻感=克制动作（捂鼻/垂眸）+无笑容",
+      "confidence": 0.89,
+      "matched_keywords": [
+        "能力"
+      ],
+      "reason": "来自连续性红线，且与当前题材关键词“能力”高度相关。 命中了当前题材叙事核心词“能力”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.72,
+      "genre_confidence_gap": 0.14,
+      "source_type": "continuity_guardrails",
+      "source_label": "连续性红线"
+    },
+    {
+      "genre_key": "大女主",
+      "target_field": "character_focus",
+      "target_field_label": "人物设计重点",
+      "text": "女主的强体现在‘问题-行动-结果’闭环中，而非口号；每集必须有一项具体能力落地（如微尘粒子）",
+      "full_text": "女主的强体现在‘问题-行动-结果’闭环中，而非口号；每集必须有一项具体能力落地（如微尘粒子）",
+      "preview_text": "女主的强体现在‘问题-行动-结果’闭环中，而非口号",
+      "confidence": 0.87,
+      "matched_keywords": [
+        "能力"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“能力”高度相关。 命中了当前题材叙事核心词“能力”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.14,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "大女主",
+      "target_field": "character_focus",
+      "target_field_label": "人物设计重点",
+      "text": "女主的‘能力面’必须具象化为可拍摄的微动作（如指尖悬停0.3s+微尘粒子），而非仅靠台词宣称",
+      "full_text": "女主的‘能力面’必须具象化为可拍摄的微动作（如指尖悬停0.3s+微尘粒子），而非仅靠台词宣称",
+      "preview_text": "女主的‘能力面’必须具象化为可拍摄的微动作（如指尖悬停0.…",
+      "confidence": 0.87,
+      "matched_keywords": [
+        "能力"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“能力”高度相关。 命中了当前题材叙事核心词“能力”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.14,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "大女主",
+      "target_field": "character_focus",
+      "target_field_label": "人物设计重点",
+      "text": "女主在能力揭示前，禁止任何主动微笑/抬头/靠近动作——维持‘被误读’可信度",
+      "full_text": "女主在能力揭示前，禁止任何主动微笑/抬头/靠近动作——维持‘被误读’可信度",
+      "preview_text": "女主在能力揭示前，禁止任何主动微笑/抬头/靠近动作——维持…",
+      "confidence": 0.87,
+      "matched_keywords": [
+        "能力"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“能力”高度相关。 命中了当前题材叙事核心词“能力”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.14,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "大女主",
+      "target_field": "director_focus",
+      "target_field_label": "导演重点",
+      "text": "能力触发标准分镜：指尖悬停0.3s + 微尘粒子 + 破损材质反光",
+      "full_text": "能力触发标准分镜：指尖悬停0.3s + 微尘粒子 + 破损材质反光",
+      "preview_text": "能力触发标准分镜：指尖悬停0.3s+微尘粒子+破损材质反光",
+      "confidence": 0.86,
+      "matched_keywords": [
+        "能力"
+      ],
+      "reason": "来自镜头语言规则，且与当前题材关键词“能力”高度相关。 命中了当前题材叙事核心词“能力”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.69,
+      "genre_confidence_gap": 0.14,
+      "source_type": "camera_language_rules",
+      "source_label": "镜头语言规则"
+    }
+  ],
+  "skill_update_candidates": [
+    {
+      "genre_key": "大女主",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "高光场优先给思考→决断→执行三段，而非只拍结果",
+      "full_text": "高光场优先给思考→决断→执行三段，而非只拍结果",
+      "preview_text": "高光场优先给思考→决断→执行三段，而非只拍结果",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "高光场优先给思考",
+        "执行三段",
+        "决断"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“高光场优先给思考、执行三段、决断”高度相关。 命中了当前题材叙事核心词“高光场优先给思考、执行三段、决断”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.27,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "大女主",
+      "section": "生产红线",
+      "section_label": "生产红线",
+      "text": "不要把大女主写成只会发火或说狠话的空壳强者；能力必须解决具体问题",
+      "full_text": "不要把大女主写成只会发火或说狠话的空壳强者；能力必须解决具体问题",
+      "preview_text": "不要把大女主写成只会发火或说狠话的空壳强者",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "大女主",
+        "能力"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“大女主、能力”高度相关。 命中了当前题材叙事核心词“大女主、能力”。 当前题材别名命中“大女主”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.24,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "大女主",
+      "section": "生产红线",
+      "section_label": "生产红线",
+      "text": "不要把大女主写成只会发火或说狠话的空壳强者；她的强在于判断力与边界感",
+      "full_text": "不要把大女主写成只会发火或说狠话的空壳强者；她的强在于判断力与边界感",
+      "preview_text": "不要把大女主写成只会发火或说狠话的空壳强者",
+      "confidence": 0.99,
+      "matched_keywords": [
+        "大女主"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“大女主”高度相关。 命中了当前题材叙事核心词“大女主”。 当前题材别名命中“大女主”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.22,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "大女主",
+      "section": "生产红线",
+      "section_label": "生产红线",
+      "text": "女主一旦建立能力标签（微尘粒子），后续失败必须给出更强阻力而非强行降智",
+      "full_text": "女主一旦建立能力标签（微尘粒子），后续失败必须给出更强阻力而非强行降智",
+      "preview_text": "女主一旦建立能力标签（微尘粒子），后续失败必须给出更强阻力…",
+      "confidence": 0.98,
+      "matched_keywords": [
+        "女主一旦建立能力标签",
+        "能力"
+      ],
+      "reason": "来自连续性红线，且与当前题材关键词“女主一旦建立能力标签、能力”高度相关。 命中了当前题材叙事核心词“能力”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.76,
+      "genre_confidence_gap": 0.19,
+      "source_type": "continuity_guardrails",
+      "source_label": "连续性红线"
+    },
+    {
+      "genre_key": "大女主",
+      "section": "生产红线",
+      "section_label": "生产红线",
+      "text": "避免让女主在能力揭示前有主动微笑/抬头动作（破坏人设可信度）",
+      "full_text": "避免让女主在能力揭示前有主动微笑/抬头动作（破坏人设可信度）",
+      "preview_text": "避免让女主在能力揭示前有主动微笑/抬头动作（破坏人设可信度）",
+      "confidence": 0.97,
+      "matched_keywords": [
+        "避免让女主在能力揭示前有主动微笑",
+        "抬头动作（破坏人设可信度）",
+        "能力"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“避免让女主在能力揭示前有主动微笑、抬头动作（破坏人设可信度）、能力”高度相关。 命中了当前题材叙事核心词“能力”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.24,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "大女主",
+      "section": "人物塑造",
+      "section_label": "人物塑造",
+      "text": "大女主首集屈辱→次集规则重写结构：1) 被定义 2) 被公开审判 3) 他人代行裁决 4) 她被卷入新规则",
+      "full_text": "大女主首集屈辱→次集规则重写结构：1) 被定义 2) 被公开审判 3) 他人代行裁决 4) 她被卷入新规则",
+      "preview_text": "大女主首集屈辱→次集规则重写结构：1)被定义2)被公开审判…",
+      "confidence": 0.93,
+      "matched_keywords": [
+        "大女主"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“大女主”高度相关。 命中了当前题材叙事核心词“大女主”。 当前题材别名命中“大女主”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.64,
+      "genre_confidence_gap": 0.22,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "大女主",
+      "section": "生产红线",
+      "section_label": "生产红线",
+      "text": "天帝羞耻感=克制动作（捂鼻/垂眸）+无笑容；禁止在能力揭示前展现‘眼神坚定’",
+      "full_text": "天帝羞耻感=克制动作（捂鼻/垂眸）+无笑容；禁止在能力揭示前展现‘眼神坚定’",
+      "preview_text": "天帝羞耻感=克制动作（捂鼻/垂眸）+无笑容",
+      "confidence": 0.93,
+      "matched_keywords": [
+        "能力"
+      ],
+      "reason": "来自连续性红线，且与当前题材关键词“能力”高度相关。 命中了当前题材叙事核心词“能力”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.76,
+      "genre_confidence_gap": 0.14,
+      "source_type": "continuity_guardrails",
+      "source_label": "连续性红线"
+    },
+    {
+      "genre_key": "大女主",
+      "section": "人物塑造",
+      "section_label": "人物塑造",
+      "text": "女主的强体现在‘问题-行动-结果’闭环中，而非口号；每集必须有一项具体能力落地（如微尘粒子）",
+      "full_text": "女主的强体现在‘问题-行动-结果’闭环中，而非口号；每集必须有一项具体能力落地（如微尘粒子）",
+      "preview_text": "女主的强体现在‘问题-行动-结果’闭环中，而非口号",
+      "confidence": 0.9,
+      "matched_keywords": [
+        "能力"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“能力”高度相关。 命中了当前题材叙事核心词“能力”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.73,
+      "genre_confidence_gap": 0.14,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "大女主",
+      "section": "人物塑造",
+      "section_label": "人物塑造",
+      "text": "女主的‘能力面’必须具象化为可拍摄的微动作（如指尖悬停0.3s+微尘粒子），而非仅靠台词宣称",
+      "full_text": "女主的‘能力面’必须具象化为可拍摄的微动作（如指尖悬停0.3s+微尘粒子），而非仅靠台词宣称",
+      "preview_text": "女主的‘能力面’必须具象化为可拍摄的微动作（如指尖悬停0.…",
+      "confidence": 0.9,
+      "matched_keywords": [
+        "能力"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“能力”高度相关。 命中了当前题材叙事核心词“能力”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.73,
+      "genre_confidence_gap": 0.14,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "大女主",
+      "section": "人物塑造",
+      "section_label": "人物塑造",
+      "text": "女主在能力揭示前，禁止任何主动微笑/抬头/靠近动作——维持‘被误读’可信度",
+      "full_text": "女主在能力揭示前，禁止任何主动微笑/抬头/靠近动作——维持‘被误读’可信度",
+      "preview_text": "女主在能力揭示前，禁止任何主动微笑/抬头/靠近动作——维持…",
+      "confidence": 0.9,
+      "matched_keywords": [
+        "能力"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“能力”高度相关。 命中了当前题材叙事核心词“能力”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.73,
+      "genre_confidence_gap": 0.14,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "大女主",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "能力触发标准分镜：指尖悬停0.3s + 微尘粒子 + 破损材质反光",
+      "full_text": "能力触发标准分镜：指尖悬停0.3s + 微尘粒子 + 破损材质反光",
+      "preview_text": "能力触发标准分镜：指尖悬停0.3s+微尘粒子+破损材质反光",
+      "confidence": 0.86,
+      "matched_keywords": [
+        "能力"
+      ],
+      "reason": "来自镜头语言规则，且与当前题材关键词“能力”高度相关。 命中了当前题材叙事核心词“能力”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.69,
+      "genre_confidence_gap": 0.14,
+      "source_type": "camera_language_rules",
+      "source_label": "镜头语言规则"
+    }
+  ],
+  "_source_series": "桃烬九重天"
+}

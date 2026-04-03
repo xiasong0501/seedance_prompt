@@ -1,0 +1,123 @@
+{
+  "genre_key": "大女主",
+  "source_series": "曼陀罗",
+  "mode": "ranked_update_candidates",
+  "playbook_update_candidates": [
+    {
+      "genre_key": "大女主",
+      "target_field": "director_focus",
+      "target_field_label": "导演重点",
+      "text": "身份揭示时刻（如男主回眸）必须跳轴正反打，打破常规对话轴线以标志话语权转移",
+      "full_text": "身份揭示时刻（如男主回眸）必须跳轴正反打，打破常规对话轴线以标志话语权转移",
+      "preview_text": "身份揭示时刻（如男主回眸）必须跳轴正反打，打破常规对话轴线…",
+      "confidence": 0.89,
+      "matched_keywords": [
+        "打破常规对话轴线以标志话语权转移"
+      ],
+      "reason": "来自镜头语言规则，且与当前题材关键词“打破常规对话轴线以标志话语权转移”高度相关。 命中了当前题材叙事核心词“打破常规对话轴线以标志话语权转移”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.69,
+      "genre_confidence_gap": 0.17,
+      "source_type": "camera_language_rules",
+      "source_label": "镜头语言规则"
+    },
+    {
+      "genre_key": "大女主",
+      "target_field": "negative_patterns",
+      "target_field_label": "负面模式",
+      "text": "禁止让女主在能力/记忆未恢复前主动微笑或抬头（破坏人设可信度）",
+      "full_text": "禁止让女主在能力/记忆未恢复前主动微笑或抬头（破坏人设可信度）",
+      "preview_text": "禁止让女主在能力/记忆未恢复前主动微笑或抬头（破坏人设可信…",
+      "confidence": 0.83,
+      "matched_keywords": [
+        "能力"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“能力”高度相关。 命中了当前题材叙事核心词“能力”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.66,
+      "genre_confidence_gap": 0.14,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "大女主",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "手部动作设计原则：紧张时握拳→犹豫时悬停→决断时展开，三阶段可视化",
+      "full_text": "手部动作设计原则：紧张时握拳→犹豫时悬停→决断时展开，三阶段可视化",
+      "preview_text": "手部动作设计原则：紧张时握拳→犹豫时悬停→决断时展开，三阶…",
+      "confidence": 0.82,
+      "matched_keywords": [
+        "决断"
+      ],
+      "reason": "来自整剧方法规则，且与当前题材关键词“决断”高度相关。 命中了当前题材叙事核心词“决断”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.62,
+      "genre_confidence_gap": 0.17,
+      "source_type": "reusable_skill_rules",
+      "source_label": "整剧方法规则"
+    }
+  ],
+  "skill_update_candidates": [
+    {
+      "genre_key": "大女主",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "身份揭示时刻（如男主回眸）必须跳轴正反打，打破常规对话轴线以标志话语权转移",
+      "full_text": "身份揭示时刻（如男主回眸）必须跳轴正反打，打破常规对话轴线以标志话语权转移",
+      "preview_text": "身份揭示时刻（如男主回眸）必须跳轴正反打，打破常规对话轴线…",
+      "confidence": 0.89,
+      "matched_keywords": [
+        "打破常规对话轴线以标志话语权转移"
+      ],
+      "reason": "来自镜头语言规则，且与当前题材关键词“打破常规对话轴线以标志话语权转移”高度相关。 命中了当前题材叙事核心词“打破常规对话轴线以标志话语权转移”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.69,
+      "genre_confidence_gap": 0.17,
+      "source_type": "camera_language_rules",
+      "source_label": "镜头语言规则"
+    },
+    {
+      "genre_key": "大女主",
+      "section": "生产红线",
+      "section_label": "生产红线",
+      "text": "禁止让女主在能力/记忆未恢复前主动微笑或抬头（破坏人设可信度）",
+      "full_text": "禁止让女主在能力/记忆未恢复前主动微笑或抬头（破坏人设可信度）",
+      "preview_text": "禁止让女主在能力/记忆未恢复前主动微笑或抬头（破坏人设可信…",
+      "confidence": 0.87,
+      "matched_keywords": [
+        "能力"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“能力”高度相关。 命中了当前题材叙事核心词“能力”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.14,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "大女主",
+      "section": "结构与钩子",
+      "section_label": "结构与钩子",
+      "text": "手部动作设计原则：紧张时握拳→犹豫时悬停→决断时展开，三阶段可视化",
+      "full_text": "手部动作设计原则：紧张时握拳→犹豫时悬停→决断时展开，三阶段可视化",
+      "preview_text": "手部动作设计原则：紧张时握拳→犹豫时悬停→决断时展开，三阶…",
+      "confidence": 0.82,
+      "matched_keywords": [
+        "决断"
+      ],
+      "reason": "来自整剧方法规则，且与当前题材关键词“决断”高度相关。 命中了当前题材叙事核心词“决断”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.62,
+      "genre_confidence_gap": 0.17,
+      "source_type": "reusable_skill_rules",
+      "source_label": "整剧方法规则"
+    }
+  ]
+}

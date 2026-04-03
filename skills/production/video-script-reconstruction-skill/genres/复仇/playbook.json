@@ -1,0 +1,14 @@
+{
+  "genre_key": "复仇",
+  "aliases": [
+    "复仇"
+  ],
+  "core_audience_promises": [],
+  "script_hooks": [],
+  "character_design_focus": [],
+  "scene_design_focus": [],
+  "storyboard_focus": [],
+  "dialogue_timing_rules": [
+    "威胁/承诺类台词必须 preceded by 视觉停顿（呼吸/眨眼），如‘你就打我吧’前0.2s屏息"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "genre_key": "奇幻",
+  "mode": "apply_existing_draft_dry_run",
+  "selected_draft_dir": "/mnt/myvg/Agent/Seedance2.0_AI/skills/production/video-script-reconstruction-skill/genres/__drafts__/audit__奇幻__20260326031055",
+  "judgement_path": "/mnt/myvg/Agent/Seedance2.0_AI/skills/production/video-script-reconstruction-skill/genres/__drafts__/audit__奇幻__20260326031055/judgement.json",
+  "accepted_playbook_count": 4,
+  "accepted_skill_count": 4,
+  "refine_summary": "本次修订按已采纳建议，重点清除了奇幻题材包中的具体剧残留与不具复用性的连续性条目，尤其删除了带专有人名和医疗悬疑续接的 guardrail。保留了原包中仍有效的低成本奇幻表达经验，并将一条连续性规则改写为更通用的“超常后果需规则解释或因果回收”。同时，对 skill 中已采纳的条目进行了删除、改写与归类调整，避免与 playbook 逐字重复，并把“重特效非必要”的方法论移回更合适的“结构与钩子”部分。整体上未擅自扩写新设定，而是在保留有效经验的前提下，让内容更聚焦于可复用的现代/低成本奇幻表达。",
+  "official_playbook_path": "/mnt/myvg/Agent/Seedance2.0_AI/skills/production/video-script-reconstruction-skill/genres/奇幻/playbook.json",
+  "official_skill_path": "/mnt/myvg/Agent/Seedance2.0_AI/skills/production/video-script-reconstruction-skill/genres/奇幻/skill.md"
+}

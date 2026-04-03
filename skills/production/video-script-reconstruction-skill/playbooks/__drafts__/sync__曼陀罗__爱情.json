@@ -1,0 +1,385 @@
+{
+  "genre_key": "爱情",
+  "source_series": "曼陀罗",
+  "playbook_update_candidates": [
+    {
+      "genre_key": "爱情",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "情感道具出场时，必须先给微距材质→再给人物触碰→最后给瞳孔倒影，三镜头闭环",
+      "full_text": "情感道具出场时，必须先给微距材质→再给人物触碰→最后给瞳孔倒影，三镜头闭环",
+      "preview_text": "情感道具出场时，必须先给微距材质→再给人物触碰→最后给瞳孔…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "三镜头闭环",
+        "情感"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“三镜头闭环、情感”高度相关。 命中了当前题材叙事核心词“三镜头闭环、情感”。 当前题材别名命中“情感”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.27,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "costume_focus",
+      "target_field_label": "服化道重点",
+      "text": "情感道具（荷包/围巾等）主色需与女主外套形成互补（白+青绿），避免同色系淹没",
+      "full_text": "情感道具（荷包/围巾等）主色需与女主外套形成互补（白+青绿），避免同色系淹没",
+      "preview_text": "情感道具（荷包/围巾等）主色需与女主外套形成互补（白+青绿…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "情感",
+        "围巾"
+      ],
+      "reason": "来自服化道统一规则，且与当前题材关键词“情感、围巾”高度相关。 命中了当前题材叙事核心词“情感”。 当前题材别名命中“情感”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.68,
+      "genre_confidence_gap": 0.27,
+      "source_type": "costume_makeup_rules",
+      "source_label": "服化道统一规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "集尾卡点严格遵循‘动作悬停+表情突变+字幕淡入+停帧2秒’四步公式，不可增删",
+      "full_text": "集尾卡点严格遵循‘动作悬停+表情突变+字幕淡入+停帧2秒’四步公式，不可增删",
+      "preview_text": "集尾卡点严格遵循‘动作悬停+表情突变+字幕淡入+停帧2秒’…",
+      "confidence": 0.96,
+      "matched_keywords": [
+        "字幕淡入",
+        "停帧2秒"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“字幕淡入、停帧2秒”高度相关。 命中了当前题材叙事核心词“字幕淡入、停帧2秒”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.22,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "costume_focus",
+      "target_field_label": "服化道重点",
+      "text": "女主眼镜框必须为黑圆型（非方/猫眼），确保近景眼神可读；妆容极简，仅唇色微粉（#E8C4C4）",
+      "full_text": "女主眼镜框必须为黑圆型（非方/猫眼），确保近景眼神可读；妆容极简，仅唇色微粉（#E8C4C4）",
+      "preview_text": "女主眼镜框必须为黑圆型（非方/猫眼），确保近景眼神可读",
+      "confidence": 0.93,
+      "matched_keywords": [
+        "仅唇色微粉",
+        "眼神"
+      ],
+      "reason": "来自服化道统一规则，且与当前题材关键词“仅唇色微粉、眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.68,
+      "genre_confidence_gap": 0.22,
+      "source_type": "costume_makeup_rules",
+      "source_label": "服化道统一规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "dialogue_timing_rules",
+      "target_field_label": "台词时间规则",
+      "text": "女主回应前必有0.2秒眼神停顿（非低头），体现思考过程而非逃避",
+      "full_text": "女主回应前必有0.2秒眼神停顿（非低头），体现思考过程而非逃避",
+      "preview_text": "女主回应前必有0.2秒眼神停顿（非低头），体现思考过程而非…",
+      "confidence": 0.92,
+      "matched_keywords": [
+        "体现思考过程",
+        "眼神"
+      ],
+      "reason": "来自台词时间规则，且与当前题材关键词“体现思考过程、眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.22,
+      "source_type": "dialogue_timing_rules",
+      "source_label": "台词时间规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "character_focus",
+      "target_field_label": "人物设计重点",
+      "text": "男性角色首次登场时，服装应弱化攻击性（浅灰/米白），用眼神与微表情建立压迫感，而非台词或肢体",
+      "full_text": "男性角色首次登场时，服装应弱化攻击性（浅灰/米白），用眼神与微表情建立压迫感，而非台词或肢体",
+      "preview_text": "男性角色首次登场时，服装应弱化攻击性（浅灰/米白）",
+      "confidence": 0.9,
+      "matched_keywords": [
+        "眼神"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.17,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "集尾按钮：侧脸占2/3画面 + 眼神骤冷（非怒） + 字幕淡入 + 黑屏前停帧2秒",
+      "full_text": "集尾按钮：侧脸占2/3画面 + 眼神骤冷（非怒） + 字幕淡入 + 黑屏前停帧2秒",
+      "preview_text": "集尾按钮：侧脸占2/3画面+眼神骤冷（非怒）+字幕淡入+黑…",
+      "confidence": 0.89,
+      "matched_keywords": [
+        "眼神骤冷",
+        "字幕淡入",
+        "停帧2秒",
+        "3画面"
+      ],
+      "reason": "来自storyboard_execution_patterns，且与当前题材关键词“眼神骤冷、字幕淡入、停帧2秒、3画面”高度相关。 命中了当前题材叙事核心词“眼神骤冷、字幕淡入、停帧2秒”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.56,
+      "genre_confidence_gap": 0.3,
+      "source_type": "storyboard_execution_patterns",
+      "source_label": "storyboard_execution_patterns"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "dialogue_timing_rules",
+      "target_field_label": "台词时间规则",
+      "text": "关键信息（如‘二娃名字’）由旁人说出，女主沉默接收，强化认知差爽点",
+      "full_text": "关键信息（如‘二娃名字’）由旁人说出，女主沉默接收，强化认知差爽点",
+      "preview_text": "关键信息（如‘二娃名字’）由旁人说出，女主沉默接收",
+      "confidence": 0.87,
+      "matched_keywords": [
+        "沉默"
+      ],
+      "reason": "来自台词时间规则，且与当前题材关键词“沉默”高度相关。 命中了当前题材叙事核心词“沉默”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.17,
+      "source_type": "dialogue_timing_rules",
+      "source_label": "台词时间规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "director_focus",
+      "target_field_label": "导演重点",
+      "text": "俯拍跪姿→仰拍站立：三镜头闭环表现地位反转，适用于后续打脸戏",
+      "full_text": "俯拍跪姿→仰拍站立：三镜头闭环表现地位反转，适用于后续打脸戏",
+      "preview_text": "俯拍跪姿→仰拍站立：三镜头闭环表现地位反转，适用于后续打脸戏",
+      "confidence": 0.76,
+      "matched_keywords": [
+        "三镜头闭环"
+      ],
+      "reason": "来自camera_language_patterns，且与当前题材关键词“三镜头闭环”高度相关。 命中了当前题材叙事核心词“三镜头闭环”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.56,
+      "genre_confidence_gap": 0.17,
+      "source_type": "camera_language_patterns",
+      "source_label": "camera_language_patterns"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "情绪支付点：0.5秒停顿 + 呼吸起伏 + 手部微动 → 切反应镜头（他人惊讶/沉默）",
+      "full_text": "情绪支付点：0.5秒停顿 + 呼吸起伏 + 手部微动 → 切反应镜头（他人惊讶/沉默）",
+      "preview_text": "情绪支付点：0.5秒停顿+呼吸起伏+手部微动→切反应镜头（…",
+      "confidence": 0.76,
+      "matched_keywords": [
+        "沉默"
+      ],
+      "reason": "来自storyboard_execution_patterns，且与当前题材关键词“沉默”高度相关。 命中了当前题材叙事核心词“沉默”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.56,
+      "genre_confidence_gap": 0.17,
+      "source_type": "storyboard_execution_patterns",
+      "source_label": "storyboard_execution_patterns"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "script_hooks",
+      "target_field_label": "剧情抓点",
+      "text": "双线并置卡点模板：左1/3女主动作特写 + 右2/3男主凝视 + 中文字幕；适用于重逢/认领/背叛前夜",
+      "full_text": "双线并置卡点模板：左1/3女主动作特写 + 右2/3男主凝视 + 中文字幕；适用于重逢/认领/背叛前夜",
+      "preview_text": "双线并置卡点模板：左1/3女主动作特写+右2/3男主凝视+…",
+      "confidence": 0.72,
+      "matched_keywords": [
+        "重逢",
+        "认领"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“重逢、认领”高度相关。 命中了当前题材叙事核心词“重逢、认领”。 它与“大女主”的区分度很弱（差值 0.02）。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.81,
+      "genre_confidence_gap": 0.02,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    }
+  ],
+  "skill_update_candidates": [
+    {
+      "genre_key": "爱情",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "情感道具出场时，必须先给微距材质→再给人物触碰→最后给瞳孔倒影，三镜头闭环",
+      "full_text": "情感道具出场时，必须先给微距材质→再给人物触碰→最后给瞳孔倒影，三镜头闭环",
+      "preview_text": "情感道具出场时，必须先给微距材质→再给人物触碰→最后给瞳孔…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "三镜头闭环",
+        "情感"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“三镜头闭环、情感”高度相关。 命中了当前题材叙事核心词“三镜头闭环、情感”。 当前题材别名命中“情感”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.27,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "服化道统一",
+      "section_label": "服化道统一",
+      "text": "情感道具（荷包/围巾等）主色需与女主外套形成互补（白+青绿），避免同色系淹没",
+      "full_text": "情感道具（荷包/围巾等）主色需与女主外套形成互补（白+青绿），避免同色系淹没",
+      "preview_text": "情感道具（荷包/围巾等）主色需与女主外套形成互补（白+青绿…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "情感",
+        "围巾"
+      ],
+      "reason": "来自服化道统一规则，且与当前题材关键词“情感、围巾”高度相关。 命中了当前题材叙事核心词“情感”。 当前题材别名命中“情感”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.27,
+      "source_type": "costume_makeup_rules",
+      "source_label": "服化道统一规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "集尾卡点严格遵循‘动作悬停+表情突变+字幕淡入+停帧2秒’四步公式，不可增删",
+      "full_text": "集尾卡点严格遵循‘动作悬停+表情突变+字幕淡入+停帧2秒’四步公式，不可增删",
+      "preview_text": "集尾卡点严格遵循‘动作悬停+表情突变+字幕淡入+停帧2秒’…",
+      "confidence": 0.96,
+      "matched_keywords": [
+        "字幕淡入",
+        "停帧2秒"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“字幕淡入、停帧2秒”高度相关。 命中了当前题材叙事核心词“字幕淡入、停帧2秒”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.22,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "服化道统一",
+      "section_label": "服化道统一",
+      "text": "女主眼镜框必须为黑圆型（非方/猫眼），确保近景眼神可读；妆容极简，仅唇色微粉（#E8C4C4）",
+      "full_text": "女主眼镜框必须为黑圆型（非方/猫眼），确保近景眼神可读；妆容极简，仅唇色微粉（#E8C4C4）",
+      "preview_text": "女主眼镜框必须为黑圆型（非方/猫眼），确保近景眼神可读",
+      "confidence": 0.96,
+      "matched_keywords": [
+        "仅唇色微粉",
+        "眼神"
+      ],
+      "reason": "来自服化道统一规则，且与当前题材关键词“仅唇色微粉、眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.22,
+      "source_type": "costume_makeup_rules",
+      "source_label": "服化道统一规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "人物塑造",
+      "section_label": "人物塑造",
+      "text": "男性角色首次登场时，服装应弱化攻击性（浅灰/米白），用眼神与微表情建立压迫感，而非台词或肢体",
+      "full_text": "男性角色首次登场时，服装应弱化攻击性（浅灰/米白），用眼神与微表情建立压迫感，而非台词或肢体",
+      "preview_text": "男性角色首次登场时，服装应弱化攻击性（浅灰/米白）",
+      "confidence": 0.93,
+      "matched_keywords": [
+        "眼神"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.73,
+      "genre_confidence_gap": 0.17,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "对白与节奏",
+      "section_label": "对白与节奏",
+      "text": "女主回应前必有0.2秒眼神停顿（非低头），体现思考过程而非逃避",
+      "full_text": "女主回应前必有0.2秒眼神停顿（非低头），体现思考过程而非逃避",
+      "preview_text": "女主回应前必有0.2秒眼神停顿（非低头），体现思考过程而非…",
+      "confidence": 0.92,
+      "matched_keywords": [
+        "体现思考过程",
+        "眼神"
+      ],
+      "reason": "来自台词时间规则，且与当前题材关键词“体现思考过程、眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.22,
+      "source_type": "dialogue_timing_rules",
+      "source_label": "台词时间规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "双线并置卡点模板：左1/3女主动作特写 + 右2/3男主凝视 + 中文字幕；适用于重逢/认领/背叛前夜",
+      "full_text": "双线并置卡点模板：左1/3女主动作特写 + 右2/3男主凝视 + 中文字幕；适用于重逢/认领/背叛前夜",
+      "preview_text": "双线并置卡点模板：左1/3女主动作特写+右2/3男主凝视+…",
+      "confidence": 0.89,
+      "matched_keywords": [
+        "重逢",
+        "认领"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“重逢、认领”高度相关。 命中了当前题材叙事核心词“重逢、认领”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.78,
+      "genre_confidence_gap": 0.08,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "对白与节奏",
+      "section_label": "对白与节奏",
+      "text": "关键信息（如‘二娃名字’）由旁人说出，女主沉默接收，强化认知差爽点",
+      "full_text": "关键信息（如‘二娃名字’）由旁人说出，女主沉默接收，强化认知差爽点",
+      "preview_text": "关键信息（如‘二娃名字’）由旁人说出，女主沉默接收",
+      "confidence": 0.87,
+      "matched_keywords": [
+        "沉默"
+      ],
+      "reason": "来自台词时间规则，且与当前题材关键词“沉默”高度相关。 命中了当前题材叙事核心词“沉默”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "大女主",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.17,
+      "source_type": "dialogue_timing_rules",
+      "source_label": "台词时间规则"
+    }
+  ],
+  "_source_series": "曼陀罗"
+}

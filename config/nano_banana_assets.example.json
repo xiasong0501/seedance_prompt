@@ -1,0 +1,80 @@
+{
+  "__comment": "示例配置。根据 script/<剧名>/<epXX...>.md 自动推导 assets/<剧名>/ 下的人物与场景提示词，并调用 Gemini 图片模型生成参考图。",
+  "script": {
+    "__comment": "剧本入口。推荐只改 script_path，其他两个字段通常留空自动推导。",
+    "script_path": "/mnt/myvg/Agent/Seedance2.0_AI/script/心尖宠/ep01__openai__gpt-5.4.md",
+    "__comment_script_path": "必填。要出图的剧本文件路径。",
+    "series_name": "",
+    "__comment_series_name": "可选。留空时自动用 script_path 的父目录作为剧名。",
+    "episode_id": "",
+    "__comment_episode_id": "可选。留空时自动从脚本文件名识别 ep01 / ep02。"
+  },
+  "provider": {
+    "__comment": "Gemini 图片模型配置。",
+    "gemini": {
+      "api_key": "",
+      "__comment_api_key": "可选。留空时自动尝试环境变量或 video_pipeline.local.json 中的 Gemini key。",
+      "model": "gemini-3-pro-image-preview",
+      "__comment_model": "默认高质量模型。"
+    }
+  },
+  "sources": {
+    "__comment": "提示词来源文件。留空时走 assets/<剧名>/ 的默认文件。",
+    "character_prompts_path": "",
+    "__comment_character_prompts_path": "可选。手动指定人物提示词文件。",
+    "scene_prompts_path": "",
+    "__comment_scene_prompts_path": "可选。手动指定场景提示词文件。"
+  },
+  "selection": {
+    "__comment": "选择要生成的内容。",
+    "generate_characters": true,
+    "__comment_generate_characters": "是否生成人物图。",
+    "generate_scenes": true,
+    "__comment_generate_scenes": "是否生成场景图。",
+    "include_all_history_assets": true,
+    "__comment_include_all_history_assets": "是否把前面各集累计的素材一起生成。",
+    "reuse_previous_episode_assets": true,
+    "__comment_reuse_previous_episode_assets": "true 表示同名同设定的历史资产跨集直接复用，不再重新生成，确保完全一致。",
+    "use_character_reference_images": true,
+    "__comment_use_character_reference_images": "true 表示同一角色的新造型生成时优先使用既有角色图作为参考，保持脸和人物辨识度稳定。",
+    "max_reference_images_per_item": 2,
+    "__comment_max_reference_images_per_item": "同一条人物资产最多附带多少张参考图。当前默认 2 张，优先使用基础主形象 + 最近一次同角色图。",
+    "split_scenes_from_storyboard_table": true,
+    "__comment_split_scenes_from_storyboard_table": "true 表示读取 02-seedance-prompts.md 里的素材对应表，把已生成的场景宫格自动切分成单张场景图，并按 @图片编号与素材名命名。"
+  },
+  "quality": {
+    "__comment": "文本级质量与构图约束。",
+    "negative_prompt": "避免低清晰度、畸形手指、额外肢体、扭曲五官、文字水印、画面脏污、比例失衡",
+    "__comment_negative_prompt": "常见反向约束。",
+    "character_image_size_hint": "竖版构图，适合角色设定图展示",
+    "__comment_character_image_size_hint": "人物图构图建议。",
+    "scene_image_size_hint": "auto",
+    "character_style_mode": "auto",
+    "__comment_character_style_mode": "角色图风格控制：auto 表示优先读取同集导演分析/genre_reference_bundle 的目标媒介，漫剧会自动转为非真人动画化风格；也可手动设为 non_real 或 realistic。",
+    "__comment_scene_image_size_hint": "场景图构图建议。推荐设为 auto，自动按导演目标画幅决定总画布方向；9:16 项目会强制竖版总画布。"
+  },
+  "output": {
+    "__comment": "输出目录。留空时自动落到 assets/<剧名>/generated/<模型>/<epXX>/。",
+    "output_root": "",
+    "__comment_output_root": "可选。手动指定输出根目录。"
+  },
+  "run": {
+    "__comment": "运行控制。",
+    "dry_run": false,
+    "__comment_dry_run": "true 只预览，不真正生成图片；建议首次先开 true。",
+    "skip_existing_images": true,
+    "__comment_skip_existing_images": "true 表示已存在的人物图/场景图直接跳过；false 表示强制重跑。",
+    "timeout_seconds": 300,
+    "__comment_timeout_seconds": "单次请求超时时间，单位秒。",
+    "request_retry_attempts": 3,
+    "__comment_request_retry_attempts": "Gemini 请求失败时自动重试次数（含首次请求）。建议 3-5。",
+    "request_retry_base_delay_seconds": 1.5,
+    "__comment_request_retry_base_delay_seconds": "重试退避基线秒数。第 N 次重试会等待 base*N 秒（上限 8 秒）。",
+    "continue_on_error": false,
+    "__comment_continue_on_error": "true 表示单张图片失败后继续后续条目；false 表示遇到错误立即停止。",
+    "delay_seconds": 1.0,
+    "__comment_delay_seconds": "每次请求之间的停顿秒数。",
+    "scene_orientation_retry_times": 2,
+    "__comment_scene_orientation_retry_times": "仅对场景图生效。画布方向不符合目标画幅时自动重试次数。"
+  }
+}

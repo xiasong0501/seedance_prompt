@@ -1,0 +1,222 @@
+{
+  "genre_key": "复仇逆袭",
+  "source_series": "桃烬九重天",
+  "playbook_update_candidates": [
+    {
+      "genre_key": "复仇逆袭",
+      "target_field": "scene_focus",
+      "target_field_label": "场景设计重点",
+      "text": "公开羞辱/清算场必须预留‘围观层-主角层-施压层’三层空间，便于权力翻转调度",
+      "full_text": "公开羞辱/清算场必须预留‘围观层-主角层-施压层’三层空间，便于权力翻转调度",
+      "preview_text": "公开羞辱/清算场必须预留‘围观层-主角层-施压层’三层空间…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "便于权力翻转",
+        "清算"
+      ],
+      "reason": "来自场景设计规则，且与当前题材关键词“便于权力翻转、清算”高度相关。 命中了当前题材叙事核心词“清算”。 当前题材别名命中“清算”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.68,
+      "genre_confidence_gap": 0.27,
+      "source_type": "scene_design_rules",
+      "source_label": "场景设计规则"
+    },
+    {
+      "genre_key": "复仇逆袭",
+      "target_field": "negative_patterns",
+      "target_field_label": "负面模式",
+      "text": "禁止用‘扇耳光/泼水’等低阶动作替代真正身份清算",
+      "full_text": "禁止用‘扇耳光/泼水’等低阶动作替代真正身份清算",
+      "preview_text": "禁止用‘扇耳光/泼水’等低阶动作替代真正身份清算",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "清算",
+        "身份"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“清算、身份”高度相关。 命中了当前题材叙事核心词“清算、身份”。 当前题材别名命中“清算”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.66,
+      "genre_confidence_gap": 0.27,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "复仇逆袭",
+      "target_field": "continuity_guardrails",
+      "target_field_label": "连续性红线",
+      "text": "‘神尊未婚夫’与‘本帝’身份冲突必须在3集内厘清，避免人设崩坏",
+      "full_text": "‘神尊未婚夫’与‘本帝’身份冲突必须在3集内厘清，避免人设崩坏",
+      "preview_text": "‘神尊未婚夫’与‘本帝’身份冲突必须在3集内厘清，避免人设…",
+      "confidence": 0.92,
+      "matched_keywords": [
+        "身份"
+      ],
+      "reason": "来自连续性红线，且与当前题材关键词“身份”高度相关。 命中了当前题材叙事核心词“身份”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.72,
+      "genre_confidence_gap": 0.17,
+      "source_type": "continuity_guardrails",
+      "source_label": "连续性红线"
+    },
+    {
+      "genre_key": "复仇逆袭",
+      "target_field": "costume_focus",
+      "target_field_label": "服化道重点",
+      "text": "身份转折点必须通过服装细节变更体现（如发簪/袖口/腰饰），而非整体换装",
+      "full_text": "身份转折点必须通过服装细节变更体现（如发簪/袖口/腰饰），而非整体换装",
+      "preview_text": "身份转折点必须通过服装细节变更体现（如发簪/袖口/腰饰）…",
+      "confidence": 0.88,
+      "matched_keywords": [
+        "身份"
+      ],
+      "reason": "来自服化道统一规则，且与当前题材关键词“身份”高度相关。 命中了当前题材叙事核心词“身份”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.68,
+      "genre_confidence_gap": 0.17,
+      "source_type": "costume_makeup_rules",
+      "source_label": "服化道统一规则"
+    },
+    {
+      "genre_key": "复仇逆袭",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "身份揭露段必须‘先全景扫数→特写异常点（如瞳孔）→反应近景滞后→主角沉默收帖’四步闭环",
+      "full_text": "身份揭露段必须‘先全景扫数→特写异常点（如瞳孔）→反应近景滞后→主角沉默收帖’四步闭环",
+      "preview_text": "身份揭露段必须‘先全景扫数→特写异常点（如瞳孔）→反应近景…",
+      "confidence": 0.77,
+      "matched_keywords": [
+        "身份"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“身份”高度相关。 命中了当前题材叙事核心词“身份”。 它与“爱情”的区分度很弱（差值 0.00）。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.88,
+      "genre_confidence_gap": 0.0,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "复仇逆袭",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "开头钩子：3镜内完成‘否定-身份-后果’链条",
+      "full_text": "开头钩子：3镜内完成‘否定-身份-后果’链条",
+      "preview_text": "开头钩子：3镜内完成‘否定-身份-后果’链条",
+      "confidence": 0.76,
+      "matched_keywords": [
+        "身份"
+      ],
+      "reason": "来自storyboard_execution_patterns，且与当前题材关键词“身份”高度相关。 命中了当前题材叙事核心词“身份”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.56,
+      "genre_confidence_gap": 0.17,
+      "source_type": "storyboard_execution_patterns",
+      "source_label": "storyboard_execution_patterns"
+    }
+  ],
+  "skill_update_candidates": [
+    {
+      "genre_key": "复仇逆袭",
+      "section": "场景与调度",
+      "section_label": "场景与调度",
+      "text": "公开羞辱/清算场必须预留‘围观层-主角层-施压层’三层空间，便于权力翻转调度",
+      "full_text": "公开羞辱/清算场必须预留‘围观层-主角层-施压层’三层空间，便于权力翻转调度",
+      "preview_text": "公开羞辱/清算场必须预留‘围观层-主角层-施压层’三层空间…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "便于权力翻转",
+        "清算"
+      ],
+      "reason": "来自场景设计规则，且与当前题材关键词“便于权力翻转、清算”高度相关。 命中了当前题材叙事核心词“清算”。 当前题材别名命中“清算”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.27,
+      "source_type": "scene_design_rules",
+      "source_label": "场景设计规则"
+    },
+    {
+      "genre_key": "复仇逆袭",
+      "section": "生产红线",
+      "section_label": "生产红线",
+      "text": "禁止用‘扇耳光/泼水’等低阶动作替代真正身份清算",
+      "full_text": "禁止用‘扇耳光/泼水’等低阶动作替代真正身份清算",
+      "preview_text": "禁止用‘扇耳光/泼水’等低阶动作替代真正身份清算",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "清算",
+        "身份"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“清算、身份”高度相关。 命中了当前题材叙事核心词“清算、身份”。 当前题材别名命中“清算”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.27,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    },
+    {
+      "genre_key": "复仇逆袭",
+      "section": "生产红线",
+      "section_label": "生产红线",
+      "text": "‘神尊未婚夫’与‘本帝’身份冲突必须在3集内厘清，避免人设崩坏",
+      "full_text": "‘神尊未婚夫’与‘本帝’身份冲突必须在3集内厘清，避免人设崩坏",
+      "preview_text": "‘神尊未婚夫’与‘本帝’身份冲突必须在3集内厘清，避免人设…",
+      "confidence": 0.96,
+      "matched_keywords": [
+        "身份"
+      ],
+      "reason": "来自连续性红线，且与当前题材关键词“身份”高度相关。 命中了当前题材叙事核心词“身份”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.76,
+      "genre_confidence_gap": 0.17,
+      "source_type": "continuity_guardrails",
+      "source_label": "连续性红线"
+    },
+    {
+      "genre_key": "复仇逆袭",
+      "section": "服化道统一",
+      "section_label": "服化道统一",
+      "text": "身份转折点必须通过服装细节变更体现（如发簪/袖口/腰饰），而非整体换装",
+      "full_text": "身份转折点必须通过服装细节变更体现（如发簪/袖口/腰饰），而非整体换装",
+      "preview_text": "身份转折点必须通过服装细节变更体现（如发簪/袖口/腰饰）…",
+      "confidence": 0.91,
+      "matched_keywords": [
+        "身份"
+      ],
+      "reason": "来自服化道统一规则，且与当前题材关键词“身份”高度相关。 命中了当前题材叙事核心词“身份”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.17,
+      "source_type": "costume_makeup_rules",
+      "source_label": "服化道统一规则"
+    },
+    {
+      "genre_key": "复仇逆袭",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "身份揭露段必须‘先全景扫数→特写异常点（如瞳孔）→反应近景滞后→主角沉默收帖’四步闭环",
+      "full_text": "身份揭露段必须‘先全景扫数→特写异常点（如瞳孔）→反应近景滞后→主角沉默收帖’四步闭环",
+      "preview_text": "身份揭露段必须‘先全景扫数→特写异常点（如瞳孔）→反应近景…",
+      "confidence": 0.77,
+      "matched_keywords": [
+        "身份"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“身份”高度相关。 命中了当前题材叙事核心词“身份”。 它与“爱情”的区分度很弱（差值 0.00）。",
+      "series_specific_matches": [],
+      "best_competing_genre": "爱情",
+      "best_competing_confidence": 0.88,
+      "genre_confidence_gap": 0.0,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    }
+  ],
+  "_source_series": "桃烬九重天"
+}

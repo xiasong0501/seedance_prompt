@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "$0")" && pwd)"
+cd "$ROOT_DIR"
+
+for env_file in ".env" ".env.local" "config/.env" "config/.env.local"; do
+  if [[ -f "$env_file" ]]; then
+    set -a
+    # shellcheck disable=SC1090
+    source "$env_file"
+    set +a
+  fi
+done
+
+if [[ -x ".venv/bin/python" ]]; then
+  PYTHON_BIN=".venv/bin/python"
+else
+  PYTHON_BIN="python3"
+fi
+
+export SEEDANCE_REFERENCE_MODE_DEFAULT="${SEEDANCE_REFERENCE_MODE_DEFAULT:-asset}"
+export SEEDANCE_SCENE_REFS_FORCE_REUPLOAD="${SEEDANCE_SCENE_REFS_FORCE_REUPLOAD:-1}"
+export SEEDANCE_SCENE_REFS_FORCE_REREVIEW="${SEEDANCE_SCENE_REFS_FORCE_REREVIEW:-1}"
+export MODEL_GATE_CREATE_ASSETS_MIN_INTERVAL_SECONDS="${MODEL_GATE_CREATE_ASSETS_MIN_INTERVAL_SECONDS:-3}"
+export MODEL_GATE_CREATE_ASSETS_CONCURRENCY_BACKOFF_BASE_SECONDS="${MODEL_GATE_CREATE_ASSETS_CONCURRENCY_BACKOFF_BASE_SECONDS:-6}"
+export MODEL_GATE_CREATE_ASSETS_CONCURRENCY_BACKOFF_MAX_SECONDS="${MODEL_GATE_CREATE_ASSETS_CONCURRENCY_BACKOFF_MAX_SECONDS:-90}"
+export MODEL_GATE_MAX_PENDING_TASKS="${MODEL_GATE_MAX_PENDING_TASKS:-0}"
+export MODEL_GATE_POLL_MAX_STAGNANT_ROUNDS="${MODEL_GATE_POLL_MAX_STAGNANT_ROUNDS:-8}"
+
+"$PYTHON_BIN" scripts/upload_seedance_refs.py

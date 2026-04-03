@@ -1,0 +1,1047 @@
+{
+  "genre_key": "爱情",
+  "source_series": "41095-高手下山之美女总裁的贴身保安（70集）龚小钧＆蒋昕妍",
+  "mode": "ranked_update_candidates",
+  "playbook_update_candidates": [
+    {
+      "genre_key": "爱情",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "‘侧脸特写占2/3画面+眼神骤冷+字幕淡入+停帧2秒’为爱情剧集尾标准卡点",
+      "full_text": "‘侧脸特写占2/3画面+眼神骤冷+字幕淡入+停帧2秒’为爱情剧集尾标准卡点",
+      "preview_text": "‘侧脸特写占2/3画面+眼神骤冷+字幕淡入+停帧2秒’为爱…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "侧脸特写占2",
+        "眼神骤冷",
+        "字幕淡入",
+        "停帧2秒"
+      ],
+      "reason": "来自整剧方法规则，且与当前题材关键词“侧脸特写占2、眼神骤冷、字幕淡入、停帧2秒”高度相关。 命中了当前题材叙事核心词“侧脸特写占2、眼神骤冷、字幕淡入”。 当前题材别名命中“爱情”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.62,
+      "genre_confidence_gap": 0.37,
+      "source_type": "reusable_skill_rules",
+      "source_label": "整剧方法规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "集尾卡点：侧脸特写占2/3画面 + 眼神骤冷/闭眼 + 字幕淡入 + 停帧2秒，禁用解释性镜头",
+      "full_text": "集尾卡点：侧脸特写占2/3画面 + 眼神骤冷/闭眼 + 字幕淡入 + 停帧2秒，禁用解释性镜头",
+      "preview_text": "集尾卡点：侧脸特写占2/3画面+眼神骤冷/闭眼+字幕淡入+…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "侧脸特写占2",
+        "眼神骤冷",
+        "字幕淡入",
+        "停帧2秒"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“侧脸特写占2、眼神骤冷、字幕淡入、停帧2秒”高度相关。 命中了当前题材叙事核心词“侧脸特写占2、眼神骤冷、字幕淡入”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.29,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "集尾卡点：侧脸特写占2/3画面 + 眼神微变 + 背景虚化 + 停帧2秒；禁用字幕与台词收尾",
+      "full_text": "集尾卡点：侧脸特写占2/3画面 + 眼神微变 + 背景虚化 + 停帧2秒；禁用字幕与台词收尾",
+      "preview_text": "集尾卡点：侧脸特写占2/3画面+眼神微变+背景虚化+停帧2秒",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "侧脸特写占2",
+        "停帧2秒",
+        "3画面",
+        "眼神"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“侧脸特写占2、停帧2秒、3画面、眼神”高度相关。 命中了当前题材叙事核心词“侧脸特写占2、停帧2秒、3画面”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.28,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "character_focus",
+      "target_field_label": "人物设计重点",
+      "text": "隐世强者需‘静中有变’表情管理：师父全程少语，但眼神/嘴角微动传递态度，避免面瘫",
+      "full_text": "隐世强者需‘静中有变’表情管理：师父全程少语，但眼神/嘴角微动传递态度，避免面瘫",
+      "preview_text": "隐世强者需‘静中有变’表情管理：师父全程少语，但眼神/嘴角…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "隐世强者需‘静中有变’表情管理",
+        "避免面瘫",
+        "眼神"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“隐世强者需‘静中有变’表情管理、避免面瘫、眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.27,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "character_focus",
+      "target_field_label": "人物设计重点",
+      "text": "隐世强者需‘静中有变’表情管理：全程少语，但眼神/嘴角微动传递态度，避免面瘫",
+      "full_text": "隐世强者需‘静中有变’表情管理：全程少语，但眼神/嘴角微动传递态度，避免面瘫",
+      "preview_text": "隐世强者需‘静中有变’表情管理：全程少语，但眼神/嘴角微动…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "隐世强者需‘静中有变’表情管理",
+        "避免面瘫",
+        "眼神"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“隐世强者需‘静中有变’表情管理、避免面瘫、眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.27,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "script_hooks",
+      "target_field_label": "剧情抓点",
+      "text": "‘公开求婚-拒绝-沉默离开’三段式为爱情剧高效催化剂，可复用于其他追求者线",
+      "full_text": "‘公开求婚-拒绝-沉默离开’三段式为爱情剧高效催化剂，可复用于其他追求者线",
+      "preview_text": "‘公开求婚-拒绝-沉默离开’三段式为爱情剧高效催化剂，可复…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "爱情",
+        "沉默"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“爱情、沉默”高度相关。 命中了当前题材叙事核心词“爱情、沉默”。 当前题材别名命中“爱情”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.27,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "dialogue_timing_rules",
+      "target_field_label": "台词时间规则",
+      "text": "主角回应前必有0.2秒眼神停顿：体现思考过程，避免台词输出过载",
+      "full_text": "主角回应前必有0.2秒眼神停顿：体现思考过程，避免台词输出过载",
+      "preview_text": "主角回应前必有0.2秒眼神停顿：体现思考过程，避免台词输出…",
+      "confidence": 0.97,
+      "matched_keywords": [
+        "主角回应前必有0.2秒眼神停顿",
+        "体现思考过程",
+        "眼神"
+      ],
+      "reason": "来自台词时间规则，且与当前题材关键词“主角回应前必有0.2秒眼神停顿、体现思考过程、眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.27,
+      "source_type": "dialogue_timing_rules",
+      "source_label": "台词时间规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "dialogue_timing_rules",
+      "target_field_label": "台词时间规则",
+      "text": "主角回应前必有0.2秒眼神停顿：体现思考过程，非机械接话",
+      "full_text": "主角回应前必有0.2秒眼神停顿：体现思考过程，非机械接话",
+      "preview_text": "主角回应前必有0.2秒眼神停顿：体现思考过程，非机械接话",
+      "confidence": 0.97,
+      "matched_keywords": [
+        "主角回应前必有0.2秒眼神停顿",
+        "体现思考过程",
+        "眼神"
+      ],
+      "reason": "来自台词时间规则，且与当前题材关键词“主角回应前必有0.2秒眼神停顿、体现思考过程、眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.27,
+      "source_type": "dialogue_timing_rules",
+      "source_label": "台词时间规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "director_focus",
+      "target_field_label": "导演重点",
+      "text": "爱情题材：双人关系戏优先保留同框与距离变化；减少只拍单人说话",
+      "full_text": "爱情题材：双人关系戏优先保留同框与距离变化；减少只拍单人说话",
+      "preview_text": "爱情题材：双人关系戏优先保留同框与距离变化",
+      "confidence": 0.95,
+      "matched_keywords": [
+        "双人关系戏优先保留同框与距离变化",
+        "减少只拍单人说话",
+        "爱情"
+      ],
+      "reason": "来自camera_language_patterns，且与当前题材关键词“双人关系戏优先保留同框与距离变化、减少只拍单人说话、爱情”高度相关。 命中了当前题材叙事核心词“双人关系戏优先保留同框与距离变化、减少只拍单人说话、爱情”。 当前题材别名命中“爱情”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.56,
+      "genre_confidence_gap": 0.32,
+      "source_type": "camera_language_patterns",
+      "source_label": "camera_language_patterns"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "dialogue_timing_rules",
+      "target_field_label": "台词时间规则",
+      "text": "主角回应前必有0.2秒眼神停顿（眼珠微转），体现临时起意；禁用直接脱口而出",
+      "full_text": "主角回应前必有0.2秒眼神停顿（眼珠微转），体现临时起意；禁用直接脱口而出",
+      "preview_text": "主角回应前必有0.2秒眼神停顿（眼珠微转），体现临时起意",
+      "confidence": 0.92,
+      "matched_keywords": [
+        "主角回应前必有0.2秒眼神停顿",
+        "眼神"
+      ],
+      "reason": "来自台词时间规则，且与当前题材关键词“主角回应前必有0.2秒眼神停顿、眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.22,
+      "source_type": "dialogue_timing_rules",
+      "source_label": "台词时间规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "dialogue_timing_rules",
+      "target_field_label": "台词时间规则",
+      "text": "主角回应前必有0.2秒眼神停顿：叶枫说‘要饭鸭’前眼珠微转，体现临时起意",
+      "full_text": "主角回应前必有0.2秒眼神停顿：叶枫说‘要饭鸭’前眼珠微转，体现临时起意",
+      "preview_text": "主角回应前必有0.2秒眼神停顿：叶枫说‘要饭鸭’前眼珠微转…",
+      "confidence": 0.92,
+      "matched_keywords": [
+        "主角回应前必有0.2秒眼神停顿",
+        "眼神"
+      ],
+      "reason": "来自台词时间规则，且与当前题材关键词“主角回应前必有0.2秒眼神停顿、眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.22,
+      "source_type": "dialogue_timing_rules",
+      "source_label": "台词时间规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "开头30秒必须完成‘异常动作+离谱判断+群体反应’三信息；本集为‘悬浮飞跃+捡到你时有玉+师父沉默注视’",
+      "full_text": "开头30秒必须完成‘异常动作+离谱判断+群体反应’三信息；本集为‘悬浮飞跃+捡到你时有玉+师父沉默注视’",
+      "preview_text": "开头30秒必须完成‘异常动作+离谱判断+群体反应’三信息",
+      "confidence": 0.91,
+      "matched_keywords": [
+        "沉默"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“沉默”高度相关。 命中了当前题材叙事核心词“沉默”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.17,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "character_focus",
+      "target_field_label": "人物设计重点",
+      "text": "隐世强者采用‘静中有变’表情管理：全程少语，但眼神/嘴角/手部微动传递态度，禁用面瘫",
+      "full_text": "隐世强者采用‘静中有变’表情管理：全程少语，但眼神/嘴角/手部微动传递态度，禁用面瘫",
+      "preview_text": "隐世强者采用‘静中有变’表情管理：全程少语，但眼神/嘴角/…",
+      "confidence": 0.9,
+      "matched_keywords": [
+        "眼神"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.17,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "三人对峙时必须用三角站位构图，确保阵营一眼可分；本集虽无三人，但为后续‘师父-叶枫-江千雪’预留构图逻辑",
+      "full_text": "三人对峙时必须用三角站位构图，确保阵营一眼可分；本集虽无三人，但为后续‘师父-叶枫-江千雪’预留构图逻辑",
+      "preview_text": "三人对峙时必须用三角站位构图，确保阵营一眼可分",
+      "confidence": 0.9,
+      "matched_keywords": [
+        "三人对峙时必须用三角站位构图",
+        "确保阵营一眼可分"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“三人对峙时必须用三角站位构图、确保阵营一眼可分”高度相关。 命中了当前题材叙事核心词“三人对峙时必须用三角站位构图、确保阵营一眼可分”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.16,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "director_focus",
+      "target_field_label": "导演重点",
+      "text": "‘反应镜头滞后0.3–0.5秒’可制造认知差爽点，适用于质疑-揭露类桥段",
+      "full_text": "‘反应镜头滞后0.3–0.5秒’可制造认知差爽点，适用于质疑-揭露类桥段",
+      "preview_text": "‘反应镜头滞后0.3–0.5秒’可制造认知差爽点，适用于质…",
+      "confidence": 0.89,
+      "matched_keywords": [
+        "适用于质疑-揭露类桥段"
+      ],
+      "reason": "来自镜头语言规则，且与当前题材关键词“适用于质疑-揭露类桥段”高度相关。 命中了当前题材叙事核心词“适用于质疑-揭露类桥段”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.69,
+      "genre_confidence_gap": 0.17,
+      "source_type": "camera_language_rules",
+      "source_label": "镜头语言规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "director_focus",
+      "target_field_label": "导演重点",
+      "text": "反应镜头统一滞后0.3–0.5s，制造认知差爽点；适用于质疑-揭露类桥段",
+      "full_text": "反应镜头统一滞后0.3–0.5s，制造认知差爽点；适用于质疑-揭露类桥段",
+      "preview_text": "反应镜头统一滞后0.3–0.5s，制造认知差爽点",
+      "confidence": 0.89,
+      "matched_keywords": [
+        "适用于质疑-揭露类桥段"
+      ],
+      "reason": "来自镜头语言规则，且与当前题材关键词“适用于质疑-揭露类桥段”高度相关。 命中了当前题材叙事核心词“适用于质疑-揭露类桥段”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.69,
+      "genre_confidence_gap": 0.17,
+      "source_type": "camera_language_rules",
+      "source_label": "镜头语言规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "director_focus",
+      "target_field_label": "导演重点",
+      "text": "三人对峙必须用三角站位构图（A左/B右/C中后），确保阵营一眼可分；禁用直线站位",
+      "full_text": "三人对峙必须用三角站位构图（A左/B右/C中后），确保阵营一眼可分；禁用直线站位",
+      "preview_text": "三人对峙必须用三角站位构图（A左/B右/C中后），确保阵营…",
+      "confidence": 0.89,
+      "matched_keywords": [
+        "确保阵营一眼可分"
+      ],
+      "reason": "来自镜头语言规则，且与当前题材关键词“确保阵营一眼可分”高度相关。 命中了当前题材叙事核心词“确保阵营一眼可分”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.69,
+      "genre_confidence_gap": 0.17,
+      "source_type": "camera_language_rules",
+      "source_label": "镜头语言规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "director_focus",
+      "target_field_label": "导演重点",
+      "text": "三人对峙必须用三角站位构图，确保阵营一眼可分",
+      "full_text": "三人对峙必须用三角站位构图，确保阵营一眼可分",
+      "preview_text": "三人对峙必须用三角站位构图，确保阵营一眼可分",
+      "confidence": 0.89,
+      "matched_keywords": [
+        "确保阵营一眼可分"
+      ],
+      "reason": "来自镜头语言规则，且与当前题材关键词“确保阵营一眼可分”高度相关。 命中了当前题材叙事核心词“确保阵营一眼可分”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.69,
+      "genre_confidence_gap": 0.17,
+      "source_type": "camera_language_rules",
+      "source_label": "镜头语言规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "character_focus",
+      "target_field_label": "人物设计重点",
+      "text": "女主外形需随关系阶段变化：初见强势（皮衣高跟）→危机脆弱（昏迷躺草）→试探亲密（换便装），为‘假身份认领’埋伏笔",
+      "full_text": "女主外形需随关系阶段变化：初见强势（皮衣高跟）→危机脆弱（昏迷躺草）→试探亲密（换便装），为‘假身份认领’埋伏笔",
+      "preview_text": "女主外形需随关系阶段变化：初见强势（皮衣高跟）→危机脆弱（…",
+      "confidence": 0.89,
+      "matched_keywords": [
+        "试探",
+        "亲密",
+        "认领"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“试探、亲密、认领”高度相关。 命中了当前题材叙事核心词“认领”。 它与“玄幻”仍有明显重叠（差值 0.07）。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.87,
+      "genre_confidence_gap": 0.07,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "costume_focus",
+      "target_field_label": "服化道重点",
+      "text": "现代女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读；避免浓眼影/假睫毛破坏真实感",
+      "full_text": "现代女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读；避免浓眼影/假睫毛破坏真实感",
+      "preview_text": "现代女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读",
+      "confidence": 0.88,
+      "matched_keywords": [
+        "眼神"
+      ],
+      "reason": "来自服化道统一规则，且与当前题材关键词“眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.68,
+      "genre_confidence_gap": 0.17,
+      "source_type": "costume_makeup_rules",
+      "source_label": "服化道统一规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "costume_focus",
+      "target_field_label": "服化道重点",
+      "text": "女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读；禁用浓眼影/假睫毛破坏真实感",
+      "full_text": "女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读；禁用浓眼影/假睫毛破坏真实感",
+      "preview_text": "女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读",
+      "confidence": 0.88,
+      "matched_keywords": [
+        "眼神"
+      ],
+      "reason": "来自服化道统一规则，且与当前题材关键词“眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.68,
+      "genre_confidence_gap": 0.17,
+      "source_type": "costume_makeup_rules",
+      "source_label": "服化道统一规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "costume_focus",
+      "target_field_label": "服化道重点",
+      "text": "现代女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读；禁用浓眼影/假睫毛",
+      "full_text": "现代女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读；禁用浓眼影/假睫毛",
+      "preview_text": "现代女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读",
+      "confidence": 0.88,
+      "matched_keywords": [
+        "眼神"
+      ],
+      "reason": "来自服化道统一规则，且与当前题材关键词“眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.68,
+      "genre_confidence_gap": 0.17,
+      "source_type": "costume_makeup_rules",
+      "source_label": "服化道统一规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "costume_focus",
+      "target_field_label": "服化道重点",
+      "text": "现代女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读；避免浓眼影/假睫毛",
+      "full_text": "现代女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读；避免浓眼影/假睫毛",
+      "preview_text": "现代女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读",
+      "confidence": 0.88,
+      "matched_keywords": [
+        "眼神"
+      ],
+      "reason": "来自服化道统一规则，且与当前题材关键词“眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.68,
+      "genre_confidence_gap": 0.17,
+      "source_type": "costume_makeup_rules",
+      "source_label": "服化道统一规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "storyboard_focus",
+      "target_field_label": "分镜重点",
+      "text": "‘俯拍跪姿→仰拍主角→特写对方惊惶眼神’为权力反转三镜头闭环",
+      "full_text": "‘俯拍跪姿→仰拍主角→特写对方惊惶眼神’为权力反转三镜头闭环",
+      "preview_text": "‘俯拍跪姿→仰拍主角→特写对方惊惶眼神’为权力反转三镜头闭环",
+      "confidence": 0.87,
+      "matched_keywords": [
+        "三镜头闭环",
+        "眼神"
+      ],
+      "reason": "来自整剧方法规则，且与当前题材关键词“三镜头闭环、眼神”高度相关。 命中了当前题材叙事核心词“三镜头闭环、眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.62,
+      "genre_confidence_gap": 0.22,
+      "source_type": "reusable_skill_rules",
+      "source_label": "整剧方法规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "script_hooks",
+      "target_field_label": "剧情抓点",
+      "text": "steps：关键信息文字浮现（车牌/台词）→ 主角侧脸闭眼 → 阴影覆盖 → 停帧2秒",
+      "full_text": "steps：关键信息文字浮现（车牌/台词）→ 主角侧脸闭眼 → 阴影覆盖 → 停帧2秒",
+      "preview_text": "steps：关键信息文字浮现（车牌/台词）→主角侧脸闭眼→…",
+      "confidence": 0.87,
+      "matched_keywords": [
+        "停帧2秒"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“停帧2秒”高度相关。 命中了当前题材叙事核心词“停帧2秒”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.17,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "character_focus",
+      "target_field_label": "人物设计重点",
+      "text": "女主外形需服务‘关系阶段’：初见时强势（皮衣高跟），危机时脆弱（躺草昏迷），为后续‘假身份认领’埋伏笔",
+      "full_text": "女主外形需服务‘关系阶段’：初见时强势（皮衣高跟），危机时脆弱（躺草昏迷），为后续‘假身份认领’埋伏笔",
+      "preview_text": "女主外形需服务‘关系阶段’：初见时强势（皮衣高跟），危机时…",
+      "confidence": 0.87,
+      "matched_keywords": [
+        "认领"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“认领”高度相关。 命中了当前题材叙事核心词“认领”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.14,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "character_focus",
+      "target_field_label": "人物设计重点",
+      "text": "女主外形需服务‘关系阶段’：初见强势（皮衣高跟）→危机脆弱（躺草昏迷）→后续假身份认领",
+      "full_text": "女主外形需服务‘关系阶段’：初见强势（皮衣高跟）→危机脆弱（躺草昏迷）→后续假身份认领",
+      "preview_text": "女主外形需服务‘关系阶段’：初见强势（皮衣高跟）→危机脆弱…",
+      "confidence": 0.87,
+      "matched_keywords": [
+        "认领"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“认领”高度相关。 命中了当前题材叙事核心词“认领”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.7,
+      "genre_confidence_gap": 0.14,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "director_focus",
+      "target_field_label": "导演重点",
+      "text": "微距特写用于情感引爆点（唇近皮肤0.5cm）",
+      "full_text": "微距特写用于情感引爆点（唇近皮肤0.5cm）",
+      "preview_text": "微距特写用于情感引爆点（唇近皮肤0.5cm）",
+      "confidence": 0.85,
+      "matched_keywords": [
+        "情感"
+      ],
+      "reason": "来自camera_language_patterns，且与当前题材关键词“情感”高度相关。 命中了当前题材叙事核心词“情感”。 当前题材别名命中“情感”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.56,
+      "genre_confidence_gap": 0.22,
+      "source_type": "camera_language_patterns",
+      "source_label": "camera_language_patterns"
+    },
+    {
+      "genre_key": "爱情",
+      "target_field": "negative_patterns",
+      "target_field_label": "负面模式",
+      "text": "避免让主角过早展现‘眼神坚定’；本集叶枫全程有犹豫/抱怨/慌乱，符合‘初下山’人设",
+      "full_text": "避免让主角过早展现‘眼神坚定’；本集叶枫全程有犹豫/抱怨/慌乱，符合‘初下山’人设",
+      "preview_text": "避免让主角过早展现‘眼神坚定’",
+      "confidence": 0.72,
+      "matched_keywords": [
+        "眼神"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“眼神”高度相关。 命中了当前题材叙事核心词“眼神”。 它与“玄幻”的区分度很弱（差值 0.00）。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.83,
+      "genre_confidence_gap": 0.0,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    }
+  ],
+  "skill_update_candidates": [
+    {
+      "genre_key": "爱情",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "‘侧脸特写占2/3画面+眼神骤冷+字幕淡入+停帧2秒’为爱情剧集尾标准卡点",
+      "full_text": "‘侧脸特写占2/3画面+眼神骤冷+字幕淡入+停帧2秒’为爱情剧集尾标准卡点",
+      "preview_text": "‘侧脸特写占2/3画面+眼神骤冷+字幕淡入+停帧2秒’为爱…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "侧脸特写占2",
+        "眼神骤冷",
+        "字幕淡入",
+        "停帧2秒"
+      ],
+      "reason": "来自整剧方法规则，且与当前题材关键词“侧脸特写占2、眼神骤冷、字幕淡入、停帧2秒”高度相关。 命中了当前题材叙事核心词“侧脸特写占2、眼神骤冷、字幕淡入”。 当前题材别名命中“爱情”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.62,
+      "genre_confidence_gap": 0.37,
+      "source_type": "reusable_skill_rules",
+      "source_label": "整剧方法规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "集尾卡点：侧脸特写占2/3画面 + 眼神骤冷/闭眼 + 字幕淡入 + 停帧2秒，禁用解释性镜头",
+      "full_text": "集尾卡点：侧脸特写占2/3画面 + 眼神骤冷/闭眼 + 字幕淡入 + 停帧2秒，禁用解释性镜头",
+      "preview_text": "集尾卡点：侧脸特写占2/3画面+眼神骤冷/闭眼+字幕淡入+…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "侧脸特写占2",
+        "眼神骤冷",
+        "字幕淡入",
+        "停帧2秒"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“侧脸特写占2、眼神骤冷、字幕淡入、停帧2秒”高度相关。 命中了当前题材叙事核心词“侧脸特写占2、眼神骤冷、字幕淡入”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.29,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "集尾卡点：侧脸特写占2/3画面 + 眼神微变 + 背景虚化 + 停帧2秒；禁用字幕与台词收尾",
+      "full_text": "集尾卡点：侧脸特写占2/3画面 + 眼神微变 + 背景虚化 + 停帧2秒；禁用字幕与台词收尾",
+      "preview_text": "集尾卡点：侧脸特写占2/3画面+眼神微变+背景虚化+停帧2秒",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "侧脸特写占2",
+        "停帧2秒",
+        "3画面",
+        "眼神"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“侧脸特写占2、停帧2秒、3画面、眼神”高度相关。 命中了当前题材叙事核心词“侧脸特写占2、停帧2秒、3画面”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.28,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "人物塑造",
+      "section_label": "人物塑造",
+      "text": "隐世强者需‘静中有变’表情管理：师父全程少语，但眼神/嘴角微动传递态度，避免面瘫",
+      "full_text": "隐世强者需‘静中有变’表情管理：师父全程少语，但眼神/嘴角微动传递态度，避免面瘫",
+      "preview_text": "隐世强者需‘静中有变’表情管理：师父全程少语，但眼神/嘴角…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "隐世强者需‘静中有变’表情管理",
+        "避免面瘫",
+        "眼神"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“隐世强者需‘静中有变’表情管理、避免面瘫、眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.73,
+      "genre_confidence_gap": 0.27,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "人物塑造",
+      "section_label": "人物塑造",
+      "text": "隐世强者需‘静中有变’表情管理：全程少语，但眼神/嘴角微动传递态度，避免面瘫",
+      "full_text": "隐世强者需‘静中有变’表情管理：全程少语，但眼神/嘴角微动传递态度，避免面瘫",
+      "preview_text": "隐世强者需‘静中有变’表情管理：全程少语，但眼神/嘴角微动…",
+      "confidence": 1.0,
+      "matched_keywords": [
+        "隐世强者需‘静中有变’表情管理",
+        "避免面瘫",
+        "眼神"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“隐世强者需‘静中有变’表情管理、避免面瘫、眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.73,
+      "genre_confidence_gap": 0.27,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "结构与钩子",
+      "section_label": "结构与钩子",
+      "text": "‘公开求婚-拒绝-沉默离开’三段式为爱情剧高效催化剂，可复用于其他追求者线",
+      "full_text": "‘公开求婚-拒绝-沉默离开’三段式为爱情剧高效催化剂，可复用于其他追求者线",
+      "preview_text": "‘公开求婚-拒绝-沉默离开’三段式为爱情剧高效催化剂，可复…",
+      "confidence": 0.98,
+      "matched_keywords": [
+        "爱情",
+        "沉默"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“爱情、沉默”高度相关。 命中了当前题材叙事核心词“爱情、沉默”。 当前题材别名命中“爱情”，归属更明确。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.64,
+      "genre_confidence_gap": 0.27,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "对白与节奏",
+      "section_label": "对白与节奏",
+      "text": "主角回应前必有0.2秒眼神停顿：体现思考过程，避免台词输出过载",
+      "full_text": "主角回应前必有0.2秒眼神停顿：体现思考过程，避免台词输出过载",
+      "preview_text": "主角回应前必有0.2秒眼神停顿：体现思考过程，避免台词输出…",
+      "confidence": 0.97,
+      "matched_keywords": [
+        "主角回应前必有0.2秒眼神停顿",
+        "体现思考过程",
+        "眼神"
+      ],
+      "reason": "来自台词时间规则，且与当前题材关键词“主角回应前必有0.2秒眼神停顿、体现思考过程、眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.27,
+      "source_type": "dialogue_timing_rules",
+      "source_label": "台词时间规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "对白与节奏",
+      "section_label": "对白与节奏",
+      "text": "主角回应前必有0.2秒眼神停顿：体现思考过程，非机械接话",
+      "full_text": "主角回应前必有0.2秒眼神停顿：体现思考过程，非机械接话",
+      "preview_text": "主角回应前必有0.2秒眼神停顿：体现思考过程，非机械接话",
+      "confidence": 0.97,
+      "matched_keywords": [
+        "主角回应前必有0.2秒眼神停顿",
+        "体现思考过程",
+        "眼神"
+      ],
+      "reason": "来自台词时间规则，且与当前题材关键词“主角回应前必有0.2秒眼神停顿、体现思考过程、眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.27,
+      "source_type": "dialogue_timing_rules",
+      "source_label": "台词时间规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "人物塑造",
+      "section_label": "人物塑造",
+      "text": "隐世强者采用‘静中有变’表情管理：全程少语，但眼神/嘴角/手部微动传递态度，禁用面瘫",
+      "full_text": "隐世强者采用‘静中有变’表情管理：全程少语，但眼神/嘴角/手部微动传递态度，禁用面瘫",
+      "preview_text": "隐世强者采用‘静中有变’表情管理：全程少语，但眼神/嘴角/…",
+      "confidence": 0.93,
+      "matched_keywords": [
+        "眼神"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.73,
+      "genre_confidence_gap": 0.17,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "对白与节奏",
+      "section_label": "对白与节奏",
+      "text": "主角回应前必有0.2秒眼神停顿（眼珠微转），体现临时起意；禁用直接脱口而出",
+      "full_text": "主角回应前必有0.2秒眼神停顿（眼珠微转），体现临时起意；禁用直接脱口而出",
+      "preview_text": "主角回应前必有0.2秒眼神停顿（眼珠微转），体现临时起意",
+      "confidence": 0.92,
+      "matched_keywords": [
+        "主角回应前必有0.2秒眼神停顿",
+        "眼神"
+      ],
+      "reason": "来自台词时间规则，且与当前题材关键词“主角回应前必有0.2秒眼神停顿、眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.22,
+      "source_type": "dialogue_timing_rules",
+      "source_label": "台词时间规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "对白与节奏",
+      "section_label": "对白与节奏",
+      "text": "主角回应前必有0.2秒眼神停顿：叶枫说‘要饭鸭’前眼珠微转，体现临时起意",
+      "full_text": "主角回应前必有0.2秒眼神停顿：叶枫说‘要饭鸭’前眼珠微转，体现临时起意",
+      "preview_text": "主角回应前必有0.2秒眼神停顿：叶枫说‘要饭鸭’前眼珠微转…",
+      "confidence": 0.92,
+      "matched_keywords": [
+        "主角回应前必有0.2秒眼神停顿",
+        "眼神"
+      ],
+      "reason": "来自台词时间规则，且与当前题材关键词“主角回应前必有0.2秒眼神停顿、眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.67,
+      "genre_confidence_gap": 0.22,
+      "source_type": "dialogue_timing_rules",
+      "source_label": "台词时间规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "人物塑造",
+      "section_label": "人物塑造",
+      "text": "女主外形需随关系阶段变化：初见强势（皮衣高跟）→危机脆弱（昏迷躺草）→试探亲密（换便装），为‘假身份认领’埋伏笔",
+      "full_text": "女主外形需随关系阶段变化：初见强势（皮衣高跟）→危机脆弱（昏迷躺草）→试探亲密（换便装），为‘假身份认领’埋伏笔",
+      "preview_text": "女主外形需随关系阶段变化：初见强势（皮衣高跟）→危机脆弱（…",
+      "confidence": 0.92,
+      "matched_keywords": [
+        "试探",
+        "亲密",
+        "认领"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“试探、亲密、认领”高度相关。 命中了当前题材叙事核心词“认领”。 它与“玄幻”仍有明显重叠（差值 0.07）。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.9,
+      "genre_confidence_gap": 0.07,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "开头30秒必须完成‘异常动作+离谱判断+群体反应’三信息；本集为‘悬浮飞跃+捡到你时有玉+师父沉默注视’",
+      "full_text": "开头30秒必须完成‘异常动作+离谱判断+群体反应’三信息；本集为‘悬浮飞跃+捡到你时有玉+师父沉默注视’",
+      "preview_text": "开头30秒必须完成‘异常动作+离谱判断+群体反应’三信息",
+      "confidence": 0.91,
+      "matched_keywords": [
+        "沉默"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“沉默”高度相关。 命中了当前题材叙事核心词“沉默”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.17,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "服化道统一",
+      "section_label": "服化道统一",
+      "text": "现代女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读；避免浓眼影/假睫毛破坏真实感",
+      "full_text": "现代女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读；避免浓眼影/假睫毛破坏真实感",
+      "preview_text": "现代女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读",
+      "confidence": 0.91,
+      "matched_keywords": [
+        "眼神"
+      ],
+      "reason": "来自服化道统一规则，且与当前题材关键词“眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.17,
+      "source_type": "costume_makeup_rules",
+      "source_label": "服化道统一规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "服化道统一",
+      "section_label": "服化道统一",
+      "text": "女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读；禁用浓眼影/假睫毛破坏真实感",
+      "full_text": "女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读；禁用浓眼影/假睫毛破坏真实感",
+      "preview_text": "女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读",
+      "confidence": 0.91,
+      "matched_keywords": [
+        "眼神"
+      ],
+      "reason": "来自服化道统一规则，且与当前题材关键词“眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.17,
+      "source_type": "costume_makeup_rules",
+      "source_label": "服化道统一规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "服化道统一",
+      "section_label": "服化道统一",
+      "text": "现代女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读；禁用浓眼影/假睫毛",
+      "full_text": "现代女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读；禁用浓眼影/假睫毛",
+      "preview_text": "现代女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读",
+      "confidence": 0.91,
+      "matched_keywords": [
+        "眼神"
+      ],
+      "reason": "来自服化道统一规则，且与当前题材关键词“眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.17,
+      "source_type": "costume_makeup_rules",
+      "source_label": "服化道统一规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "服化道统一",
+      "section_label": "服化道统一",
+      "text": "现代女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读；避免浓眼影/假睫毛",
+      "full_text": "现代女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读；避免浓眼影/假睫毛",
+      "preview_text": "现代女主妆容极简：仅唇色可辨，近景必须保证眼神变化可读",
+      "confidence": 0.91,
+      "matched_keywords": [
+        "眼神"
+      ],
+      "reason": "来自服化道统一规则，且与当前题材关键词“眼神”高度相关。 命中了当前题材叙事核心词“眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.17,
+      "source_type": "costume_makeup_rules",
+      "source_label": "服化道统一规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "三人对峙时必须用三角站位构图，确保阵营一眼可分；本集虽无三人，但为后续‘师父-叶枫-江千雪’预留构图逻辑",
+      "full_text": "三人对峙时必须用三角站位构图，确保阵营一眼可分；本集虽无三人，但为后续‘师父-叶枫-江千雪’预留构图逻辑",
+      "preview_text": "三人对峙时必须用三角站位构图，确保阵营一眼可分",
+      "confidence": 0.9,
+      "matched_keywords": [
+        "三人对峙时必须用三角站位构图",
+        "确保阵营一眼可分"
+      ],
+      "reason": "来自分镜执行规则，且与当前题材关键词“三人对峙时必须用三角站位构图、确保阵营一眼可分”高度相关。 命中了当前题材叙事核心词“三人对峙时必须用三角站位构图、确保阵营一眼可分”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.71,
+      "genre_confidence_gap": 0.16,
+      "source_type": "storyboard_execution_rules",
+      "source_label": "分镜执行规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "人物塑造",
+      "section_label": "人物塑造",
+      "text": "女主外形需服务‘关系阶段’：初见时强势（皮衣高跟），危机时脆弱（躺草昏迷），为后续‘假身份认领’埋伏笔",
+      "full_text": "女主外形需服务‘关系阶段’：初见时强势（皮衣高跟），危机时脆弱（躺草昏迷），为后续‘假身份认领’埋伏笔",
+      "preview_text": "女主外形需服务‘关系阶段’：初见时强势（皮衣高跟），危机时…",
+      "confidence": 0.9,
+      "matched_keywords": [
+        "认领"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“认领”高度相关。 命中了当前题材叙事核心词“认领”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.73,
+      "genre_confidence_gap": 0.14,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "人物塑造",
+      "section_label": "人物塑造",
+      "text": "女主外形需服务‘关系阶段’：初见强势（皮衣高跟）→危机脆弱（躺草昏迷）→后续假身份认领",
+      "full_text": "女主外形需服务‘关系阶段’：初见强势（皮衣高跟）→危机脆弱（躺草昏迷）→后续假身份认领",
+      "preview_text": "女主外形需服务‘关系阶段’：初见强势（皮衣高跟）→危机脆弱…",
+      "confidence": 0.9,
+      "matched_keywords": [
+        "认领"
+      ],
+      "reason": "来自人物设计规则，且与当前题材关键词“认领”高度相关。 命中了当前题材叙事核心词“认领”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.73,
+      "genre_confidence_gap": 0.14,
+      "source_type": "character_design_rules",
+      "source_label": "人物设计规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "分镜表达",
+      "section_label": "分镜表达",
+      "text": "‘俯拍跪姿→仰拍主角→特写对方惊惶眼神’为权力反转三镜头闭环",
+      "full_text": "‘俯拍跪姿→仰拍主角→特写对方惊惶眼神’为权力反转三镜头闭环",
+      "preview_text": "‘俯拍跪姿→仰拍主角→特写对方惊惶眼神’为权力反转三镜头闭环",
+      "confidence": 0.87,
+      "matched_keywords": [
+        "三镜头闭环",
+        "眼神"
+      ],
+      "reason": "来自整剧方法规则，且与当前题材关键词“三镜头闭环、眼神”高度相关。 命中了当前题材叙事核心词“三镜头闭环、眼神”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.62,
+      "genre_confidence_gap": 0.22,
+      "source_type": "reusable_skill_rules",
+      "source_label": "整剧方法规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "对白与节奏",
+      "section_label": "对白与节奏",
+      "text": "steps：关键信息文字浮现（车牌/台词）→ 主角侧脸闭眼 → 阴影覆盖 → 停帧2秒",
+      "full_text": "steps：关键信息文字浮现（车牌/台词）→ 主角侧脸闭眼 → 阴影覆盖 → 停帧2秒",
+      "preview_text": "steps：关键信息文字浮现（车牌/台词）→主角侧脸闭眼→…",
+      "confidence": 0.84,
+      "matched_keywords": [
+        "停帧2秒"
+      ],
+      "reason": "来自整剧玩法规则，且与当前题材关键词“停帧2秒”高度相关。 命中了当前题材叙事核心词“停帧2秒”。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.64,
+      "genre_confidence_gap": 0.17,
+      "source_type": "reusable_playbook_rules",
+      "source_label": "整剧玩法规则"
+    },
+    {
+      "genre_key": "爱情",
+      "section": "生产红线",
+      "section_label": "生产红线",
+      "text": "避免让主角过早展现‘眼神坚定’；本集叶枫全程有犹豫/抱怨/慌乱，符合‘初下山’人设",
+      "full_text": "避免让主角过早展现‘眼神坚定’；本集叶枫全程有犹豫/抱怨/慌乱，符合‘初下山’人设",
+      "preview_text": "避免让主角过早展现‘眼神坚定’",
+      "confidence": 0.76,
+      "matched_keywords": [
+        "眼神"
+      ],
+      "reason": "来自高风险负面模式，且与当前题材关键词“眼神”高度相关。 命中了当前题材叙事核心词“眼神”。 它与“玄幻”的区分度很弱（差值 0.00）。",
+      "series_specific_matches": [],
+      "best_competing_genre": "玄幻",
+      "best_competing_confidence": 0.87,
+      "genre_confidence_gap": 0.0,
+      "source_type": "negative_patterns",
+      "source_label": "高风险负面模式"
+    }
+  ]
+}

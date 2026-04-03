@@ -1,0 +1,171 @@
+{
+  "review_mode": "all",
+  "accepted_playbook_suggestions": [
+    {
+      "edit_id": "P01",
+      "priority": "high",
+      "action": "remove",
+      "source_field": "continuity_guardrails",
+      "target_field": "continuity_guardrails",
+      "old_text": "‘让申家成为顶级权贵’是男主明确承诺，后续若展开身份线应与此能力宣言呼应。",
+      "new_text": "",
+      "reason": "明显是具体剧集残留，无法作为玄幻题材通用规则复用。"
+    },
+    {
+      "edit_id": "P02",
+      "priority": "high",
+      "action": "rewrite",
+      "source_field": "continuity_guardrails",
+      "target_field": "continuity_guardrails",
+      "old_text": "玉珏残片必须延续至第3集并首次展现功能；裂痕方向与第1集严格一致",
+      "new_text": "首集埋下的核心灵异道具应在前3集内首次兑现功能，且外观连续性保持一致。",
+      "reason": "保留“核心道具早兑现+外观连续”的有效经验，去除具体样本道具残留。"
+    },
+    {
+      "edit_id": "P03",
+      "priority": "high",
+      "action": "remove",
+      "source_field": "continuity_guardrails",
+      "target_field": "continuity_guardrails",
+      "old_text": "豪宅客厅、盲杖、墨镜、挂钟、雪糕等关键锚点若回闪或续接，应保持一致性。",
+      "new_text": "",
+      "reason": "锚点过于具体，明显来自单剧场景，不适合题材包。"
+    },
+    {
+      "edit_id": "P04",
+      "priority": "high",
+      "action": "rewrite",
+      "source_field": "scene_focus",
+      "target_field": "scene_focus",
+      "old_text": "单床居中的现代病房是此类悬念戏的高效模板，必须预留围床和抢救动线。",
+      "new_text": "当玄幻采用现代异病/异象子型时，理性功能空间应预留围观、施压与异常显影的清晰动线。",
+      "reason": "保留现代玄幻子型经验，去除医院病房的过窄限定。"
+    },
+    {
+      "edit_id": "P08",
+      "priority": "high",
+      "action": "add",
+      "source_field": "core_audience_promises",
+      "target_field": "core_audience_promises",
+      "old_text": "",
+      "new_text": "玄幻的核心承诺不是单次奇观，而是凡俗秩序中持续出现可验证的超常规则，并不断抬高其代价、后果与身份真相。",
+      "reason": "当前缺少高层题材承诺，导致下层规则碎片化且偏向样本经验。"
+    },
+    {
+      "edit_id": "P05",
+      "priority": "medium",
+      "action": "rewrite",
+      "source_field": "script_hooks",
+      "target_field": "script_hooks",
+      "old_text": "奇幻宅门题材中，主角的超常能力最好直接解释她为何必须留在这个家，而不是只用来打架",
+      "new_text": "主角的超常能力应同时解释其处境约束与行动目标，不能只作为打斗展示。",
+      "reason": "保留高价值原则，去掉“宅门/这个家”导致的子题材收窄。"
+    },
+    {
+      "edit_id": "P06",
+      "priority": "medium",
+      "action": "remove",
+      "source_field": "dialogue_timing_rules",
+      "target_field": "dialogue_timing_rules",
+      "old_text": "传播型金句段应减少切镜频率，保证口型、字幕和情绪完整落地",
+      "new_text": "",
+      "reason": "这是导演/剪辑规则，不应放在对白时机字段。"
+    },
+    {
+      "edit_id": "P07",
+      "priority": "medium",
+      "action": "rewrite",
+      "source_field": "scene_focus",
+      "target_field": "scene_focus",
+      "old_text": "跪地场景人物间距精确：求援者距主角1.2米，质疑者距主角1.8米，形成压迫梯度",
+      "new_text": "跪地/求援场景中，求援者、主角、质疑者应形成清晰高低位与距离梯度，强化权力压迫关系。",
+      "reason": "去除机械参数，保留可执行的空间原则。"
+    }
+  ],
+  "accepted_skill_suggestions": [
+    {
+      "edit_id": "S01",
+      "priority": "high",
+      "action": "remove",
+      "source_section": "生产红线",
+      "target_section": "生产红线",
+      "old_text": "‘让申家成为顶级权贵’是男主明确承诺，后续若展开身份线应与此能力宣言呼应。",
+      "new_text": "",
+      "reason": "具体剧名/家族残留，应从 skill 中清除。"
+    },
+    {
+      "edit_id": "S02",
+      "priority": "high",
+      "action": "remove",
+      "source_section": "生产红线",
+      "target_section": "生产红线",
+      "old_text": "钢饼必须作为核心道具延续至至少第3集，并在第3集首次展现功能",
+      "new_text": "",
+      "reason": "具体样本道具残留，不适合作为题材方法论。"
+    },
+    {
+      "edit_id": "S03",
+      "priority": "high",
+      "action": "remove",
+      "source_section": "生产红线",
+      "target_section": "生产红线",
+      "old_text": "‘闻浅’/‘文青’身份错位必须在3集内澄清，否则损害观众信任",
+      "new_text": "",
+      "reason": "明显是具体角色设定残留。"
+    },
+    {
+      "edit_id": "S07",
+      "priority": "high",
+      "action": "add",
+      "source_section": "结构与钩子",
+      "target_section": "结构与钩子",
+      "old_text": "",
+      "new_text": "玄幻设定首次显影宜遵循‘异常现象—凡俗误判—局部验证—更大代价/谜团’顺序，先让观众相信它存在，再逐步扩大世界边界。",
+      "reason": "补足当前最缺失的玄幻母题方法论。"
+    },
+    {
+      "edit_id": "S08",
+      "priority": "high",
+      "action": "add",
+      "source_section": "生产红线",
+      "target_section": "生产红线",
+      "old_text": "",
+      "new_text": "任何超常能力一旦用于破局，后续都必须补足其代价、边界或反噬；否则玄幻会退化成无成本外挂。",
+      "reason": "补足玄幻题材最关键的可信度约束。"
+    },
+    {
+      "edit_id": "S04",
+      "priority": "medium",
+      "action": "move",
+      "source_section": "服化道统一",
+      "target_section": "结构与钩子",
+      "old_text": "女主若要快速推进关系，可借外部威胁触发‘假身份公开认领’装置",
+      "new_text": "当玄幻与爱情线混搭时，关系推进可借外部威胁触发‘公开认领/假身份认领’，但应同时服务身份暴露或能力显影。",
+      "reason": "原位置错误；这是叙事钩子，不是服化道规则，且需条件化避免喧宾夺主。"
+    },
+    {
+      "edit_id": "S05",
+      "priority": "medium",
+      "action": "rewrite",
+      "source_section": "场景与调度",
+      "target_section": "场景与调度",
+      "old_text": "奇幻宅门题材中，主角超常能力应直接解释其为何必须留在该空间",
+      "new_text": "超常能力最好与人物被困、被召回、被绑定的空间处境直接相关，使能力既推动剧情也限制离场。",
+      "reason": "去子题材化，提升泛化能力。"
+    },
+    {
+      "edit_id": "S06",
+      "priority": "medium",
+      "action": "rewrite",
+      "source_section": "分镜表达",
+      "target_section": "分镜表达",
+      "old_text": "结尾卡点：侧脸特写占2/3画面 + 眼神骤冷 + 字幕淡入 + 停帧2秒",
+      "new_text": "结尾卡点宜用单一强视觉动作或表情冻结悬念，但不应把具体构图和停帧秒数写死。",
+      "reason": "原条目过像单次拍摄口令，不适合作为长期方法论。"
+    }
+  ],
+  "rejected_playbook_suggestions": [],
+  "rejected_skill_suggestions": [],
+  "deferred_playbook_suggestions": [],
+  "deferred_skill_suggestions": []
+}

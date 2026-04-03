@@ -1,0 +1,321 @@
+{
+  "genre_key": "爱情",
+  "mode": "dry_run",
+  "precheck_report": {
+    "genre_key": "爱情",
+    "stats": {
+      "playbook_entry_count": 125,
+      "playbook_field_counts": {
+        "core_audience_promises": 0,
+        "script_hooks": 19,
+        "character_design_focus": 1,
+        "scene_design_focus": 6,
+        "storyboard_focus": 19,
+        "scene_focus": 18,
+        "dialogue_timing_rules": 4,
+        "director_focus": 15,
+        "negative_patterns": 3,
+        "continuity_guardrails": 14,
+        "character_focus": 14,
+        "costume_focus": 12
+      },
+      "skill_section_count": 7,
+      "skill_rule_count": 132,
+      "skill_section_counts": {
+        "分镜表达": 26,
+        "场景与调度": 28,
+        "人物塑造": 24,
+        "对白与节奏": 6,
+        "结构与钩子": 10,
+        "服化道统一": 19,
+        "生产红线": 19
+      },
+      "empty_playbook_fields": [
+        "core_audience_promises"
+      ],
+      "empty_skill_sections": []
+    },
+    "within_package_duplicates": [
+      {
+        "similarity": 1.0,
+        "left": {
+          "location": "playbook.json::script_hooks",
+          "text": "爱情短剧第1集可采用‘结果感亲密镜头+倒叙回到相遇前’的结…"
+        },
+        "right": {
+          "location": "skill.md::分镜表达",
+          "text": "爱情短剧第1集可采用‘结果感亲密镜头+倒叙回到相遇前’的结…"
+        }
+      },
+      {
+        "similarity": 1.0,
+        "left": {
+          "location": "playbook.json::script_hooks",
+          "text": "重逢戏不一定当集兑现，可以先用电话、物件、空间叠化把期待值…"
+        },
+        "right": {
+          "location": "skill.md::场景与调度",
+          "text": "重逢戏不一定当集兑现，可以先用电话、物件、空间叠化把期待值…"
+        }
+      },
+      {
+        "similarity": 1.0,
+        "left": {
+          "location": "playbook.json::script_hooks",
+          "text": "重逢戏不一定当集兑现，可以先用电话、物件、空间叠化把期待值拉满，再在下一集收割。"
+        },
+        "right": {
+          "location": "skill.md::场景与调度",
+          "text": "重逢戏不一定当集兑现，可以先用电话、物件、空间叠化把期待值拉满，再在下一集收割。"
+        }
+      },
+      {
+        "similarity": 1.0,
+        "left": {
+          "location": "playbook.json::script_hooks",
+          "text": "低成本场景也能承载高信息量，只要让每段对白同时服务背景、人物和主线推进。"
+        },
+        "right": {
+          "location": "skill.md::对白与节奏",
+          "text": "低成本场景也能承载高信息量，只要让每段对白同时服务背景、人物和主线推进。"
+        }
+      },
+      {
+        "similarity": 1.0,
+        "left": {
+          "location": "playbook.json::script_hooks",
+          "text": "物件线索首次出现时要让角色明确表达态度，如‘烧了可惜了’，这样后续回收更顺。"
+        },
+        "right": {
+          "location": "skill.md::结构与钩子",
+          "text": "物件线索首次出现时要让角色明确表达态度，如‘烧了可惜了’，这样后续回收更顺。"
+        }
+      },
+      {
+        "similarity": 1.0,
+        "left": {
+          "location": "playbook.json::script_hooks",
+          "text": "若男主有人物反差，先用他最脆弱的过去建立同情，再用最强势的现在完成身份兑现。"
+        },
+        "right": {
+          "location": "skill.md::人物塑造",
+          "text": "若男主有人物反差，先用他最脆弱的过去建立同情，再用最强势的现在完成身份兑现。"
+        }
+      },
+      {
+        "similarity": 1.0,
+        "left": {
+          "location": "playbook.json::script_hooks",
+          "text": "爱情短剧第1集可采用‘结果感亲密镜头 + 倒叙回到相遇前’的结构，先用情绪结果抓人。"
+        },
+        "right": {
+          "location": "skill.md::分镜表达",
+          "text": "爱情短剧第1集可采用‘结果感亲密镜头+倒叙回到相遇前’的结构，先用情绪结果抓人。"
+        }
+      },
+      {
+        "similarity": 1.0,
+        "left": {
+          "location": "playbook.json::script_hooks",
+          "text": "爱情短剧中，正式引荐后的‘送别场’可以作为关系升级关键场，不必只把重心放在饭桌主戏。"
+        },
+        "right": {
+          "location": "skill.md::结构与钩子",
+          "text": "爱情短剧中，正式引荐后的‘送别场’可以作为关系升级关键场，不必只把重心放在饭桌主戏。"
+        }
+      },
+      {
+        "similarity": 1.0,
+        "left": {
+          "location": "playbook.json::script_hooks",
+          "text": "都市爱情短剧中，男主首次正式建立身份时，可采用‘单人冷感特写 + 群像恭维命名’的双段式出场。"
+        },
+        "right": {
+          "location": "skill.md::分镜表达",
+          "text": "都市爱情短剧中，男主首次正式建立身份时，可采用‘单人冷感特写 + 群像恭维命名’的双段式出场。"
+        }
+      },
+      {
+        "similarity": 1.0,
+        "left": {
+          "location": "playbook.json::script_hooks",
+          "text": "爱情短剧中，重逢不一定靠公开场合同框，‘误入私人空间 + 被留住’能更快建立亲密张力。"
+        },
+        "right": {
+          "location": "skill.md::场景与调度",
+          "text": "爱情短剧中，重逢不一定靠公开场合同框，‘误入私人空间 + 被留住’能更快建立亲密张力。"
+        }
+      },
+      {
+        "similarity": 1.0,
+        "left": {
+          "location": "playbook.json::script_hooks",
+          "text": "爱情短剧承接集可用‘上集卡点开场即兑现’策略，先给关系答案，再把真正悬念转移到前史原因。"
+        },
+        "right": {
+          "location": "skill.md::结构与钩子",
+          "text": "爱情短剧承接集可用‘上集卡点开场即兑现’策略，先给关系答案，再把真正悬念转移到前史原因。"
+        }
+      },
+      {
+        "similarity": 1.0,
+        "left": {
+          "location": "playbook.json::script_hooks",
+          "text": "爱情短剧首集可先建立女主失落前史，再用现实事务场景把旧爱重逢引爆。"
+        },
+        "right": {
+          "location": "skill.md::人物塑造",
+          "text": "爱情短剧首集可先建立女主失落前史，再用现实事务场景把旧爱重逢引爆。"
+        }
+      }
+    ],
+    "cross_genre_overlaps": [
+      {
+        "genre_key": "奇幻",
+        "match_count": 306,
+        "examples": [
+          {
+            "similarity": 1.0,
+            "current_location": "playbook.json::script_hooks",
+            "current_text": "集尾优先停在‘决定已做出、方法未展示’的节点，比直接解释答案更能推动下一集点击",
+            "other_location": "playbook.json::script_hooks",
+            "other_text": "集尾优先停在‘决定已做出、方法未展示’的节点，比直接解释答案更能推动下一集点击"
+          },
+          {
+            "similarity": 1.0,
+            "current_location": "playbook.json::script_hooks",
+            "current_text": "集尾优先停在‘决定已做出、方法未展示’的节点，比直接解释答案更能推动下一集点击",
+            "other_location": "skill.md::结构与钩子",
+            "other_text": "集尾优先停在‘决定已做出、方法未展示’的节点，比直接解释答案更能推动下一集点击"
+          },
+          {
+            "similarity": 1.0,
+            "current_location": "playbook.json::script_hooks",
+            "current_text": "在单场景群戏中，用服装层级和站位关系代替复杂背景设定，也能清楚讲权力结构",
+            "other_location": "playbook.json::script_hooks",
+            "other_text": "在单场景群戏中，用服装层级和站位关系代替复杂背景设定，也能清楚讲权力结构"
+          },
+          {
+            "similarity": 1.0,
+            "current_location": "playbook.json::script_hooks",
+            "current_text": "在单场景群戏中，用服装层级和站位关系代替复杂背景设定，也能清楚讲权力结构",
+            "other_location": "skill.md::服化道统一",
+            "other_text": "在单场景群戏中，用服装层级和站位关系代替复杂背景设定，也能清楚讲权力结构"
+          }
+        ]
+      },
+      {
+        "genre_key": "玄幻",
+        "match_count": 279,
+        "examples": [
+          {
+            "similarity": 1.0,
+            "current_location": "playbook.json::script_hooks",
+            "current_text": "爱情戏的情绪支付点常来自一方公开命名关系、另一方默认认领",
+            "other_location": "playbook.json::script_hooks",
+            "other_text": "爱情戏的情绪支付点常来自一方公开命名关系、另一方默认认领"
+          },
+          {
+            "similarity": 1.0,
+            "current_location": "playbook.json::script_hooks",
+            "current_text": "爱情戏的情绪支付点常来自一方公开命名关系、另一方默认认领",
+            "other_location": "skill.md::结构与钩子",
+            "other_text": "爱情戏的情绪支付点常来自一方公开命名关系、另一方默认认领"
+          },
+          {
+            "similarity": 1.0,
+            "current_location": "playbook.json::script_hooks",
+            "current_text": "集尾优先停在‘决定已做出、方法未展示’的节点，比直接解释答案更能推动下一集点击",
+            "other_location": "playbook.json::script_hooks",
+            "other_text": "集尾优先停在‘决定已做出、方法未展示’的节点，比直接解释答案更能推动下一集点击"
+          },
+          {
+            "similarity": 1.0,
+            "current_location": "playbook.json::script_hooks",
+            "current_text": "集尾优先停在‘决定已做出、方法未展示’的节点，比直接解释答案更能推动下一集点击",
+            "other_location": "skill.md::结构与钩子",
+            "other_text": "集尾优先停在‘决定已做出、方法未展示’的节点，比直接解释答案更能推动下一集点击"
+          }
+        ]
+      },
+      {
+        "genre_key": "大女主",
+        "match_count": 26,
+        "examples": [
+          {
+            "similarity": 1.0,
+            "current_location": "playbook.json::script_hooks",
+            "current_text": "都市爱情短剧中，男主首次正式建立身份时，可采用‘单人冷感特写 + 群像恭维命名’的双段式出场。",
+            "other_location": "playbook.json::script_hooks",
+            "other_text": "都市爱情短剧中，男主首次正式建立身份时，可采用‘单人冷感特写 + 群像恭维命名’的双段式出场。"
+          },
+          {
+            "similarity": 1.0,
+            "current_location": "playbook.json::script_hooks",
+            "current_text": "都市爱情短剧中，男主首次正式建立身份时，可采用‘单人冷感特写 + 群像恭维命名’的双段式出场。",
+            "other_location": "skill.md::分镜表达",
+            "other_text": "都市爱情短剧中，男主首次正式建立身份时，可采用‘单人冷感特写 + 群像恭维命名’的双段式出场。"
+          },
+          {
+            "similarity": 1.0,
+            "current_location": "playbook.json::script_hooks",
+            "current_text": "爱情短剧中，重逢不一定靠公开场合同框，‘误入私人空间 + 被留住’能更快建立亲密张力。",
+            "other_location": "playbook.json::script_hooks",
+            "other_text": "爱情短剧中，重逢不一定靠公开场合同框，‘误入私人空间 + 被留住’能更快建立亲密张力。"
+          },
+          {
+            "similarity": 1.0,
+            "current_location": "playbook.json::script_hooks",
+            "current_text": "爱情短剧中，重逢不一定靠公开场合同框，‘误入私人空间 + 被留住’能更快建立亲密张力。",
+            "other_location": "skill.md::场景与调度",
+            "other_text": "爱情短剧中，重逢不一定靠公开场合同框，‘误入私人空间 + 被留住’能更快建立亲密张力。"
+          }
+        ]
+      }
+    ],
+    "suspicious_entries": [
+      {
+        "type": "truncated_text",
+        "location": "playbook.json::script_hooks",
+        "text": "爱情短剧第1集可采用‘结果感亲密镜头+倒叙回到相遇前’的结…"
+      },
+      {
+        "type": "truncated_text",
+        "location": "playbook.json::script_hooks",
+        "text": "重逢戏不一定当集兑现，可以先用电话、物件、空间叠化把期待值…"
+      },
+      {
+        "type": "truncated_text",
+        "location": "playbook.json::storyboard_focus",
+        "text": "集尾卡点设计可用‘人物未同框但视觉已连接’的方法，既节省篇…"
+      },
+      {
+        "type": "truncated_text",
+        "location": "playbook.json::storyboard_focus",
+        "text": "当台词信息量大时，可通过插入短回忆镜头把抽象讲述转成可感知…"
+      },
+      {
+        "type": "truncated_text",
+        "location": "skill.md::分镜表达",
+        "text": "爱情短剧第1集可采用‘结果感亲密镜头+倒叙回到相遇前’的结…"
+      },
+      {
+        "type": "truncated_text",
+        "location": "skill.md::场景与调度",
+        "text": "重逢戏不一定当集兑现，可以先用电话、物件、空间叠化把期待值…"
+      },
+      {
+        "type": "truncated_text",
+        "location": "skill.md::对白与节奏",
+        "text": "低成本场景也能承载高信息量，只要让每段对白同时服务背景、人…"
+      },
+      {
+        "type": "truncated_text",
+        "location": "skill.md::结构与钩子",
+        "text": "在短剧里，‘被忘记的名字/身份’比直接讲苦难更容易形成传播…"
+      }
+    ]
+  },
+  "official_playbook_path": "/mnt/myvg/Agent/Seedance2.0_AI/skills/production/video-script-reconstruction-skill/genres/爱情/playbook.json",
+  "official_skill_path": "/mnt/myvg/Agent/Seedance2.0_AI/skills/production/video-script-reconstruction-skill/genres/爱情/skill.md"
+}
